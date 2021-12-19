@@ -1,6 +1,6 @@
 package vrushali;
 
-class Calculator{
+class A2_Calculator{
 	
 	int number1= 10;
 	int number2=2;
@@ -26,7 +26,7 @@ class Calculator{
 	}
 	
 	public static void main(String[] args){
-		Calculator calculator = new Calculator();
+		A2_Calculator calculator = new A2_Calculator();
 		calculator.add();
 		calculator.sub();
 		calculator.multiplication();

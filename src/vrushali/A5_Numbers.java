@@ -1,6 +1,6 @@
 package vrushali;
 
-class Numbers{
+class A5_Numbers{
 	void printEvenNumber(int startNumber, int endNumber){
 		System.out.println("Even numbers are: ");
 		for(int num = startNumber; num<=endNumber; num++){
@@ -70,7 +70,7 @@ class Numbers{
 	}	
 	
 	public static void main(String[] args){
-		Numbers numbers = new Numbers();
+		A5_Numbers numbers = new A5_Numbers();
 		numbers.printEvenNumber(10,15);
 		numbers.printNumberDivisibleBy5(10,30);
 		numbers.printNumberDivisibleBy5And3(5,18);

@@ -1,6 +1,6 @@
 package vrushali;
 
-class Student{
+class A1_Student{
 	String name = "Vrushali";
 	int age = 25;
 	
@@ -17,7 +17,7 @@ class Student{
 	
 	public static void main(String args[]){
 		System.out.println("Techno");
-		Student s1 = new Student();
+		A1_Student s1 = new A1_Student();
 		s1.display();
 		s1.printData();
 	}

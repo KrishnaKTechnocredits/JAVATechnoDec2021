@@ -1,6 +1,6 @@
 package vrushali;
 
-class FindDays{
+class A55_FindDays{
 	void days(int dayindex){
 		if((dayindex >= 1) && (dayindex <= 5)){
 			System.out.println("dayIndex -> " + dayindex + " : Weekday");
@@ -12,7 +12,7 @@ class FindDays{
 	}
 	
 	public static void main(String[] args){
-		FindDays findDays = new FindDays();
+		A55_FindDays findDays = new A55_FindDays();
 		findDays.days(3);
 		findDays.days(6);
 		findDays.days(11);
