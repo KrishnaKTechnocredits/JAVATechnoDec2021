@@ -1,6 +1,6 @@
 package vishakha;
 
-class Calculator1{
+class A1_Calculator{
 
 	void addition(int number1, int number2){
 		int answer = number1 + number2;
@@ -23,7 +23,7 @@ class Calculator1{
 	}
 	
 	public static void main(String[] args){
-		Calculator1 calculator = new Calculator1();
+		A1_Calculator calculator = new A1_Calculator();
 		calculator.addition(10,20);
 		calculator.substraction(30,20);
 		calculator.multiplication(40,50);

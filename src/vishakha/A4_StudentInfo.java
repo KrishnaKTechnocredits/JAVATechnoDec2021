@@ -1,6 +1,6 @@
 package vishakha;
 
-class StudentInfo{
+class A4_StudentInfo{
 
 	String name, middleName, surname, address, birthDate;
 	int rollNumber;
@@ -27,7 +27,7 @@ class StudentInfo{
 	}
 	
 	public static void main(String[] args){
-		StudentInfo studentInfo = new StudentInfo();
+		A4_StudentInfo studentInfo = new A4_StudentInfo();
 		studentInfo.setData();
 		studentInfo.studentName();
 		studentInfo.studentOtherDetails();

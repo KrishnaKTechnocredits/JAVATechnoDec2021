@@ -1,6 +1,6 @@
 package vishakha;
 
-class Assignment5{
+class A5_Assignment5{
 
 	void evenNumber(int startIndex, int endIndex){
 		System.out.println("Even nos. are as follows :");
@@ -66,7 +66,7 @@ class Assignment5{
 		
 		
 		public static void main(String[] args){
-		Assignment5 assignment = new Assignment5();
+		A5_Assignment5 assignment = new A5_Assignment5();
 		assignment.evenNumber(10,15);
 		System.out.println("---------------------");
 		assignment.divisibleNumbers(10,30);

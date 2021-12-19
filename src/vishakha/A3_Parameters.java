@@ -1,6 +1,6 @@
 package vishakha;
 
-class Parameters{
+class A3_Parameters{
 
 	void simpleInterest(double p,double t, double r){
 		double answer = p * t * r / 100 ;
@@ -12,7 +12,7 @@ class Parameters{
 		System.out.println("Farenheit to Celcius is " + answer);
 	}
 	public static void main(String[] args){
-		Parameters parameters = new Parameters();
+		A3_Parameters parameters = new A3_Parameters();
 		parameters.simpleInterest(20000,3.5,14.8);
 		parameters.convertTemp(40);
 	}

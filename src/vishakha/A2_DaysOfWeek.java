@@ -1,7 +1,7 @@
 package vishakha;
 
 
-class DaysOfWeek{
+class A2_DaysOfWeek{
 
 	void dayDetermination(int dayIndex){
 		if(dayIndex >= 1 && dayIndex <= 5)
@@ -13,7 +13,7 @@ class DaysOfWeek{
 	}
 	
 	public static void main(String[] args){
-		DaysOfWeek daysofWeek = new DaysOfWeek();
+		A2_DaysOfWeek daysofWeek = new A2_DaysOfWeek();
 		daysofWeek.dayDetermination(1);
 		daysofWeek.dayDetermination(3);
 		daysofWeek.dayDetermination(5);
