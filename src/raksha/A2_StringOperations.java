@@ -1,6 +1,6 @@
 package raksha;
 
-public class StringOperations {
+public class A2_StringOperations {
 	
 	void calStrLength(String input) {
 		System.out.println(input + ":" + input.length());
@@ -8,7 +8,7 @@ public class StringOperations {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		StringOperations stringOperations = new StringOperations();
+		A2_StringOperations stringOperations = new A2_StringOperations();
 		stringOperations.calStrLength("Raksha");
 
 	}
