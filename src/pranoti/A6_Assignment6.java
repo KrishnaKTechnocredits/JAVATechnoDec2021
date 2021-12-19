@@ -1,6 +1,6 @@
 package pranoti;
 
-class Assignment6{
+class A6_Assignment6{
 	
 	void printChar(String name){
 		System.out.println("characters of given name " +name+ " are:");
@@ -26,7 +26,7 @@ class Assignment6{
 	}
 	
 	public static void main(String[]args){
-		Assignment6 assignment6 = new Assignment6();
+		A6_Assignment6 assignment6 = new A6_Assignment6();
 		assignment6.printChar("techno");
 		assignment6.printCharReverse("techno");
 		assignment6.countFreqOfChar("akanksha" ,'a');
