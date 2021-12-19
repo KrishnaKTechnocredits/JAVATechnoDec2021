@@ -1,6 +1,6 @@
 package apurva;
 
-class StudentInfo{
+class A1_StudentInfo{
 	String firstname, middlename, surname;
 	String birthdate,address;
 	int rollno;
@@ -27,7 +27,7 @@ class StudentInfo{
 	}
 	
 	public static void main(String[] args){
-		StudentInfo studentInfo = new StudentInfo();
+		A1_StudentInfo studentInfo = new A1_StudentInfo();
 		studentInfo.setData();
 		studentInfo.studentName();
 		studentInfo.studentOtherDetails();

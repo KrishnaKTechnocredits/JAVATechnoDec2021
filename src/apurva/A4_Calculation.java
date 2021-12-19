@@ -1,6 +1,6 @@
 package apurva;
 
-class Calculation{
+class A4_Calculation{
 
 	void calculateSimpleInterest(float p, float t, float r){
 		float simpleInterest = (p*t*r)/100;
@@ -13,7 +13,7 @@ class Calculation{
 	}
 	
 	public static void main(String[] a){
-		Calculation calculation = new Calculation();
+		A4_Calculation calculation = new A4_Calculation();
 		calculation.calculateSimpleInterest(40f,9f,12f);
 		calculation.calculateTempreature(42f);
 	}

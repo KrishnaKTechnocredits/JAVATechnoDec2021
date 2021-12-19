@@ -1,6 +1,6 @@
 package apurva;
 
-class FindDays{
+class A2_FindDays{
 	void displayDays(int index){
 		if(index>=1 && index<=5){
 			System.out.println("DayIndex -> "+index +" : Weekday");
@@ -40,7 +40,7 @@ class FindDays{
 		}
 	}
 	public static void main(String[] a){
-		FindDays findDays = new FindDays();
+		A2_FindDays findDays = new A2_FindDays();
 		findDays.displayDays(7);
 		findDays.displayDays(3);
 		findDays.displayDays(10);

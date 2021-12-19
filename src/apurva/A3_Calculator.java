@@ -1,6 +1,6 @@
 package apurva;
 
-class Calculator{
+class A3_Calculator{
 
 	void addition(int num1, int num2){
 		int sum = num1+num2;
@@ -22,7 +22,7 @@ class Calculator{
 	}
 	
 	public static void main(String[] args){
-		Calculator calculator = new Calculator();
+		A3_Calculator calculator = new A3_Calculator();
 		calculator.addition(3,2);
 		calculator.subtraction(3,3);
 		calculator.multiplication(7,8);
