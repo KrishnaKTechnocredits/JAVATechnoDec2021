@@ -1,6 +1,6 @@
 package ashish;
 
-class WhichDay{
+class A2_WhichDay{
 	
 	void dayOfWeek(int dayIndex){
 			if(dayIndex>=1 && dayIndex<=5)
@@ -12,7 +12,7 @@ class WhichDay{
 	}
 	
 	public static void main(String[] args){
-		WhichDay whichDay = new WhichDay();
+		A2_WhichDay whichDay = new A2_WhichDay();
 		whichDay.dayOfWeek(3);
 		whichDay.dayOfWeek(6);
 		whichDay.dayOfWeek(11);

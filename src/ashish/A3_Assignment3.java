@@ -1,6 +1,6 @@
 package ashish;
 
-class Assignment3{
+class A3_Assignment3{
 	
 	void computeSimpleInterest(int principalAmount, double timeInYears, double rateOfInterest){
 		double simpleInterest = (principalAmount * timeInYears * rateOfInterest) / 100;
@@ -13,7 +13,7 @@ class Assignment3{
 	}
 	
 	public static void main(String[] args){
-		Assignment3 assignment3 = new Assignment3();
+		A3_Assignment3 assignment3 = new A3_Assignment3();
 		assignment3.computeSimpleInterest(50000, 5, 8);
 		assignment3.convertTemperatureToCelsius(32);
 	}

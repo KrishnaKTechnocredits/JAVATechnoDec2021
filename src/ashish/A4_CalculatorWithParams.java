@@ -1,6 +1,6 @@
 package ashish;
 
-class CalculatorWithParams{
+class A4_CalculatorWithParams{
 	
 	void add(int num1, int num2){
 		int ans = num1 + num2;
@@ -23,7 +23,7 @@ class CalculatorWithParams{
 	}
 	
 	public static void main(String[] args){
-		CalculatorWithParams calculator = new CalculatorWithParams();
+		A4_CalculatorWithParams calculator = new A4_CalculatorWithParams();
 		calculator.add(5,10);
 		calculator.subtract(20,10);
 		calculator.multiply(10,20);

@@ -1,6 +1,6 @@
 package ashish;
 
-class AssignmentFive{
+class A5_AssignmentFive{
 	
 	void printEvenNumbersForRange(int startNumber, int endNumber){
 		System.out.println(" Even numbers in range (" + startNumber + "," + endNumber + ") are below : ");
@@ -63,7 +63,7 @@ class AssignmentFive{
 	}
 	
 	public static void main(String[] args){
-		AssignmentFive assignmentFive = new AssignmentFive();
+		A5_AssignmentFive assignmentFive = new A5_AssignmentFive();
 		assignmentFive.printEvenNumbersForRange(10,15);
 		System.out.println();				
 		assignmentFive.printDivisibleByFive(10,30);
