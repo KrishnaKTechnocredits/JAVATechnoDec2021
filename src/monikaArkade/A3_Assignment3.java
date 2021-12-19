@@ -1,6 +1,6 @@
 package monikaArkade;
 
-class Assignment3{
+class A3_Assignment3{
 	
 	void simpleInterest(double principle, double time, double rate){
 		double simpleInterest = (principle * time * rate)/100;
@@ -13,7 +13,7 @@ class Assignment3{
 	}
 	
 	public static void main(String[] args){
-		Assignment3 assignment3 = new Assignment3();
+		A3_Assignment3 assignment3 = new A3_Assignment3();
 		assignment3.simpleInterest(10000,3.5,9);
 		assignment3.temperature(65);
 	}

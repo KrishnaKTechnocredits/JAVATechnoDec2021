@@ -1,6 +1,6 @@
 package monikaArkade;
 
-class Assignment5{
+class A5_Assignment5{
 	
 	void printEvenNumbers(int startNumber, int endNumber){
 		System.out.println("Even Numbers: ");
@@ -70,7 +70,7 @@ class Assignment5{
 	}
 	
 	public static void main(String[] args){
-		Assignment5 assignment5 = new Assignment5();
+		A5_Assignment5 assignment5 = new A5_Assignment5();
 		assignment5.printEvenNumbers(10,15);
 		assignment5.printDivisibleNumbers(10,30);
 		assignment5.printDivisibleNumbersByThreeFive(5,18);
