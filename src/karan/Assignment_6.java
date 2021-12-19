@@ -4,8 +4,7 @@ public class Assignment_6 {
 
 	void display(String input){
 		System.out.println("All characters of given input:");
-		for(int index=0;index<input.length();index++) {
-			
+		for(int index=0;index<input.length();index++) {		
 			System.out.println(input.charAt(index));
 		}
 	}
@@ -13,7 +12,6 @@ public class Assignment_6 {
 	void reverse(String input){
 		System.out.println("Rverse characters of given input:");
 		for(int index=input.length()-1;index>=0;index--) {
-			
 			System.out.println(input.charAt(index));
 		}
 	}
