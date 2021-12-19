@@ -1,5 +1,5 @@
 package swati;
-public class assign2 {
+public class A2_Calculator {
 int ans;
 
 void add(int a,int b) {
@@ -23,7 +23,7 @@ void div(int a,int b) {
 
 	public static void main(String[] args) {
 		
-		assign2 cal=new assign2();
+		A2_Calculator cal=new A2_Calculator();
 		cal.add(10, 20);
 		cal.sub(50,30);
 		cal.multiply(5,10);

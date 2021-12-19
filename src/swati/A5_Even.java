@@ -1,5 +1,5 @@
 package swati;
-public class assign5 {
+public class A5_Even {
 
 	void printEven(int start, int end) {
 		for (int i = start; i <= end; i++) {
@@ -81,7 +81,7 @@ public class assign5 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		assign5 num = new assign5();
+		A5_Even num = new A5_Even();
 		num.printEven(10, 15);
 		num.divby5(10, 30);
 		num.divby3and5(5, 30);

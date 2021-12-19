@@ -1,6 +1,6 @@
 
 package swati;
-class assign6 {
+class A6_Reverse {
 
 	void display(String name) {
 		System.out.println("Display Stirng ");
@@ -33,7 +33,7 @@ class assign6 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		assign6 printString = new assign6();
+		A6_Reverse printString = new A6_Reverse();
 		printString.display("Credits");
 		printString.reverse("Techno");
 		printString.countChar("Mississipi", 's');
