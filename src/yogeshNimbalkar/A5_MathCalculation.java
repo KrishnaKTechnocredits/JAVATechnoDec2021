@@ -1,6 +1,6 @@
 package yogeshNimbalkar;
 //Assignment - 5 : 16 Dec 2021
-class MathCalculation{
+class A5_MathCalculation{
 	
 	void printEvenNumbers(int startIndex, int endIndex){
 		System.out.println("Even numbers are :");
@@ -59,7 +59,7 @@ class MathCalculation{
 	}
 	
 	public static void main(String[] args){
-		MathCalculation mathcalculation = new MathCalculation();
+		A5_MathCalculation mathcalculation = new A5_MathCalculation();
 		mathcalculation.printEvenNumbers(10,15);
 		mathcalculation.printNumDivByFive(10,30);
 		mathcalculation.printNumDivBy5And3(5,18);

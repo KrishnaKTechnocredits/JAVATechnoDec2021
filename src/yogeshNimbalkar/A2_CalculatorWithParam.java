@@ -1,6 +1,6 @@
 package yogeshNimbalkar;
 // Assignment - 2 : 14 Dec 2021
-class CalculatorWithParam{
+class A2_CalculatorWithParam{
 	
 	void add(int num1, int num2){
 		System.out.println("Addition = " + (num1 + num2));
@@ -19,7 +19,7 @@ class CalculatorWithParam{
 	}
 	
 	public static void main(String[] args){
-		CalculatorWithParam calculatorwithparam = new CalculatorWithParam();
+		A2_CalculatorWithParam calculatorwithparam = new A2_CalculatorWithParam();
 		calculatorwithparam.add(125,250);
 		calculatorwithparam.sub(456,123);
 		calculatorwithparam.mul(25,30);

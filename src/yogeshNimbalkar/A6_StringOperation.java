@@ -2,7 +2,7 @@ package yogeshNimbalkar;
 
 
 // Assignment - 6 : 18 Dec 2021
-public class StringOperation {
+public class A6_StringOperation {
 
 	void displayChars(String str){
 		for(int index=0; index < str.length();index++)
@@ -24,7 +24,7 @@ public class StringOperation {
 	}
 	
 	public static void main(String[] args){
-		StringOperation stroperation = new StringOperation();
+		A6_StringOperation stroperation = new A6_StringOperation();
 		stroperation.displayChars("Yogesh");
 		stroperation.displayCharsInReverse("Techno");
 		stroperation.displayCharCount("technocredits",'c');
