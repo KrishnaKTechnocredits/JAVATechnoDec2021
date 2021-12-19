@@ -1,6 +1,6 @@
 package shwetaDharmadhikari;
 
-class Assignment5{
+class Assign5_StringDemo{
 	
 	void displayEvenNumbers(int startIndex,int endIndex)
 	{
@@ -85,7 +85,7 @@ class Assignment5{
 	
 	public static void main(String[] args)
 	{
-		Assignment5 assignment5 = new Assignment5();
+		Assign5_StringDemo assignment5 = new Assign5_StringDemo();
 		assignment5.displayEvenNumbers(10,15);
 		assignment5.divisibleNumberByFive(10,30);
 		assignment5.divisibleNumber(5,18);

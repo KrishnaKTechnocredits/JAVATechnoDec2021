@@ -1,5 +1,5 @@
 package shwetaDharmadhikari;
-class FindWeekdaysAndWeekend{
+class Assign4_FindWeekdaysAndWeekend{
 	
 	void findDay(int dayIndex)
 	{
@@ -13,7 +13,7 @@ class FindWeekdaysAndWeekend{
 	
 	public static void main(String args[])
 	{
-		FindWeekdaysAndWeekend findWeekdaysAndWeekend= new FindWeekdaysAndWeekend();
+		Assign4_FindWeekdaysAndWeekend findWeekdaysAndWeekend= new Assign4_FindWeekdaysAndWeekend();
 		findWeekdaysAndWeekend.findDay(6);
 		findWeekdaysAndWeekend.findDay(3);
 		findWeekdaysAndWeekend.findDay(10);

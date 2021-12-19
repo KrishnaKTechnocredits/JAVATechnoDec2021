@@ -1,5 +1,5 @@
 package shwetaDharmadhikari;
-class SimpleInterest{
+class Assign2_SimpleInterest{
 
 	void calculateSimpleInterest(int p, int t, int r){
 		int simpleInterest = (p*t*r)/100;
@@ -12,7 +12,7 @@ class SimpleInterest{
 	}
 	
 	public static void main(String[] args){
-		SimpleInterest simpleInterest = new SimpleInterest();
+		Assign2_SimpleInterest simpleInterest = new Assign2_SimpleInterest();
 		simpleInterest.calculateSimpleInterest(5000,3,15);
 		simpleInterest.convertTemperature(50);
 	}	

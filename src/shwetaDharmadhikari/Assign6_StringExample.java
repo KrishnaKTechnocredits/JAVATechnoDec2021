@@ -1,5 +1,5 @@
 package shwetaDharmadhikari;
-class StringExample{
+class Assign6_StringExample{
 	int index=0;
 	void printCharacters(String input){
 		System.out.println("Output:");
@@ -28,7 +28,7 @@ class StringExample{
 	}
 	
 	public static void main(String args[]){
-		StringExample stringExample = new StringExample();
+		Assign6_StringExample stringExample = new Assign6_StringExample();
 		stringExample.printCharacters("shweta");
 		stringExample.printReverseCharacters("Shweta");
 		stringExample.findCharFrequency("dhArmadhikari",'a');}

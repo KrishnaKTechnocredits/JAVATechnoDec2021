@@ -1,5 +1,5 @@
 package shwetaDharmadhikari;
-class StudentInfo{
+class Assign1_StudentInfo{
 	String name,middleName,surname,birthday,address;
 	int rollNumber = 10;
 	
@@ -24,7 +24,7 @@ class StudentInfo{
 	}
 	
 	public static void main(String args[]){
-		StudentInfo studentInfo = new StudentInfo();
+		Assign1_StudentInfo studentInfo = new Assign1_StudentInfo();
 		studentInfo.setData();
 		studentInfo.studentName();
 		studentInfo.studentOtherDetails();
