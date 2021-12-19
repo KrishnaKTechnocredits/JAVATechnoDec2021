@@ -1,5 +1,5 @@
 package nehaPatil;
-class StudentInfo{
+class A6_StudentInfo{
     String name;
 	String midname;
 	String surname;
@@ -29,7 +29,7 @@ class StudentInfo{
 	}
 
 	public static void main(String[] args) {
-		StudentInfo studentInfo = new StudentInfo();
+		A6_StudentInfo studentInfo = new A6_StudentInfo();
 		studentInfo.setData();
 		studentInfo.studentName();
 		studentInfo.studentOtherDetails();

@@ -1,5 +1,5 @@
 package nehaPatil;
-class Parameterized{
+class A4_Parameterized{
      
 	void computeSimpleInterest(int P,int T,int R){
 	    double simpleInterest = (P * T * R)/100;
@@ -12,7 +12,7 @@ class Parameterized{
 	}
 	
 	public static void main(String[] args){
-	    Parameterized parameterized = new Parameterized();
+	    A4_Parameterized parameterized = new A4_Parameterized();
 		parameterized.computeSimpleInterest(3000,3,33);
 		parameterized.convertTemperature(130);
 	}

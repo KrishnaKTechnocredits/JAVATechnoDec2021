@@ -1,6 +1,6 @@
 package nehaPatil;
 
-public class HelloWorld {
+public class A3_HelloWorld {
 
 	public static void main(String[] args) {
 		System.out.println("Hello World!");
