@@ -1,6 +1,6 @@
 package pradeep;
 
-class ParameterizedMethod{
+class A2_ParameterizedMethod{
 	void simpleInterest(int p, float t, float r){
 		float sI = (p * r * t)/100;
 		System.out.println("Simple Interest is " + sI);
@@ -12,7 +12,7 @@ class ParameterizedMethod{
 	}
 	
 	public static void main(String[] args){
-		ParameterizedMethod parameterizedMethod = new ParameterizedMethod();
+		A2_ParameterizedMethod parameterizedMethod = new A2_ParameterizedMethod();
 		parameterizedMethod.simpleInterest(16000,2,5);
 		parameterizedMethod.simpleInterest(16000,2.5f,5);
 		parameterizedMethod.faherenToCelcius(300);

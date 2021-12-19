@@ -1,6 +1,6 @@
 package pradeep;
 
-class Assignment5{
+class A5_Divisibility_Check{
 	void printEvenNumbers(int startNumber, int endNumber){
 		for(int num = startNumber; num<=endNumber; num++){
 			if(num%2 == 0)
@@ -60,7 +60,7 @@ class Assignment5{
 	}	
 	
 	public static void main(String[] args){
-		Assignment5 assignment5 = new Assignment5();
+		A5_Divisibility_Check assignment5 = new A5_Divisibility_Check();
 		System.out.println("Even Numbers are:");
 		assignment5.printEvenNumbers(10,15);
 		System.out.println("Divisible by 5 numbers are:");

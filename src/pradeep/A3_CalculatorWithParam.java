@@ -1,6 +1,6 @@
 package pradeep;
 
-class CalculatorWithParam{
+class A3_CalculatorWithParam{
 	void add(int num1, int num2){
 		int ans = num1 + num2;
 		System.out.println("Addition is " + ans);
@@ -22,7 +22,7 @@ class CalculatorWithParam{
 	}
 	
 	public static void main(String[] args){
-		CalculatorWithParam calculatorWithParam = new CalculatorWithParam();
+		A3_CalculatorWithParam calculatorWithParam = new A3_CalculatorWithParam();
 		calculatorWithParam.add(20,10);
 		calculatorWithParam.sub(20,10);
 		calculatorWithParam.mul(20,10);

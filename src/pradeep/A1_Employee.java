@@ -1,6 +1,6 @@
 package pradeep;
 
-class Employee
+class A1_Employee
 {
 	int empid;
 	String empname;
@@ -11,7 +11,7 @@ class Employee
 		System.out.println("Employee name is "+ empname+"and dept id is "+ deptid);
 	}
 	public static void main(String[] args){
-		Employee employee = new Employee();
+		A1_Employee employee = new A1_Employee();
 		employee.printData();
 	}
 	

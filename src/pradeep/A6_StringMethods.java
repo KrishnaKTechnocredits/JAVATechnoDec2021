@@ -1,6 +1,6 @@
 package pradeep;
 
-public class Assignment6 {
+public class A6_StringMethods {
 	
 	void printChar(String input) {
 		for(int index=0; index<input.length(); index++) {
@@ -24,7 +24,7 @@ public class Assignment6 {
 	}
 
 	public static void main(String[] args) {
-		Assignment6 assignment6 = new Assignment6();
+		A6_StringMethods assignment6 = new A6_StringMethods();
 		System.out.println("characters are:");
 		assignment6.printChar("pradeep");
 		System.out.println("characters in reverse order:");

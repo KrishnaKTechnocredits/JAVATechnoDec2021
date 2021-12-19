@@ -1,6 +1,6 @@
 package pradeep;
 
-class Assignment4{
+class A4_Day_Index{
 	void dayIndex(int index){
 		if(index == 1 || index == 2 || index == 3 || index == 4 || index == 5 )
 			System.out.println("dayIndex -> " + index + " :Weekdays");
@@ -11,7 +11,7 @@ class Assignment4{
 	}
 	
 	public static void main(String[] args){
-		Assignment4 assignment4 = new Assignment4();
+		A4_Day_Index assignment4 = new A4_Day_Index();
 		assignment4.dayIndex(1);
 		assignment4.dayIndex(2);
 		assignment4.dayIndex(3);
