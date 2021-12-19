@@ -1,6 +1,6 @@
 package hevin;
 
-class Parameterized{
+class A4_Parameterized{
 
 	void simpleInterest(float P, int T, double R){
 		double SI=(P*R*T)/100;
@@ -13,7 +13,7 @@ class Parameterized{
 	}
 	
 	public static void main(String[] a){
-		Parameterized parameterized = new Parameterized();
+		A4_Parameterized parameterized = new A4_Parameterized();
 		parameterized.simpleInterest(10000, 10, 12.5);
 		parameterized.temperature(99);
 	}

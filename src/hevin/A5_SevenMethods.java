@@ -1,6 +1,6 @@
 package hevin;
 
-class SevenMethods{
+class A5_SevenMethods{
 	
 	void evenNumbers(int firstNumber, int lastNumber){
 		System.out.println("This is an Even Numbers");
@@ -68,7 +68,7 @@ class SevenMethods{
 	}
 	
 	public static void main (String[] a){
-		SevenMethods sevenmethods = new SevenMethods();
+		A5_SevenMethods sevenmethods = new A5_SevenMethods();
 		sevenmethods.evenNumbers(10,15);
 		sevenmethods.divisibleByFive(10,30);
 		sevenmethods.divisibleByFiveAndThree(5,18);

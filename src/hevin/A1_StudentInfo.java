@@ -1,6 +1,6 @@
 package hevin;
 
-class StudentInfo{
+class A1_StudentInfo{
 	String name, middlename, lastname, birthdate, address;
 	int rollno;
 	
@@ -26,7 +26,7 @@ class StudentInfo{
 	}
 	
 	public static void main(String[] a){
-		StudentInfo studentinfo = new StudentInfo();
+		A1_StudentInfo studentinfo = new A1_StudentInfo();
 		studentinfo.setData();
 		studentinfo.studentName();
 		studentinfo.otherInfo();

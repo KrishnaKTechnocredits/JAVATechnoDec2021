@@ -1,6 +1,6 @@
 package hevin;
 
-class Assignment6{
+class A6_CharCount{
 
 	void displayChar(String name){
 		for(int index=0;index<name.length();index++){
@@ -23,7 +23,7 @@ class Assignment6{
 	}
 	
 	public static void main(String[] a){
-		Assignment6 assignment6 = new Assignment6();
+		A6_CharCount assignment6 = new A6_CharCount();
 		System.out.println("Name as per index :");
 		assignment6.displayChar("  Hevin");
 		System.out.println("Name in Reverse :");
