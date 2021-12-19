@@ -1,5 +1,5 @@
 package ranjeet;
-class CalculatorWithParam{
+class A2_calculatorWithParam{
 	
 	void add(int num1, int num2){
 		int ans = num1 + num2;
@@ -22,7 +22,7 @@ class CalculatorWithParam{
 	}
 	
 	public static void main(String[] args){
-		CalculatorWithParam calculatorWithParam = new CalculatorWithParam();
+		A2_calculatorWithParam calculatorWithParam = new A2_calculatorWithParam();
 		calculatorWithParam.add(20, 30);
 		calculatorWithParam.minus(50, 10);
 		calculatorWithParam.multiply(100, 15);

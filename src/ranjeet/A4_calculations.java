@@ -1,5 +1,5 @@
 package ranjeet;
-class Calculations{
+class A4_calculations{
 	
 	void rateOfInterest(int priAmt, float time, float rateOfIn){
 		double roi = (priAmt * time * rateOfIn) / 100;
@@ -12,7 +12,7 @@ class Calculations{
 	}
 	
 	public static void main(String[] a){
-		Calculations calculations = new Calculations();
+		A4_calculations calculations = new A4_calculations();
 		calculations.rateOfInterest(100000, 7.9f, 6.80f);
 		calculations.convertFahrenheToCelsius(67);
 	}

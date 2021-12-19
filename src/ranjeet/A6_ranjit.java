@@ -1,5 +1,5 @@
 package ranjeet;
-class AssignmentSixBasicString{
+class A6_ranjit{
 
 	void printChar(String str){
 		//System.out.println(str);
@@ -27,7 +27,7 @@ class AssignmentSixBasicString{
 	}
 	
 	public static void main(String[] args){
-		AssignmentSixBasicString assignmentSixBasicString = new AssignmentSixBasicString();
+		A6_ranjit assignmentSixBasicString = new A6_ranjit();
 		assignmentSixBasicString.printChar("techno");
 		assignmentSixBasicString.printCharOccurance("technoe", 'e');
 		assignmentSixBasicString.printCharOccurance("Ranjeet", 'a');
