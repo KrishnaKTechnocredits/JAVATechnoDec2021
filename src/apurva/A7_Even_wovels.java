@@ -10,7 +10,6 @@ public class A7_Even_wovels {
 		}
 	}
 	void displayVowels(String s) {
-		char ch = '\u0000';
 		System.out.println("Vowels in the current string are");
 		for(int index=0;index<s.length();index++) {
 			if(s.charAt(index)=='a'||s.charAt(index)=='e'||s.charAt(index)=='i'||s.charAt(index)=='o'||s.charAt(index)=='u') {
