@@ -8,7 +8,7 @@ class A4_WeekendIndex{
 		else if(dayNo==6 || dayNo==7)
 			System.out.println("Weekend");
 		else
-			System.out.println("Invalid Entry");
+			System.out.println("Invalid Entry ");
 	}
 	public static void main(String args[]){
 		A4_WeekendIndex wi= new A4_WeekendIndex();
