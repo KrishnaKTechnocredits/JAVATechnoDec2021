@@ -1,6 +1,6 @@
 package sagarAcharya;
 
-class NestedIfElse{
+class A5_NestedIfElse{
 
 	void displayGrade(int score){
 			if(score>=40){
@@ -23,7 +23,7 @@ class NestedIfElse{
 	}
 	
 	public static void main(String[] args){
-	NestedIfElse nestedIfElse = new NestedIfElse();
+	A5_NestedIfElse nestedIfElse = new A5_NestedIfElse();
 	nestedIfElse.displayGrade(60);
 	}
 }		
