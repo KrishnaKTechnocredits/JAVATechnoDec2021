@@ -1,5 +1,5 @@
 package ranjeet;
-class Days{
+class A1_days{
 	
 	void printDays(int i){
 		if(i == 1){
@@ -23,7 +23,7 @@ class Days{
 		}
 	}
 	public static void main(String[] args){
-			Days days = new Days();
+			A1_days days = new A1_days();
 			days.printDays(6);
 		}
 }

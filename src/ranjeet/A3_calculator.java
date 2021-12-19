@@ -1,5 +1,5 @@
 package ranjeet;
-class Calculator{
+class A3_calculator{
 	int number1 = 10;
 	int number2 = 2;
 	
@@ -24,7 +24,7 @@ class Calculator{
 	}
 	
 	public static void main(String[] args){
-		Calculator calculator = new Calculator();
+		A3_calculator calculator = new A3_calculator();
 		calculator.add();
 		calculator.substract();
 		calculator.multiplication();

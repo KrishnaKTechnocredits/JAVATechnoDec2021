@@ -1,5 +1,5 @@
 package ranjeet;
-class AssignmentFive{
+class A5_ranjit{
 	void printEvenNumber(int startNo, int endNo){
 		int num;
 		System.out.println("Even numbers are :");
@@ -83,7 +83,7 @@ class AssignmentFive{
 	}
 
 	public static void main(String[] args){
-		AssignmentFive assignmentFive = new AssignmentFive();
+		A5_ranjit assignmentFive = new A5_ranjit();
 		assignmentFive.printEvenNumber(10, 15);
 		assignmentFive.divisibleByFive(10, 30);
 		assignmentFive.devide(5, 18);
