@@ -1,6 +1,6 @@
 package apurva;
 
-class Assignment5{
+class A5_Loop{
 	void displayEvenNumbers(int startIndex, int endIndex){
 		System.out.println("Even Numbers are :");
 		for(int num= startIndex; num<=endIndex; num++){
@@ -65,7 +65,7 @@ class Assignment5{
 	}
 	
 	public static void main(String[] a){
-		Assignment5 assignment = new Assignment5();
+		A5_Loop assignment = new A5_Loop();
 		assignment.displayEvenNumbers(10,15);
 		System.out.println(" --------------------------------- ");
 		assignment.displayDivisibleNumbers(10,30);

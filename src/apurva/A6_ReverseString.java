@@ -1,6 +1,6 @@
 package apurva;
 
-class ReverseString{
+class A6_ReverseString{
 
 	void displayString(String s){
 		int count = 0;
@@ -31,7 +31,7 @@ class ReverseString{
 	}
 	
 	public static void main(String[] a){
-		ReverseString reverseString = new ReverseString();
+		A6_ReverseString reverseString = new A6_ReverseString();
 		reverseString.displayString("Apurva");
 		System.out.println("------------------------------------------");
 		reverseString.displayReverseString("Apurva");
