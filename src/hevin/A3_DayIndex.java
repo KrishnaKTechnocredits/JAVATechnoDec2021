@@ -1,6 +1,6 @@
 package hevin;
 
-class DayIndex{
+class A3_DayIndex{
 	
 	void displayWeekdays(int indexNo){
 		if(indexNo == 6 || indexNo == 7){
@@ -13,7 +13,7 @@ class DayIndex{
 	}
 	
 	public static void main(String[] a){
-		DayIndex dayindex = new DayIndex();
+		A3_DayIndex dayindex = new A3_DayIndex();
 		dayindex.displayWeekdays(2);
 		dayindex.displayWeekdays(6);
 		dayindex.displayWeekdays(8);

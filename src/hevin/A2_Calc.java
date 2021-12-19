@@ -1,6 +1,6 @@
 package hevin;
 
-class Calc{
+class A2_Calc{
 	
 	void addition(int num1, int num2){
 		System.out.println("An Addition is " + (num1 + num2));
@@ -19,7 +19,7 @@ class Calc{
 	}
 	
 	public static void main(String[] a){
-		Calc calc = new Calc();
+		A2_Calc calc = new A2_Calc();
 		calc.addition(10,20);
 		calc.subtraction(10,20);
 		calc.division(10,20);
