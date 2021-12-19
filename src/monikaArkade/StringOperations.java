@@ -1,7 +1,6 @@
 package monikaArkade;
 
 public class StringOperations {
-	
 	void findFreqOfChar(String input,char ch) {
 		int count = 0;
 		for(int index=0;index<input.length();index++) {
