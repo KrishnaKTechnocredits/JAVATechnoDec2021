@@ -61,7 +61,7 @@ output : 19
 */
 package deepak;
 
-class Numbers{
+class A5_Numbers{
 	
 	void evenNumbers(int startNumber, int endNumber){
 		System.out.print("Even Numbers in the given range: ");
@@ -142,7 +142,7 @@ class Numbers{
 	}
 	
 	public static void main(String[] a){
-		Numbers numbers = new Numbers();
+		A5_Numbers numbers = new A5_Numbers();
 		numbers.evenNumbers(10, 15);
 		numbers.divisibleBy5(10, 30);
 		numbers.divisibleBy5AND3(5, 18);

@@ -13,7 +13,7 @@ Write a method to compute simple interest
 Call both methods from main method. write sop statement in each method to print output.*/
 package deepak;
 
-class SimpleInterestTemperature{
+class A3_SimpleInterestTemperature{
 	
 	void simpleInterest(double p, double r, int t){
 		double simpleInterest = (p*r*t)/100;
@@ -26,7 +26,7 @@ class SimpleInterestTemperature{
 	}
 	
 	public static void main(String[] args){
-		SimpleInterestTemperature simpleInterestTemp = new SimpleInterestTemperature();
+		A3_SimpleInterestTemperature simpleInterestTemp = new A3_SimpleInterestTemperature();
 		simpleInterestTemp.simpleInterest(500000,6.5,12);
 		simpleInterestTemp.temperatureCoversion(103.2);
 	}

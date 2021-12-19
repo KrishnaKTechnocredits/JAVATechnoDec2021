@@ -21,7 +21,7 @@ G-809, Heaven Apartment, Baner, Pune.
 Note : birthdate and address should be String.
  */
 package deepak;
-class StudentInfo{
+class A1_StudentInfo{
 		
 	String name, middleName, surName, birthDate, address;
 	int rollNumber;
@@ -48,7 +48,7 @@ class StudentInfo{
 	}
 	
 	public static void main(String[] args){
-		StudentInfo studentInfo = new StudentInfo();
+		A1_StudentInfo studentInfo = new A1_StudentInfo();
 		studentInfo.setData();
 		studentInfo.studentName();
 		studentInfo.studentOtherDetails();
