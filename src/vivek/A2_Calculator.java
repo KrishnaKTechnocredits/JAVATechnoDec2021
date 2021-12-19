@@ -1,6 +1,6 @@
 package vivek;
 
-class Assignment2{
+class A2_Calculator{
 	
 	void add(int num1,int num2){
 		int addition = num1 + num2;
@@ -23,7 +23,7 @@ class Assignment2{
 	}
 	
 	public static void main(String[] args){
-		Assignment2 calculator = new Assignment2();
+		A2_Calculator calculator = new A2_Calculator();
 		calculator.add(10,20);
 		calculator.substract(20,10);
 		calculator.multiply(20,10);

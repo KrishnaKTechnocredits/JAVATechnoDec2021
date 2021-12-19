@@ -1,6 +1,6 @@
 package vivek;
 
-class Assignment4{
+class A4_WeekDays{
 
 	void displayWeekDays(int day){
 		if(day >= 1 && day <=5)
@@ -11,7 +11,7 @@ class Assignment4{
 			System.out.println("Invalid Index");
 	}
 	public static void main(String[] args){
-		Assignment4 weekdays = new Assignment4();
+		A4_WeekDays weekdays = new A4_WeekDays();
 		weekdays.displayWeekDays(7);
 		weekdays.displayWeekDays(1);
 		weekdays.displayWeekDays(2);

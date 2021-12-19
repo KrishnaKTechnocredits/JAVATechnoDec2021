@@ -1,6 +1,6 @@
 package vivek;
 
-class Assignment5{
+class A5_NumberRange{
 	
 	void printEvenNumber(int startNumber, int endNumber){
 		System.out.println("Even numbers are:");
@@ -70,7 +70,7 @@ class Assignment5{
 	
 	public static void main(String[] args)
 	{
-		Assignment5 assignment5 = new Assignment5();
+		A5_NumberRange assignment5 = new A5_NumberRange();
 		assignment5.printEvenNumber(10,15);
 		assignment5.divisbleByFive(10,30);
 		assignment5.divisiblyByFiveAndThree(5,18);
