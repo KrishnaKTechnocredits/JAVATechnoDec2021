@@ -1,5 +1,5 @@
 package swati;
-class assign3 {
+class A3_Interest {
 	
 	void simpleInterest(int p,int t,double r){
 		double interest= p*t*r/100;
@@ -12,7 +12,7 @@ class assign3 {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		assign3 m=new assign3();
+		A3_Interest m=new A3_Interest();
 		m.simpleInterest(15750,10,3.7);
 		m.convertTemp(52);
 		

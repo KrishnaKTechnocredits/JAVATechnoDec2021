@@ -1,5 +1,5 @@
 package swati;
-public class assign1 {
+public class A1_Student {
 
 	String name;
 	String middle;
@@ -29,7 +29,7 @@ public class assign1 {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-assign1 student=new assign1();
+A1_Student student=new A1_Student();
 student.setData("Jui", "Sagar", "Parab", "19Aug","NJ" , 3);
 student.studentName();
 student.studentOther();
