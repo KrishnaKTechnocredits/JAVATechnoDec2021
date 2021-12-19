@@ -5,7 +5,7 @@ for example : void add(int num1, int num2){}*/
 
 package pallavi;
 
-class CalculatorWithParameter{
+class A2_CalculatorWithParameter{
 		
 	void add(int num1, int num2){
 		System.out.println(num1+"+"+num2+"="+(num1+num2));
@@ -24,7 +24,7 @@ class CalculatorWithParameter{
 	}
 	
 	public static void main(String[] arr){
-		CalculatorWithParameter calculatorWithParameter=new CalculatorWithParameter();
+		A2_CalculatorWithParameter calculatorWithParameter=new A2_CalculatorWithParameter();
 		calculatorWithParameter.add(12,34);
 		calculatorWithParameter.sub(23,11);
 		calculatorWithParameter.mul(32,10);

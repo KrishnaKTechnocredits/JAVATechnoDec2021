@@ -6,7 +6,7 @@
 
 package pallavi;
 
-class SringDemo{
+class A6_SringDemo{
 	
 	void displayChar(String name){
 		
@@ -33,7 +33,7 @@ class SringDemo{
 	
 	public static void main(String[] arr){
 	
-		SringDemo stringdemo= new SringDemo();
+		A6_SringDemo stringdemo= new A6_SringDemo();
 		stringdemo.displayChar("Arjun");
 		System.out.println("");		
 		stringdemo.displayRevrseChar("Arjun");

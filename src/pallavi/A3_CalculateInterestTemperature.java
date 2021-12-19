@@ -16,7 +16,7 @@ Call both methods from main method. write sop statement in each method to print 
 */
 package pallavi;
 
-class CalculateInterestTemperature{
+class A3_CalculateInterestTemperature{
 	
 	void simpleIntertest(double principle, float time, float rate){
 		double interest= (principle*time*rate)/100;
@@ -29,7 +29,7 @@ class CalculateInterestTemperature{
 	}
 	
 	public static void main(String[] arr){
-		CalculateInterestTemperature calculatrInterestTemperature=new CalculateInterestTemperature();
+		A3_CalculateInterestTemperature calculatrInterestTemperature=new A3_CalculateInterestTemperature();
 		calculatrInterestTemperature.simpleIntertest(5000, 3, 5.25f);
 		calculatrInterestTemperature.convertTemperature(97); 
 	}
