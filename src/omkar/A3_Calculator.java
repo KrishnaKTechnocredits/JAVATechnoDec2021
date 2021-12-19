@@ -1,6 +1,6 @@
 package omkar;
 
-class Calculator{
+class A3_Calculator{
 	int number1=10;
 	int number2=2;
 	
@@ -25,7 +25,7 @@ class Calculator{
 	}
 	
 		public static void main(String[] arg){
-		 Calculator calculator = new Calculator();
+		 A3_Calculator calculator = new A3_Calculator();
 		 calculator.add();
 		 calculator.sub();
 		 calculator.multi();
