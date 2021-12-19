@@ -1,6 +1,6 @@
 package ashish;
 
-class StringDemo{
+class A6_StringDemo{
 	
 	void printCharacters(String input){
 		System.out.println(" Characters in string " + input + " are : ");
@@ -26,7 +26,7 @@ class StringDemo{
 	}
 	
 	public static void main(String[] args){
-		StringDemo stringDemo = new StringDemo();
+		A6_StringDemo stringDemo = new A6_StringDemo();
 		System.out.println();
 		stringDemo.printCharacters("TECHNO");
 		System.out.println();
