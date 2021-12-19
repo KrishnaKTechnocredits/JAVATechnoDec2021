@@ -2,7 +2,7 @@
 
 package pallavi;
 
-class StudentInfo{
+class A1_StudentInfo{
 	String name,middleName,surname,bithrdate,address;
 	int rollNumber;
 	
@@ -28,7 +28,7 @@ class StudentInfo{
 	}
 	
 	public static void main(String[] arr){
-		StudentInfo studentInfo= new StudentInfo();
+		A1_StudentInfo studentInfo= new A1_StudentInfo();
 		studentInfo.setData();
 		studentInfo.studentName();
 		studentInfo.studentOtherDetails();

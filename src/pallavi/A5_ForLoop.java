@@ -11,7 +11,7 @@
 
 package pallavi;
 
-class ForLoop{
+class A5_ForLoop{
 	
 	void printEvenNumbers(int startNumber, int endNumber){
 		System.out.println("1--> Even numbers between " +startNumber+ "and " +endNumber+ " are:");
@@ -75,7 +75,7 @@ class ForLoop{
 	}
 	
 	public static void main(String[] arr){
-		ForLoop forLoop=new ForLoop();
+		A5_ForLoop forLoop=new A5_ForLoop();
 		forLoop.printEvenNumbers(10,15);
 		forLoop.printNumbersDivisibleByFive(10,30);
 		forLoop.printNumbersDivisibleBy5And3(5,18);

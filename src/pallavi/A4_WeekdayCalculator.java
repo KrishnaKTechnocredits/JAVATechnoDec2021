@@ -12,7 +12,7 @@ dayIndex -> -3 : Invalid Index*/
 
 package pallavi;
 
-class WeekdayCalculator{
+class A4_WeekdayCalculator{
 
 	void dayCalculator(int dayIndex){
 		if(dayIndex>=1 && dayIndex<=5)
@@ -24,7 +24,7 @@ class WeekdayCalculator{
 	}
 	
 	public static void main(String[] arr){
-		WeekdayCalculator weekdayCalculator=new WeekdayCalculator();
+		A4_WeekdayCalculator weekdayCalculator=new A4_WeekdayCalculator();
 		weekdayCalculator.dayCalculator(3);
 		weekdayCalculator.dayCalculator(6);
 		weekdayCalculator.dayCalculator(11);
