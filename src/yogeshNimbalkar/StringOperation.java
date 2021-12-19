@@ -1,7 +1,9 @@
 package yogeshNimbalkar;
-//Assignment - 6 : 18 Dec 2021
-class StringOperation{
-	
+
+
+// Assignment - 6 : 18 Dec 2021
+public class StringOperation {
+
 	void displayChars(String str){
 		for(int index=0; index < str.length();index++)
 			System.out.println(str.charAt(index));
