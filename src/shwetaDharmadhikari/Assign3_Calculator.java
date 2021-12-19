@@ -1,5 +1,5 @@
 package shwetaDharmadhikari;
-class Calculator{
+class Assign3_Calculator{
 	
 	void addition(int num1, int num2){
 		int sum = num1+num2;
@@ -23,7 +23,7 @@ class Calculator{
 	
 	public static void main(String args[])
 	{
-		Calculator calculator = new Calculator();
+		Assign3_Calculator calculator = new Assign3_Calculator();
 		calculator.addition(70,10);
 		calculator.subtraction(50,10);
 		calculator.multiplication(20,20);
