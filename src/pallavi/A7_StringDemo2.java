@@ -13,20 +13,24 @@ class A7_StringDemo2{
 
 	void printEvenChar(String input){
 		
+		String output="";
 		System.out.println("Characters at even position in "+input+" are: ");
 		for(int index=0;index<input.length();index++) {
 			if(index%2==1)
-				System.out.println(input.charAt(index++));
+				output=output+(input.charAt(index));
 		}	
+		System.out.println(output);
 	}
 	
 	void findVowels(String input){
 	
 		System.out.println("Vowels in string "+input+" are: ");
+		String output="";
 		for(int index=0;index<input.length();index++){
 			if(input.charAt(index)=='a' || input.charAt(index)=='e' || input.charAt(index)=='i' || input.charAt(index)=='o' || input.charAt(index)=='u')
-				System.out.println(input.charAt(index));
+				output=output+(input.charAt(index));
 		}
+		System.out.println(output);
 	}
 	
 	public static void main(String[] arr){
