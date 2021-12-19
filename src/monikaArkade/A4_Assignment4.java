@@ -1,6 +1,6 @@
 package monikaArkade;
 
-class Assignment4{
+class A4_Assignment4{
 	
 	void processData(int dayIndex){
 		if(dayIndex > 0 && dayIndex <=5)
@@ -12,7 +12,7 @@ class Assignment4{
 	}
 	
 	public static void main(String[] args){
-		Assignment4 assignment4 = new Assignment4();
+		A4_Assignment4 assignment4 = new A4_Assignment4();
 		assignment4.processData(3);
 		assignment4.processData(6);
 		assignment4.processData(11);

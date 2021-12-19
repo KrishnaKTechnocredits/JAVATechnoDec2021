@@ -1,6 +1,6 @@
 package monikaArkade;
 
-class CalculaorWithParam{
+class A2_CalculaorWithParam{
 	
 	void add(int num1,int num2){
 		int ans = num1 + num2;
@@ -23,7 +23,7 @@ class CalculaorWithParam{
 	}
 	
 	public static void main(String[] args){
-		CalculaorWithParam calculatorWithParam = new CalculaorWithParam();
+		A2_CalculaorWithParam calculatorWithParam = new A2_CalculaorWithParam();
 		calculatorWithParam.add(10,2);
 		calculatorWithParam.sub(30,5);
 		calculatorWithParam.mul(10,10);
