@@ -1,6 +1,6 @@
 package karan;
 
-public class Assignment_2 {
+public class A2_Calculator {
 	/*Assignment - 2 : 14th Dec'2021
 	Write a calculator program, all methods should take 2 parameters.
 	for example : void add(int num1, int num2)*/
@@ -28,7 +28,7 @@ public class Assignment_2 {
 		}
 		
 		public static void main(String[] args){
-			Assignment_2 calculator = new Assignment_2();
+			A2_Calculator calculator = new A2_Calculator();
 			calculator.addition(200,600);
 			calculator.subtraction(600,200);
 			calculator.multiply(200,600);

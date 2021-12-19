@@ -1,6 +1,6 @@
 package karan;
 
-public class Assignment_4 {
+public class A4_daysIndex {
 	/*Assignment - 4 : 16th Dec2021
 
 	Program 1: Find weekdays or weekend based on dayIndex.
@@ -27,7 +27,7 @@ public class Assignment_4 {
 		}
 		
 		public static void main(String[] args){
-			Assignment_4 assginment4 = new Assignment_4();
+			A4_daysIndex assginment4 = new A4_daysIndex();
 			assginment4.days(2);
 			assginment4.days(7);
 			assginment4.days(-3);
