@@ -1,6 +1,6 @@
 package sagarAcharya;
 
-class Calculator1{
+class A3_Calculator1{
 		
 	void add(int number1,int number2){
 		int ans = number1+number2;
@@ -27,7 +27,7 @@ class Calculator1{
 	}
 
 	public static void main(String[] args){
-		Calculator1 calc= new Calculator1();
+		A3_Calculator1 calc= new A3_Calculator1();
 		calc.add(5,5);
 		calc.sub(5,5);
 		calc.mul(5,5);

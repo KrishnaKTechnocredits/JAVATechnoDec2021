@@ -1,6 +1,6 @@
 package sagarAcharya;
 
-class Area{
+class A1_Area{
 	
 	void sArea(int length){
 		int ans= length * length;
@@ -8,7 +8,7 @@ class Area{
 	}
 	
 	public static void main(String[] args){
-		Area area = new Area();
+		A1_Area area = new A1_Area();
 		area.sArea(10);
 		area.sArea(15);
 		area.sArea(6);

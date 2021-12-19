@@ -1,6 +1,6 @@
 package sagarAcharya;
 
-class Dayindex{
+class A4_Dayindex{
 	
 	void indexMethod(int num){
 		if(num >=1 && num <=5)
@@ -12,7 +12,7 @@ class Dayindex{
 	}
 	
 	public static void main(String[] args){
-		Dayindex dayindex = new Dayindex();
+		A4_Dayindex dayindex = new A4_Dayindex();
 		dayindex.indexMethod(6);
 		dayindex.indexMethod(7);
 		dayindex.indexMethod(11);

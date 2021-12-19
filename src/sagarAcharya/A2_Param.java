@@ -1,9 +1,9 @@
 package sagarAcharya;
 
-class Assignment5{
+class A2_Param{
 	
 	public static void main(String[] args){
-		Assignment5 assignment5 = new Assignment5();
+		A2_Param assignment5 = new A2_Param();
 		assignment5.printEvenNumbers(10,15);
 		assignment5.range1(10,30);
 		assignment5.range2(5,18);
