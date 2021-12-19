@@ -1,6 +1,6 @@
 package vishakha;
 
-public class Assign6 {
+public class A6_Assign6 {
 	void displayName(String name){
 			System.out.println("Output is :- ");
 		for(int index=0; index<name.length();index++){
@@ -26,7 +26,7 @@ public class Assign6 {
 	}
 	
 	public static void main(String[] args) {
-		Assign6 assign6 = new Assign6();
+		A6_Assign6 assign6 = new A6_Assign6();
 		assign6.displayName("Vishakha");
 		assign6.displayReverse("Vishakha");
 		assign6.charCount("VishakhaRokade", 'a');
