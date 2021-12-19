@@ -1,6 +1,6 @@
 package technocredits;
 
-class Example2{
+class A2_Example2{
 	String name = "Techno";
 	int num1 = 10;
 	int num2 = 20;
@@ -14,7 +14,7 @@ class Example2{
 	}
 	
 	public static void main(String[] args){
-		Example2 example2 = new Example2();
+		A2_Example2 example2 = new A2_Example2();
 		example2.processData();
 		example2.displayData();
 	}

@@ -1,6 +1,6 @@
 package technocredits;
 
-class Example5{
+class A5_E{
 	
 	int rno;
 	String name;
@@ -21,7 +21,7 @@ class Example5{
 	}
 	
 	public static void main(String[] args){
-		Example5 example5 = new Example5();
+		A5_E example5 = new A5_E();
 		example5.processData();
 		example5.processAgain();
 		example5.display();
