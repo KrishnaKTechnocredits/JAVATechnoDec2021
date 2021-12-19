@@ -1,5 +1,5 @@
 package ashok;
-class Employee{
+class A1_Employee{
 	
 	int empid;//by default value set to 0
 	String empname;//by default value set to Null 
@@ -12,7 +12,7 @@ class Employee{
 	}
 	
 	public static void main(String[] args){
-		Employee employee = new Employee();
+		A1_Employee employee = new A1_Employee();
 		employee.printdata();
 	}
 }
