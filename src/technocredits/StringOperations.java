@@ -1,7 +1,6 @@
 package technocredits;
 
 public class StringOperations {
-	
 	void calStrLength(String input) {
 		System.out.println(input + ":" + input.length());
 	}
