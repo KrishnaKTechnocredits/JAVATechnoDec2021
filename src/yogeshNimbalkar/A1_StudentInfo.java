@@ -1,6 +1,6 @@
 package yogeshNimbalkar;
 //Assignment -1 : 13th Dec’21
-class StudentInfo{
+class A1_StudentInfo{
 
 	String name, middleName, surname, birthdate, address;
 	int rollNumber;
@@ -27,7 +27,7 @@ class StudentInfo{
 	}
 	
 	public static void main(String[] args){
-		StudentInfo studentinfo = new StudentInfo();
+		A1_StudentInfo studentinfo = new A1_StudentInfo();
 		studentinfo.setData();
 		studentinfo.studentName();
 		studentinfo.studentOtherDetails();

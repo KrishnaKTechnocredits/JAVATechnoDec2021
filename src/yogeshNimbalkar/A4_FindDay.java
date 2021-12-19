@@ -1,6 +1,6 @@
 package yogeshNimbalkar;
 //Assignment - 4 : 16 Dec 2021
-class FindDay{
+class A4_FindDay{
 	
 	void displayDay(int dayIndex){
 		if(dayIndex >= 1 && dayIndex <=5){
@@ -13,7 +13,7 @@ class FindDay{
 	}
 	
 	public static void main(String[] args){
-		FindDay findday = new FindDay();
+		A4_FindDay findday = new A4_FindDay();
 		findday.displayDay(3);
 		findday.displayDay(6);
 		findday.displayDay(11);
