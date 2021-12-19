@@ -1,6 +1,6 @@
 package omkar;
 
-class Example{
+class A5_Example{
 		int a = 10;
 		int b = 12;
 		
@@ -10,7 +10,7 @@ class Example{
 			}
 	
 		public static void main(String[] args){
-		Example E = new Example();
+		A5_Example E = new A5_Example();
 		E.add1();
 		}
 		

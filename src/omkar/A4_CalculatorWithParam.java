@@ -1,6 +1,6 @@
 package omkar;
 
-class CalculatorWithParam{
+class A4_CalculatorWithParam{
 
 	void add(int num1, int num2){
 		int ans= num1 + num2;
@@ -23,7 +23,7 @@ class CalculatorWithParam{
 	}
 	
 	public static void main(String[] args){
-		CalculatorWithParam calculatorWithParam = new CalculatorWithParam();
+		A4_CalculatorWithParam calculatorWithParam = new A4_CalculatorWithParam();
 		calculatorWithParam.add(10,20);
 		calculatorWithParam.sub(30,40);
 		calculatorWithParam.multi(50,60);

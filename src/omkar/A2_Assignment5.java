@@ -1,6 +1,6 @@
 package omkar;
 
-class Assignment5{
+class A2_Assignment5{
 	void range(int r1 , int r2 ){
 		for(int i=r1;i<=r2;i++){
 			int ans=i%2;
@@ -68,7 +68,7 @@ class Assignment5{
 	}
 	
 	public static void main(String [] args){
-		Assignment5 assignment5 = new Assignment5();
+		A2_Assignment5 assignment5 = new A2_Assignment5();
 		assignment5.range(10,20);
 		assignment5.divBy5(5,15);
 		assignment5.divBy3And5(1,15);

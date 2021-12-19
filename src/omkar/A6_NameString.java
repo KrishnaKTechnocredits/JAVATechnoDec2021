@@ -1,6 +1,6 @@
 package omkar;
 
-class NameString{
+class A6_NameString{
 	static void display (String name){
 		for (int i=0; i<name.length(); i++){
 			System.out.println(name.charAt(i));
