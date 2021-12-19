@@ -37,7 +37,7 @@ void findCharFreq(String input, char ch){
 
 }*/
 package deepak;
-class StringOperations{
+class A6_StringOperations{
 	
 	void display(String input){
 		System.out.print("Input String is: ");
@@ -65,7 +65,7 @@ class StringOperations{
 	}
 	
 	public static void main(String [] a){
-		StringOperations stringOperations = new StringOperations();
+		A6_StringOperations stringOperations = new A6_StringOperations();
 		stringOperations.display("techno");
 		stringOperations.reverse("techno");
 		stringOperations.findCharFreq("akanksha", 'a');

@@ -10,7 +10,7 @@ dayIndex -> 11 : Invalid Index
 dayIndex -> -3 : Invalid Index
 */
 package deepak;
-class Weekdays{
+class A4_Weekdays{
 	
 	void identifyDay(int dayIndex){
 		if(dayIndex > 0 && dayIndex < 6)
@@ -22,7 +22,7 @@ class Weekdays{
 	}
 	
 	public static void main(String[] a){
-		Weekdays weekdays = new Weekdays();
+		A4_Weekdays weekdays = new A4_Weekdays();
 		weekdays.identifyDay(-28);
 	}
 }

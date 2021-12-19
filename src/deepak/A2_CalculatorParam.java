@@ -2,7 +2,7 @@
 Write a calculator program, all methods should take 2 parameters.*/
 package deepak;
 
-class CalculatorParam{
+class A2_CalculatorParam{
 	
 	void add(int num1, int num2){
 		int output = num1+num2;
@@ -25,7 +25,7 @@ class CalculatorParam{
 	}
 	
 	public static void main(String[] a){
-		CalculatorParam calculatorParam = new CalculatorParam();
+		A2_CalculatorParam calculatorParam = new A2_CalculatorParam();
 		calculatorParam.add(20,10);
 		calculatorParam.substraction(70,30);
 		calculatorParam.multiplication(35,7);
