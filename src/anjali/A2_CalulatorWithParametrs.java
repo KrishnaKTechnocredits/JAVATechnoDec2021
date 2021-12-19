@@ -1,9 +1,9 @@
 package anjali;
 
-public class A2_assigment2 {
+public class A2_CalulatorWithParametrs {
 
 	public static void main(String[] args) {
-		A2_assigment2 calculatorWithInputParametrs = new A2_assigment2();
+		A2_CalulatorWithParametrs calculatorWithInputParametrs = new A2_CalulatorWithParametrs();
 		calculatorWithInputParametrs.addition(10,20);
 		calculatorWithInputParametrs.substraction(10,20);
 		calculatorWithInputParametrs.mutiplication(10,20);
