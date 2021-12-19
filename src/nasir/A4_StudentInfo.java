@@ -1,5 +1,5 @@
 package nasir;
-class StudentInfo{
+class A4_StudentInfo{
 	
 	String name,middleName,surname,address,birthdate;
 	int rollNo;
@@ -22,7 +22,7 @@ class StudentInfo{
 	}
 	
 	public static void main(String[]args){
-		StudentInfo studentinfo = new StudentInfo();
+		A4_StudentInfo studentinfo = new A4_StudentInfo();
 		studentinfo.setData();
 		studentinfo.studentName();
 		studentinfo.studentOtherDetails();		

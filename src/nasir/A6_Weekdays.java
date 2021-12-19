@@ -1,5 +1,5 @@
 package nasir;
-class Weekdays{
+class A6_Weekdays{
 	
 	void days(int dayIndex){
 		
@@ -12,7 +12,7 @@ class Weekdays{
 			
 	}	
 	public static void main(String[]args){
-		Weekdays weekdays=new Weekdays();
+		A6_Weekdays weekdays=new A6_Weekdays();
 		weekdays.days(2);
 		weekdays.days(4);
 		weekdays.days(6);

@@ -1,5 +1,5 @@
 package nasir;
-class Characters {
+class A2_Characters {
 	void allCharacters(String name){
 		for(int index=0;index<name.length();index++){
 			System.out.println(name.charAt(index));
@@ -22,7 +22,7 @@ class Characters {
 	}
 	
 	public static void main(String[]args){
-		Characters characters =new Characters();
+		A2_Characters characters =new A2_Characters();
 		characters.allCharacters("pawan");
 		characters.reverseCharacters("pawan");
 		characters.findFreqOfCharcters("pawan",'a');
