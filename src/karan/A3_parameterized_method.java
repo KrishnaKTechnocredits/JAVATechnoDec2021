@@ -1,6 +1,6 @@
 package karan;
 
-public class Assignment_3 {
+public class A3_parameterized_method {
 	/* 
 	Assignment - 3 : 15th Dec2021
 
@@ -29,7 +29,7 @@ public class Assignment_3 {
 		}
 		
 		public static void main(String[] args){
-			Assignment_3 assignment3 = new Assignment_3();
+			A3_parameterized_method assignment3 = new A3_parameterized_method();
 			assignment3.simpleInterest(300,5,10);
 			assignment3.fahrenheitCelsius(38);
 		}

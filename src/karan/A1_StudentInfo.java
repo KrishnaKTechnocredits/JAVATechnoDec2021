@@ -1,6 +1,6 @@
 package karan;
 
-public class Assignment_1 {
+public class A1_StudentInfo {
 	/* Assignment -1 : 13th Dec’21
 
 	Program Statement : Print all details of Student like Name, Middle name, Surname, birthdate, Address, and Roll number.
@@ -32,7 +32,7 @@ public class Assignment_1 {
 		}
 		
 		public static void main(String[] args){
-			Assignment_1 studentInfo = new Assignment_1();
+			A1_StudentInfo studentInfo = new A1_StudentInfo();
 			studentInfo.studentName();
 			studentInfo.studentOtherDetails();
 		}

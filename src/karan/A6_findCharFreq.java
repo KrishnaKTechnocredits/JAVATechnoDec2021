@@ -1,6 +1,6 @@
 package karan;
 
-public class Assignment_6 {
+public class A6_findCharFreq {
 
 	void display(String input){
 		System.out.println("All characters of given input:");
@@ -29,7 +29,7 @@ public class Assignment_6 {
 	}
 	
 	public static void main(String[] args) {
-		Assignment_6 assignment6 = new Assignment_6();
+		A6_findCharFreq assignment6 = new A6_findCharFreq();
 		assignment6.display("techno");
 		assignment6.reverse("techno");
 		assignment6.findFreqofChar("akanksha", 'a');

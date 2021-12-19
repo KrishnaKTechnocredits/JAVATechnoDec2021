@@ -1,6 +1,6 @@
 package karan;
 
-public class Assignment_5 {
+public class A5_seven_methods {
 	/*Assignment - 5 : 16th Dec2021
 
 	Write only one program having the following methods. [7 methods in same program] 
@@ -137,7 +137,7 @@ public class Assignment_5 {
 		}	
 		
 		public static void main(String[] args){
-			Assignment_5 assignment5= new Assignment_5();
+			A5_seven_methods assignment5= new A5_seven_methods();
 			assignment5.evenNumbers(10,15);
 			assignment5.divisibleBy5(10,30);
 			assignment5.divisibleBy5And3(5,18);
