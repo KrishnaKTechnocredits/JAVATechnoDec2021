@@ -1,6 +1,6 @@
 package vivek;
 
-class Assignment6 {
+class A6_String {
 	
 	void printCharacter(String input){
 		System.out.println("Characters in String " + input + " are: ");
@@ -25,7 +25,7 @@ class Assignment6 {
 		System.out.println(ch + "-" + count);
 	}
 	public static void main(String[] args){
-		Assignment6 assignment6 = new Assignment6();
+		A6_String assignment6 = new A6_String();
 		assignment6.printCharacter("techno");
 		assignment6.printReverseChar("techno");
 		assignment6.findCharFreq("vivek",'v');

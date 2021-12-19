@@ -1,6 +1,6 @@
 package vivek;
 
-class Assignment1{
+class A1_StudentInfo{
 
 	String name,middleName,surName,birthDate,address;
 	int rollNumber;
@@ -27,7 +27,7 @@ class Assignment1{
 	}
 	
 	public static void main(String[] args){
-		Assignment1 student = new Assignment1();
+		A1_StudentInfo student = new A1_StudentInfo();
 		student.setData();
 		student.studentName();
 		student.studentOtherDetails();

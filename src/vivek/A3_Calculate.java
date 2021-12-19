@@ -1,6 +1,6 @@
 package vivek;
 
-class Assignment3{
+class A3_Calculate{
 	
 	void calculateInterest(double principal,double time,double rate){
 		double simpleInterest = (principal * time * rate) / 100;
@@ -13,7 +13,7 @@ class Assignment3{
 	}
 	
 	public static void main(String[] args){
-		Assignment3 example = new Assignment3();
+		A3_Calculate example = new A3_Calculate();
 		example.calculateInterest(20.5,2.5,5.2);
 		example.temperatureConvresion(32.5);
 	}
