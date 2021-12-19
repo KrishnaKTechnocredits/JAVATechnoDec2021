@@ -1,6 +1,6 @@
 package vrushali;
 
-class Calculations{
+class A44_Calculations{
 
 	void calSimpleInterest(double P, double T, double R ){
 		double simpleInterest = (P * T * R)/100;
@@ -13,7 +13,7 @@ class Calculations{
 	}
 	
 	public static void main(String[] args){
-		Calculations calculations = new Calculations();
+		A44_Calculations calculations = new A44_Calculations();
 		calculations.calSimpleInterest(10, 5, 20);
 		calculations.calTemperature(40);
 	}
