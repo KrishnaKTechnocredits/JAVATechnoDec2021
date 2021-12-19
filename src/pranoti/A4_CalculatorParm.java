@@ -1,6 +1,6 @@
 package pranoti;
 
-class CalculatorParm{
+class A4_CalculatorParm{
 	
 	void add(int num1,int num2){
 		int ans = num1 + num2 ;
@@ -23,7 +23,7 @@ class CalculatorParm{
 	}
 	
 	public static void main(String[]args){
-		CalculatorParm calculatorParm =new CalculatorParm ();
+		A4_CalculatorParm calculatorParm =new A4_CalculatorParm ();
 		calculatorParm.add(100,10);
 		calculatorParm.sub(130,10);
 		calculatorParm.mul(210,10);

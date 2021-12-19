@@ -1,6 +1,6 @@
 package pranoti;
 
-class WeekDays{
+class A2_WeekDays{
 	
 	void weekDay(int dayIndex){
 		if(dayIndex >=1 && dayIndex <=5)
@@ -12,7 +12,7 @@ class WeekDays{
 	}
 	
 	public static void main (String[]args){
-		WeekDays weekDays= new WeekDays();
+		A2_WeekDays weekDays= new A2_WeekDays();
 		weekDays.weekDay(3);
 		weekDays.weekDay(6);
 		weekDays.weekDay(11);
