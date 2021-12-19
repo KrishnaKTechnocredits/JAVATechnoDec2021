@@ -1,6 +1,6 @@
 package shivangi;
 
-class Example5{
+class A5_Example5{
 
 	void processData(double num){
 		double ans = num/10;
@@ -17,7 +17,7 @@ class Example5{
 	}	
 	
 	public static void main(String[] args){
-		Example5 example5 = new Example5();
+		A5_Example5 example5 = new A5_Example5();
 		//example5.processData(20.2);
 		example5.doCalculation(10,3);
 		

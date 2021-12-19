@@ -1,6 +1,6 @@
 package shivangi;
 
-class Example4
+class A4_Example4
 {
 	int rno;
 	String name;
@@ -21,7 +21,7 @@ class Example4
 	
 	public static void main(String[] args)
 	{
-		Example4 example4 = new Example4();
+		A4_Example4 example4 = new A4_Example4();
 		example4.processData();
 		example4.processAgain();
 		example4.display();
