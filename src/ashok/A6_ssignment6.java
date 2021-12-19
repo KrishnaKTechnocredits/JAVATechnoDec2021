@@ -1,5 +1,5 @@
 package ashok;
-class Assignment6{
+class A6_ssignment6{
 	
 	void printName(String name){
 		for(int index=0; index<name.length(); index++){
@@ -24,7 +24,7 @@ class Assignment6{
 	}
 		
 	public static void main(String[] args){
-		Assignment6 assignment6 = new Assignment6();
+		A6_ssignment6 assignment6 = new A6_ssignment6();
 		System.out.println("Print Name");
 		assignment6.printName("Ashok");
 		System.out.println("Reverse Name");
