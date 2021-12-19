@@ -1,5 +1,5 @@
 package nehaPatil;
-class Student{
+class A1_Student{
  String name ="Aashish";
   int age = 25;
   

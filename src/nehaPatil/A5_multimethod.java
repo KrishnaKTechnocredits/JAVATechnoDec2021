@@ -1,7 +1,7 @@
 package nehaPatil;
 
 
-class Assignment{
+class A5_multimethod{
 
     void printEvenNumber(int startNumber, int endNumber){
 	    for(int num =startNumber; num<=endNumber;num++){
@@ -45,7 +45,7 @@ class Assignment{
 		}
 	}
 	public static void main(String[] args){
-	    Assignment assignment = new Assignment();
+	    A5_multimethod assignment = new A5_multimethod();
 		assignment.printEvenNumber(10,15);
 		assignment.printDivideByFive(10,30);
 		assignment.printDivideBy7and13(5,40);

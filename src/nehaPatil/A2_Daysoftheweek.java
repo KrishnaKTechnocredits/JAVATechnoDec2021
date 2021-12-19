@@ -1,5 +1,5 @@
 package nehaPatil;
-class Daysoftheweek{
+class A2_Daysoftheweek{
     
 	void weekday(int dayIndex){
 	    if(dayIndex >=1 && dayIndex<=5){
@@ -13,7 +13,7 @@ class Daysoftheweek{
 	}
 	
 	public static void main(String[] args){
-	    Daysoftheweek daysoftheweek = new Daysoftheweek();
+	    A2_Daysoftheweek daysoftheweek = new A2_Daysoftheweek();
 	    daysoftheweek.weekday(3);
 		daysoftheweek.weekday(6);
 	    daysoftheweek.weekday(11);
