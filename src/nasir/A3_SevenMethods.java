@@ -1,5 +1,5 @@
 package nasir;
-class SevenMethods{
+class A3_SevenMethods{
 	void evenOdd(int startNumber, int endNumber){
 		System.out.println("Output of First Method is shown below :");
 		for(int num=startNumber; num<=endNumber;num++){
@@ -73,7 +73,7 @@ class SevenMethods{
 	}
 	
 	public static void main(String[]args){
-		SevenMethods sevenmethods=new SevenMethods();
+		A3_SevenMethods sevenmethods=new A3_SevenMethods();
 		sevenmethods.evenOdd(10,15);
 		sevenmethods.divisible(10,30);
 		sevenmethods.twoDivision(5,18);

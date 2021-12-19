@@ -1,5 +1,5 @@
 package nasir;
-class Calculator{
+class A1_Calculator{
 	
 	void addition(int num1, int num2){
 		int ans=num1+num2;
@@ -22,7 +22,7 @@ class Calculator{
 	}
 	
 	public static void main(String[]args){
-		Calculator calculator =new Calculator();
+		A1_Calculator calculator =new A1_Calculator();
 		calculator.addition(100,200);
 		calculator.subtraction(200,100);
 		calculator.multiplication(5,5);

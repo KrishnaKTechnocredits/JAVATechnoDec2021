@@ -1,5 +1,5 @@
 package nasir;
-class TwoParameter{
+class A5_TwoParameter{
 	void simpleInterest(double p, int t, double r){
 		double Interest=(p*t*r)/100;
 		System.out.println("Total interest is "+Interest+" Rupees");
@@ -11,7 +11,7 @@ class TwoParameter{
 	}
 	
 	public static void main(String[]args){
-		TwoParameter twoparameter =new TwoParameter();
+		A5_TwoParameter twoparameter =new A5_TwoParameter();
 		twoparameter.simpleInterest(100,2001,6.5);
 		twoparameter.temperature(99.9);
 	}
