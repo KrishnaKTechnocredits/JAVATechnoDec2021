@@ -1,6 +1,6 @@
 package shwetaBhosale;
 
-public class Assign7_Vowels {
+public class A7_Vowels {
 
 	static void printAtEven(String input) {
 		System.out.print("Output: ");
@@ -24,9 +24,9 @@ public class Assign7_Vowels {
 
 	public static void main(String[] args) {
 		
-		Assign7_Vowels assign7_Vowels = new Assign7_Vowels();
-		Assign7_Vowels.printAtEven("technocredits");
-		Assign7_Vowels.printVowels("technocredits");
+		A7_Vowels assign7_Vowels = new A7_Vowels();
+		A7_Vowels.printAtEven("technocredits");
+		A7_Vowels.printVowels("technocredits");
 	}
 
 }
