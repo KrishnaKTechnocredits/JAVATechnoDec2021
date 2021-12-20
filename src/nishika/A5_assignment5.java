@@ -1,4 +1,6 @@
-class Assignment5{
+package nishika;
+
+class A5_assignment5{
 	
 	void evenNumber(int startIndex , int endIndex){
 		System.out.println("------------------------method 1 ----------------------");
@@ -54,12 +56,12 @@ class Assignment5{
 	}
 	
 		public static void main(String[] args){
-		Assignment5 assignment5 = new Assignment5();	
-		assignment5.evenNumber(10,15);
-		assignment5.divisibleByFive(10,30);
-		assignment5.divisibleByFiveThree(5,18);
-		assignment5.divisibleBySevenAndThirteen(5,40);
-		assignment5.sumTotal(1,5);	
-		assignment5.oddNumber(20,10);	
+		A5_assignment5 a5_assignment5 = new A5_assignment5();	
+		a5_assignment5.evenNumber(10,15);
+		a5_assignment5.divisibleByFive(10,30);
+		a5_assignment5.divisibleByFiveThree(5,18);
+		a5_assignment5.divisibleBySevenAndThirteen(5,40);
+		a5_assignment5.sumTotal(1,5);	
+		a5_assignment5.oddNumber(20,10);	
 	}
 }

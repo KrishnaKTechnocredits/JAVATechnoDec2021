@@ -1,4 +1,6 @@
-class Assignment4{
+package nishika;
+
+class A4_assignment4{
 	
 	void weekDays(int dayIndex){
 		if(dayIndex>=1 && dayIndex<=5)
@@ -10,10 +12,10 @@ class Assignment4{
 	}
 	
 	public static void main(String[] args){
-		Assignment4 assignment4 = new Assignment4();
-		assignment4.weekDays(3);
-		assignment4.weekDays(6);
-		assignment4.weekDays(11);
-		assignment4.weekDays(-3);
+		A4_assignment4 a4_assignment4 = new A4_assignment4();
+		a4_assignment4.weekDays(3);
+		a4_assignment4.weekDays(6);
+		a4_assignment4.weekDays(11);
+		a4_assignment4.weekDays(-3);
 	}
 }

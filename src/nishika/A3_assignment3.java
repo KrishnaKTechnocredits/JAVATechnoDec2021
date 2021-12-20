@@ -1,4 +1,6 @@
-class Assigbnment3{
+package nishika;
+
+class A3_assignment3{
 	
 	void SimpleInterest(double amount , double time ,double rate){
 		double SimpleInterest = (amount*time*rate)/100;
@@ -11,8 +13,8 @@ class Assigbnment3{
 	}
 	
 	public static void main(String[] args){
-		Assigbnment3 assigbnment3 = new Assigbnment3();
-		assigbnment3.SimpleInterest(200,5,10);
-		assigbnment3.ConvertTempreture(28);
+		A3_assignment3 a3_assigbnment3 = new A3_assignment3();
+		a3_assigbnment3.SimpleInterest(200,5,10);
+		a3_assigbnment3.ConvertTempreture(28);
 	}
 }

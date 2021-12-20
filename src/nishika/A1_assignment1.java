@@ -1,4 +1,6 @@
-class Calculator{
+package nishika;
+
+class A1_assignment1{
 	int num1=10;
 	int num2=20;
 	
@@ -23,11 +25,11 @@ class Calculator{
 	}
 	
 	public static void main(String[] a){
-		Calculator calculator = new Calculator();
-		calculator.add();
-		calculator.sub();
-		calculator.mul();
-		calculator.div();
+		A1_assignment1 a1_assignment1 = new A1_assignment1();
+		 a1_assignment1.add();
+		 a1_assignment1.sub();
+		 a1_assignment1.mul();
+		 a1_assignment1.div();
 	}
 
 }
