@@ -1,5 +1,5 @@
 package priyankaZende;
-public class A51_FindFrequencyChar {
+public class FindFrequencyOfCharDemo {
 	void findFreqChar(String name, char ch){
 		int count =0;
 		for(int index=0;index<name.length(); index++){
@@ -9,7 +9,7 @@ public class A51_FindFrequencyChar {
 	    System.out.println(count);
 }
 	public static void main(String[] args) {
-		A51_FindFrequencyChar findFrequencyChar = new A51_FindFrequencyChar();
+		FindFrequencyOfCharDemo findFrequencyChar = new FindFrequencyOfCharDemo();
 		findFrequencyChar.findFreqChar("technocredits", 't');
 	}
 }

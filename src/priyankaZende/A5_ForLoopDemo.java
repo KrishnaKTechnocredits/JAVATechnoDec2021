@@ -1,5 +1,16 @@
+/*Assignment 5- 16Dec21
+ * 1. print all even numbers in a given range. 
+  2. On user defined range print all numbers which are divisible by 5. 
+  3. On user defined range print all numbers which are divisible by 5 and divisible by 3. 
+  4. On user defined range print all numbers which are divisible by 7 or 13. 
+  5. Find sum of all the numbers in user define range.class
+  6. Find difference between sum of odd numbers and even numbers in a given range
+  7. Print only odd numbers in reverse order.
+  
+*/
+
 package priyankaZende;
-class A52_Operation{	
+class A5_ForLoopDemo{	
 	// Print all even numbers in a given range.
 	void printEvenNumbers (int startNumber, int endNumber){
 		System.out.println("Even numbers in the range of " + startNumber+ " and " + endNumber+ " are:");
@@ -71,7 +82,7 @@ class A52_Operation{
 	}
 	
 	public static void main(String[] args){
-		A52_Operation operation = new A52_Operation();
+		A5_ForLoopDemo operation = new A5_ForLoopDemo();
 		operation.printEvenNumbers(10, 15);
 		operation.numbersDivisibleByFive(10, 30);
 		operation.numbersDivisibleByFiveOrThree(5, 18);
