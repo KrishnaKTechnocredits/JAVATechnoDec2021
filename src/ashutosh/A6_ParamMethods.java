@@ -1,6 +1,6 @@
 package ashutosh;
 
-class ParamMethods{
+class A6_ParamMethods{
 
 	void simpleInterest(double principal,double time,double rate){
 		double simpleinterest = (principal*time*rate)/100;
@@ -13,7 +13,7 @@ class ParamMethods{
 	}
 	
 	public static void main(String [] Args){
-		ParamMethods parammethods=new ParamMethods();
+		A6_ParamMethods parammethods=new A6_ParamMethods();
 		parammethods.simpleInterest(10000.68, 2.5,3.9);
 		parammethods.celsiusValue(35);
 	}

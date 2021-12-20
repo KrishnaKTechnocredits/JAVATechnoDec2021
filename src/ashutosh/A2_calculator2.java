@@ -1,6 +1,6 @@
 package ashutosh;
 
-class Calculator2{
+class A2_calculator2{
 
 	void add (int num1, int num2){
 		int addition=(num1+num2);
@@ -23,7 +23,7 @@ class Calculator2{
 	}
 	
 	public static void main(String args []){
-		Calculator2 calculator2=new Calculator2();
+		A2_calculator2 calculator2=new A2_calculator2();
 		calculator2.add(10,20);
 		calculator2.sub(10,20);
 		calculator2.mul(10,20);

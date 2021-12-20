@@ -1,6 +1,6 @@
 package ashutosh;
 
-class ConditionalLoopEx{
+class A3_ConditionalLoopEx{
 	
 	void printEvenNumbers(int startNumber, int endNumber){
 		for(int num=startNumber;num<=endNumber;num++){
@@ -69,7 +69,7 @@ class ConditionalLoopEx{
 	}
 	
 	public static void main (String [] args){
-	ConditionalLoopEx conditionalloopex = new ConditionalLoopEx();
+	A3_ConditionalLoopEx conditionalloopex = new A3_ConditionalLoopEx();
 	conditionalloopex.printEvenNumbers(5,10);
 	conditionalloopex.printDivBy5(5,10);
 	conditionalloopex.printDivBy5And3(5,50);

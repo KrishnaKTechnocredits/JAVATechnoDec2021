@@ -1,6 +1,6 @@
 package ashutosh;
 
-class Calculator {
+class A1_calculator {
 
 		int number1 = 10;
 		int number2 = 20;
@@ -32,7 +32,7 @@ class Calculator {
 
 		public static void main (String [] args ){
 		
-				Calculator calculator = new Calculator();
+				A1_calculator calculator = new A1_calculator();
 				calculator.add();
 				calculator.subtract();
 				calculator.multiply();

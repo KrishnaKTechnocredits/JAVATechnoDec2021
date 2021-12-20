@@ -1,6 +1,6 @@
 package ashutosh;
 
-class Employee{
+class A5_Employee{
 		
 		int empid;
 		String empname;
@@ -16,7 +16,7 @@ class Employee{
 		
 		public static void main (String[] args){
 		
-		Employee employee = new Employee ();
+		A5_Employee employee = new A5_Employee ();
 		employee.printData(); 
 		
 		}

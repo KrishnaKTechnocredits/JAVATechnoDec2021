@@ -1,6 +1,6 @@
 package ashutosh;
 
-class DayIndex{
+class A4_DayIndex{
 	void findDay(int day){
 		if(day>=1 && day<=7){
 			if(day>=1 && day<=5)
@@ -13,7 +13,7 @@ class DayIndex{
 	}
 
 	public static void main (String [] args){
-	DayIndex dayindex = new DayIndex();
+	A4_DayIndex dayindex = new A4_DayIndex();
 	dayindex.findDay(1);
 	dayindex.findDay(-1);	
 	dayindex.findDay(5);	
