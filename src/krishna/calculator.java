@@ -1,6 +1,6 @@
 package krishna;
 
-class Calculator{
+class Calculator_1{
     int Number1 = 100;
 	int Number2 = 20;
 	  
@@ -25,7 +25,7 @@ class Calculator{
 	}
 
 	public static void main (String[] args){
-		Calculator calculator = new Calculator();
+		Calculator_1 calculator = new Calculator_1();
 		calculator.add();
 		calculator.subs();
 		calculator.Multiply();

@@ -1,6 +1,6 @@
 package krishna;
 
-class DayIndex{
+class DayIndex1{
 	void dayIndex_1(int index){
 		if(index >= 1 && index <= 5)
 			System.out.println("Weekdays");
@@ -11,7 +11,7 @@ class DayIndex{
 	}
 	
 	public static void main(String[] args){
-		DayIndex dayIndex = new DayIndex();
+		DayIndex1 dayIndex = new DayIndex1();
 		dayIndex.dayIndex_1(3);
 		dayIndex.dayIndex_1(6);
 		dayIndex.dayIndex_1(11);
