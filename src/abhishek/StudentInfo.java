@@ -1,3 +1,4 @@
+package abhishek;
 class StudentInfo {
 	String name, middlename, surname, birthdate, address;
 	int rollnumber;

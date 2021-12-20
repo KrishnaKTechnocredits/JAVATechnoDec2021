@@ -1,3 +1,4 @@
+package abhishek;
 class Assignment3 {
 	void simpleInterest (double Principle, double Rate, double Time){
 		double simpleInterest = (Principle*Rate*Time)/100;

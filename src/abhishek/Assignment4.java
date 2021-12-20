@@ -1,3 +1,4 @@
+package abhishek;
 class Assignment4 {
 	void dayDetermination(int dayIndex) {
 		if (dayIndex>=1 && dayIndex<=5)

@@ -1,3 +1,4 @@
+package abhishek;
 class Assignment6 {
 	void printChar(String name) {
 		System.out.println("characters of the name " +name+ " are:");
