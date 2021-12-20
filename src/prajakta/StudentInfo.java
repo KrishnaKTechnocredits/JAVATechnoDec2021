@@ -1,34 +1,35 @@
-package sagarShrikhande;
-class Assignment2{
-	
+package prajakta;
+
+class StudentInfo{
+    
 	String name, middlename, surname, birthdate, address;
 	int rollNumber;
 	
 	void setData(){
-		name = "Sagar";
-		middlename = "N";
-		surname = "Shrikhande";
-		birthdate = "22nd March 1991";
-		address = "C2 605 Green County Phase1, Hadapsar, Pune.";
-		rollNumber = 7065;
+		name = "Prajakta";
+		middlename = "Sanjay";
+		surname = "Shinde";
+		birthdate = "3rd May 1998";
+		address = "Sahastrarjun Nagar, Solapur.";
+		rollNumber = 1132;
 	}
-	
+
 	void studentName(){
 		System.out.println(name);
 		System.out.println(middlename);
 		System.out.println(surname);
 	}
-	
+
 	void studentOtherDetails(){
 		System.out.println(birthdate);
 		System.out.println(address);
 		System.out.println(rollNumber);
 	}
-	
+
 	public static void main(String[] a){
-		Assignment2 assignment2 = new Assignment2();
-		assignment2.setData();
-		assignment2.studentName();
-		assignment2.studentOtherDetails();
-	}
+		StudentInfo studentInfo = new StudentInfo();
+		studentInfo.setData();
+		studentInfo.studentName();
+		studentInfo.studentOtherDetails();
+	}	
 }
