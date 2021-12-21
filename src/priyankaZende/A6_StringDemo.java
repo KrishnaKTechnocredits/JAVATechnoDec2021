@@ -1,5 +1,11 @@
+/*Assignment - 6 : 18th Dec'21
+1.Print characters in stringdemo
+2.Print characters in string in reverse order
+3.Print occurance of given charater in string
+*/
+
 package priyankaZende;
-class A61_StringDemo{
+class A6_StringDemo{
 	void printAllCharsFromString(String name){
 		System.out.println("Print all chars from string:" + "\n");
 		for(int index=0;index < name.length();index++){
@@ -16,7 +22,7 @@ class A61_StringDemo{
 	}
 
 	public static void main(String[] args){
-		A61_StringDemo stringDemo = new A61_StringDemo();
+		A6_StringDemo stringDemo = new A6_StringDemo();
 		stringDemo.printAllCharsFromString("Technocredits");
 		stringDemo.reverseString("Technocredits");
 	}

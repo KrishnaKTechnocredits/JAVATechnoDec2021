@@ -1,6 +1,17 @@
-/* Find weekdays or weekend based on dayIndex. */
+/*Assignment - 4 : 16th Dec2021
+
+Program 1: Find weekdays or weekend based on dayIndex.
+1 -> Monday
+2 -> Tuesday
+7 -> Sunday
+
+dayIndex -> 3 : Weekday
+dayIndex -> 6 : WeekEnd
+dayIndex -> 11 : Invalid Index
+dayIndex -> -3 : Invalid Index*/
+
 package priyankaZende;
-class A63_WeekDayWeekEnd{
+class A4_WeekDayWeekEndDemo{
 	void printWeekStatus(int dayIndex){
 		if(dayIndex >=1 && dayIndex<=5){
 			System.out.println("dayIndex -> " + dayIndex + " : Weekday" );
@@ -27,7 +38,7 @@ class A63_WeekDayWeekEnd{
 	}	
 	
 	public static void main(String[] args){
-		A63_WeekDayWeekEnd weekDayWeekEnd = new A63_WeekDayWeekEnd();
+		A4_WeekDayWeekEndDemo weekDayWeekEnd = new A4_WeekDayWeekEndDemo();
 		weekDayWeekEnd.printWeekStatus(3);
 		weekDayWeekEnd.printWeekStatus(6);
 		weekDayWeekEnd.printWeekStatus(11);
