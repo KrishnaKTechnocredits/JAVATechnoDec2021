@@ -1,4 +1,6 @@
-class Assignment5{
+package priya;
+
+public class Assignment5{
 
 	void evenNumber(int startIndex,int endIndex ){
 		System.out.println("Even numbers are as follows :");

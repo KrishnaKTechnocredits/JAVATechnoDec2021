@@ -1,6 +1,6 @@
 package dharam;
 
-class Assignment6{
+public class A6_Numbers{
 
 	void evenNumber(int startIndex, int endIndex){
 		for (int num= startIndex; num<= endIndex; num++){
