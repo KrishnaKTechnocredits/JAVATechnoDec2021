@@ -1,6 +1,6 @@
 package krishna;
 
-class Calculator{
+class A3_Calculator{
     int Number1 = 100;
 	int Number2 = 20;
 	  
