@@ -1,5 +1,5 @@
 package sagarShrikhande;
-class Assignment2{
+class Assignemnt2{
 	
 	String name, middlename, surname, birthdate, address;
 	int rollNumber;
@@ -26,7 +26,7 @@ class Assignment2{
 	}
 	
 	public static void main(String[] a){
-		Assignment2 assignment2 = new Assignment2();
+		Assignemnt2 assignment2 = new Assignemnt2();
 		assignment2.setData();
 		assignment2.studentName();
 		assignment2.studentOtherDetails();
