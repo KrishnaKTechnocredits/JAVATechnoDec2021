@@ -18,4 +18,4 @@ class WeekendIndex{
 		wi.findWeekdays(-2);
 		
 	}
-   
+}
