@@ -1,3 +1,5 @@
+package dharam;
+
 class Assignment6{
 
 	void evenNumber(int startIndex, int endIndex){
@@ -36,7 +38,7 @@ class Assignment6{
 	
 	void divideByBy(int startIndex, int endIndex){
 		for (int num= startIndex; num>endIndex; num++){
-			if(num%7==0 || num%13==0);{
+			if(num%7==0 || num%13==0){
 				if (num%7==0);
 					System.out.println("7 is divisible by"+ num);
 				if (num%13==0);

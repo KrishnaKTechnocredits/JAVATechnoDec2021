@@ -16,6 +16,6 @@ class WeekendIndex{
 		wi.findWeekdays(6);
 		wi.findWeekdays(12);
 		wi.findWeekdays(-2);
-		
 	}
+}
    
