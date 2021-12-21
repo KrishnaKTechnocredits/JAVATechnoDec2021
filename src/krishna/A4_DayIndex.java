@@ -1,6 +1,6 @@
 package krishna;
 
-class A4_DayIndex{
+public class A4_DayIndex{
 	void dayIndex_1(int index){
 		if(index >= 1 && index <= 5)
 			System.out.println("Weekdays");
@@ -11,7 +11,7 @@ class A4_DayIndex{
 	}
 	
 	public static void main(String[] args){
-		DayIndex dayIndex = new DayIndex();
+		A4_DayIndex dayIndex = new A4_DayIndex();
 		dayIndex.dayIndex_1(3);
 		dayIndex.dayIndex_1(6);
 		dayIndex.dayIndex_1(11);
