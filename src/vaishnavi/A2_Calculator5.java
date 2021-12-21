@@ -1,5 +1,6 @@
 package vaishnavi;
-class A2_Calculator5{
+
+public class A2_Calculator5{
 	
 	void add(int a, int b){
 		int ans = a + b;

@@ -1,4 +1,6 @@
 package vaishnavi;
+
+public
 class A4_Weekdays{
 	
 	void display(int dayIndex){

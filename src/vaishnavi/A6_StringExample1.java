@@ -1,4 +1,6 @@
 package vaishnavi;
+
+public
 class A6_StringExample1 {
 
 	void displayChar(String name) {
