@@ -1,4 +1,6 @@
-class CalculatorPeraTask{
+package dharam;
+
+public class CalculatorPeraTask{
 	
 	void add(int number1, int number2){
 		int ans = number1 + number2;
