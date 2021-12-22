@@ -11,12 +11,11 @@ public class A8_BankSystem {
 	String username;
 	int balance;
 
-
-
 	void setUsersDetails(String user, int bal) {
 		username = user;
 		balance = bal;
 	}
+	
 	void debitAmount(int amt) {
 		if(amt <= balance) {
 			System.out.println("amount to be debited is -" + amt);
@@ -25,6 +24,7 @@ public class A8_BankSystem {
 			debitIndividualCount++;
 			debitAllCount++;
 		}
+		
 		else {
 			System.out.println("Debit amount - " + amt + " is more than the balance - " + balance);
 		}
@@ -38,6 +38,7 @@ public class A8_BankSystem {
 			creditIndividualCount++;
 			creditAllCount++;
 		}
+		
 		else {
 			System.out.println("Credit amount is less that zero");
 		}
@@ -53,7 +54,7 @@ public class A8_BankSystem {
 		System.out.println(username + " - Transaction Summary : Credit - " + creditIndividualCount + " times, Debit - " + debitIndividualCount + " times, Print Balance - " + printBalancecount + " times");
 	}
 
-	void allTransactionSummary() {
+	static void allTransactionSummary() {
 		System.out.println("All Transaction Summary : Credit - " + creditAllCount + " times, Debit - " + debitAllCount + " times, Print Balance - " + printAllCount + " times");
 	}
 
@@ -76,6 +77,6 @@ public class A8_BankSystem {
 		bank2.individualTransactionSummary();
 		bank2.individualTransactionSummary();
 
-		bank2.allTransactionSummary();
+		A8_BankSystem.allTransactionSummary();
 	}
 }
