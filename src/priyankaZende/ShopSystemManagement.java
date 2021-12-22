@@ -2,11 +2,11 @@ package priyankaZende;
 
 public class ShopSystemManagement {
 
-	static int stocksOfMaggie;
-	static int stocksOfDosa;
-	static int stocksOfOilPouches;
-	static int stocksOfPanipuri;
-	static int stocksOfMasalas;
+	int stocksOfMaggie;
+	int stocksOfDosa;
+	int stocksOfOilPouches;
+	int stocksOfPanipuri;
+	int stocksOfMasalas;
 
 	void setInitialStocks(int initialStocksOfMaggie, int initialStocksOfDosa, int initialStocksOfOilPouches,
 			int initialStocksOfPanipuri, int initialStocksOfMasalas) {
