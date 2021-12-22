@@ -26,8 +26,12 @@ public class Shop {
 		System.out.println("Initial Panipuri Packets are = " + inPanipuri);
 		System.out.println("Initial Masala Packets are = " + inMasala);
 	}
+	
 
 	void purchaseItem(int maggieQuan, int dosaQuan, int pouchQuan, int panipuriQuan, int masalaQuan) {
+		System.out.println("Order List of Customer ");
+		System.out.println("\nMaggie Quantity = "+maggieQuan+"\nDosa Quantity"+dosaQuan+"\nOil Quantity"+pouchQuan+"\npanipuri Quantity"+panipuriQuan+"\nMasala Quantity"+masalaQuan+"\n");
+		
 		System.out.println("\n******************** Maggie Sesion ********************");
 		if (maggieQuan > 0 && maggieQuan <= inMaggie) {
 			inMaggie = inMaggie - maggieQuan; // printAvailableStockItem();
@@ -120,10 +124,13 @@ public class Shop {
 		if (inMasala != 0)
 			System.out.println("Masala  packets = " + inMasala);
 	}
-
+	
+		
 	public static void main(String[] args) {
 		Shop shop = new Shop();
+		
 		shop.initialStock();
+		System.out.println("");
 		shop.purchaseItem(40, 75, 39, -30, 0);
 		shop.printAvailableStockItem();
 	}
