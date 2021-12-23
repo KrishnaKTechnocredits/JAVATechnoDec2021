@@ -7,7 +7,7 @@ public class A10_PrimeNumber {
 	void numberIsPrime(int num) {
 		boolean flag = true;
 		
-		for(int index=2; index<=num/2; index++) {			
+		for(int index=2; index<num/2; index++) {			
 			if(num%index == 0) {
 				flag = false;
 				break;
@@ -41,8 +41,6 @@ public class A10_PrimeNumber {
 	
 	public static void main(String[] args) {
 		A10_PrimeNumber primeNum = new A10_PrimeNumber();
-		
-		primeNum.numberIsPrime(7);
 		
 		System.out.println("-----------Prime Number in range are----------- \n");
 		primeNum.printPrimeNumberInGivenRange(100,120);
