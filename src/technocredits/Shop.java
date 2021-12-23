@@ -8,7 +8,7 @@ public class Shop {
 		if(item1RequestedQ <= item1AvailableQ)
 			item1AvailableQ = item1AvailableQ - item1RequestedQ;
 		else
-			System.out.println("Insufficient quantity, requested Q is " + item1RequestedQ + " and available is " + item1AvailableQ);
+			System.out.println("Insufficient    quantity, requested Q is " + item1RequestedQ + " and available is " + item1AvailableQ);
 		
 		if(item2RequestedQ <= item2AvailableQ)
 			item2AvailableQ = item2AvailableQ - item2RequestedQ;
