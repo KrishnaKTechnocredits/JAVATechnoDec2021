@@ -1,3 +1,19 @@
+	/*Assignment - 9 : 22nd Aug'2021
+	Create a system (Shop) which maintains each item's quantity.
+
+	a. Initial stocks of Maggie: 50 Maggie packets 
+	b. Initial stocks of Dosa : 43 packets 
+	c. Initial stocks of pouches : 39 oil packets 
+	d. Initial stocks of panipuri : 43 packets  
+	e. Initial stocks of masala’s : 73 packets.
+
+	Expectation: 
+	1) purchaseItem() method -> Only one Customer came for shopping, he picked different items with different quantities, print a message “Insufficient stock" if a particular item quantity is less than requested quantity, or otherwise deduct requested quantity from total quantity. 
+	2) printOutOfStockItem() method-> Create a method which shows only those items which are "Out of stock".
+	3) printAvailableStockItem() method -> Create a method which shows only those items which are "Available in stock" & respective quantities.
+
+	NOTE : Partial selling is not allowed.*/
+
 package anjali;
 
     public class A9_Shopmanaage {
@@ -13,33 +29,38 @@ package anjali;
     	if(maggie_requested_quantity<=stocks_of_Maggie )
 			stocks_of_Maggie=(stocks_of_Maggie-maggie_requested_quantity);
 		else
-			System.out.println("insufficient Stock");
+			System.out.println("insufficient Stock of Maggie");
 			
 	    
 	     if(dosa_requested_quantity<=stocks_of_Dosa )
-	    	  stocks_of_Dosa=(stocks_of_Dosa-maggie_requested_quantity);
+	    	  stocks_of_Dosa=(stocks_of_Dosa-dosa_requested_quantity);
 		 else
-			System.out.println("insufficient Stock");
+			System.out.println("insufficient Stock of dosa ");
 			
 
 	     if(pouches_requested_quantity<=stocks_of_pouches )
-	    	  stocks_of_pouches=(stocks_of_pouches-maggie_requested_quantity);
+	    	  stocks_of_pouches=(stocks_of_pouches-pouches_requested_quantity);
 		 else
-			System.out.println("insufficient Stock");
+			System.out.println("insufficient Stock of pouches");
 			
 			
          if(panipuri__requested_quantity<= stocks_of_panipuri )
-	    	  stocks_of_panipuri=( stocks_of_panipuri-maggie_requested_quantity);
+	    	  stocks_of_panipuri=( stocks_of_panipuri-panipuri__requested_quantity);
 			
 		 else
-			System.out.println("insufficient Stock");
+			System.out.println("insufficient Stock of panipuri");
 			
-			
-	      if(masala_requested_quantity<= stocks_of_masala )
-	    	  stocks_of_masala=( stocks_of_masala-maggie_requested_quantity);
-		 else
-			 System.out.println("insufficient Stock");
-			
+         //if we not allow to add -minus entry
+          if (masala_requested_quantity<0) 
+        	 System.out.println("The return facility is not avaiable");
+        
+          else if(masala_requested_quantity<= stocks_of_masala )
+	    	  stocks_of_masala=( stocks_of_masala-masala_requested_quantity);
+          
+	     
+		  else
+			 System.out.println("insufficient Stock of masala");
+	   
 			
 	 }
 
@@ -88,7 +109,7 @@ package anjali;
 
 	public static void main(String[] args) {
 		A9_Shopmanaage customer= new A9_Shopmanaage();
-		customer.purchaseItem(10,10,10,10,100);
+		customer.purchaseItem(10,20,39,42,-10);
 		customer.printAvailableStockItem();
 		customer.printOutOfStockItem();
 		
