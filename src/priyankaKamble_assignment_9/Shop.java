@@ -131,7 +131,7 @@ public class Shop {
 		
 		shop.initialStock();
 		System.out.println("");
-		shop.purchaseItem(40, 75, 39, -30, 0);
+		shop.purchaseItem(40, 75, 39, 43, 0);
 		shop.printAvailableStockItem();
 	}
 

@@ -1,4 +1,4 @@
-package priyankaKamble_assignment_6;
+package priyankaKamble.assignment_06;
 
 /*********
  * Assignment - 6 : 18th Dec'21 Create a single program for following
