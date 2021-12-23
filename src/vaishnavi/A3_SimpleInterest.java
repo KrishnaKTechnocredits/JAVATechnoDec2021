@@ -1,5 +1,6 @@
 package vaishnavi;
 
+public
 class A3_SimpleInterest{
 	
 	void calculateInterest(int p, int t, float r){
