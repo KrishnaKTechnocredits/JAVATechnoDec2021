@@ -1,5 +1,6 @@
 package vaishnavi;
 
+public
 class A5_Assignment5{
 	
 	void printEvenNumbers(int startIndex, int endIndex){ 

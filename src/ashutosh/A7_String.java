@@ -22,9 +22,9 @@ public class A7_String{
 	
 	public static void main(String[] args){
 		A7_String sm = new A7_String();
-		sm.evenPosition("ashutoshshahi");
+		sm.evenPosition("ashutosh");
 		System.out.println();
 		System.out.println("-------");
-		sm.vowel("ashutoshshahi");
+		sm.vowel("ashutosh");
 	}	
 }
