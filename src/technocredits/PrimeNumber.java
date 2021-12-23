@@ -32,7 +32,7 @@ public class PrimeNumber {
 		for(int startNum = fnum; startNum<=lnum; startNum++) {
 			isPrimeNumber(startNum);
 		}
-		System.out.println(sum);
+		//System.out.println(sum);
 	}
 	
 	public static void main(String[] args) {
