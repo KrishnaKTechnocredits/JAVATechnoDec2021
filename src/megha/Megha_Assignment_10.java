@@ -2,7 +2,7 @@ package megha;
 
 public class Megha_Assignment_10 {
 
-	int count; 
+	int count;
 	double avg, sum;
 
 	void isPrime(int num) {
