@@ -67,7 +67,7 @@ package anjali;
 			//a1PrimeNumberAllprogramms.isNumberPrime(17);
 		
 			
-			a1PrimeNumberAllprogramms.printNumberInGivenRange(1,100);
+			a1PrimeNumberAllprogramms.printNumberInGivenRange(1,50);
 			
 			a1PrimeNumberAllprogramms.printTotalCountOFNumberInGivenRange();
 			a1PrimeNumberAllprogramms.printSumOFNumberInGivenRange();
