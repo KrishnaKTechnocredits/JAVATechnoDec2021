@@ -10,7 +10,7 @@ public class MethodCount {
 	}
 	
 	void display() {
-		System.out.println(count);
+		System.out.println(   count);
 	}
 	
 	static void totalCountDisplay() {
