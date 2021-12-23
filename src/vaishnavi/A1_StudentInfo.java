@@ -1,6 +1,6 @@
 package vaishnavi;
 
-class A1_StudentInfo {
+public class A1_StudentInfo {
 
 	String name,middlename,surname,birthdate,address;
 	int rollNumber;
