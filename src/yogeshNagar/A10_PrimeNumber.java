@@ -42,8 +42,10 @@ public class A10_PrimeNumber {
 	public static void main(String[] args) {
 		A10_PrimeNumber primeNum = new A10_PrimeNumber();
 		
+		primeNum.numberIsPrime(7);
+		
 		System.out.println("-----------Prime Number in range are----------- \n");
-		primeNum.printPrimeNumberInGivenRange(2,100);
+		primeNum.printPrimeNumberInGivenRange(100,120);
 		System.out.println(" ");
 		primeNum.printCountPrimeNumberInRange();
 		System.out.println(" ");
