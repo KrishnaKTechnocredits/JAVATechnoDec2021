@@ -31,12 +31,12 @@ public class A10_PrimeNumber {
 	}
 	
 	void printSumOfPrimeNumberInRange() {
-		System.out.println("Total prime number in range is "+sumPrimeNumber);			
+		System.out.println("Sum of prime number in range is "+sumPrimeNumber);			
 	}
 	
 	void printAvgOfPrimeNumberInRange() {
-		double avgPrimeNumber = sumPrimeNumber/countPrimeNumber;
-		System.out.println(avgPrimeNumber);
+		double avgPrimeNumber = (double)sumPrimeNumber/countPrimeNumber;
+		System.out.println("Avarage of prime number in range is "+avgPrimeNumber);
 	}
 	
 	public static void main(String[] args) {
@@ -45,17 +45,10 @@ public class A10_PrimeNumber {
 		System.out.println("-----------Prime Number in range are----------- \n");
 		primeNum.printPrimeNumberInGivenRange(2,100);
 		System.out.println(" ");
-
-		System.out.println("-----------Total Prime Number in range is-------- \n");
 		primeNum.printCountPrimeNumberInRange();
 		System.out.println(" ");
-
-		System.out.println("-----------Sum of Prime Number in range is-------- \n");
-		primeNum.printSumOfPrimeNumberInRange();
-		
+		primeNum.printSumOfPrimeNumberInRange();		
 		System.out.println(" ");
-
-		System.out.println("-----------Avg of Prime Number in range is-------- \n");
 		primeNum.printAvgOfPrimeNumberInRange();
 	}
 }
