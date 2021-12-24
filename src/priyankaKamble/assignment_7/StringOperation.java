@@ -1,5 +1,4 @@
 package priyankaKamble.assignment_7;
-
 /*********
  * 
  * Assignment - 7 : 19th Dec'2021 Create only one program having following 2
