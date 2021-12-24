@@ -65,12 +65,12 @@ class A8_TransactionSummary {
 		user2.allTransactionSummary();
 
 		A8_TransactionSummary user3 = new A8_TransactionSummary();
-		user2.setUserDetails("Jayesh",500);
-		user2.credit(5500);
-		user2.debit(2500);
-		user2.debit(4000);
-		user2.printBalance();
-		user2.individualTransactionSummary();
-		user2.allTransactionSummary();
+		user3.setUserDetails("Jayesh",500);
+		user3.credit(5500);
+		user3.debit(2500);
+		user3.debit(4000);
+		user3.printBalance();
+		user3.individualTransactionSummary();
+		user3.allTransactionSummary();
 	}
 } 
