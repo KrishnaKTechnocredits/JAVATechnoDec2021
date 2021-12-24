@@ -13,36 +13,64 @@ public class A9_ShopSystem {
 	}
 	
 	void purchaseItem(int maggie, int dosa, int pouches, int panipuri, int masala) {
-		stockMaggie = stockMaggie - maggie;
-		stockDosa = stockDosa - dosa;
-		stockPouches = stockPouches - pouches;
-		stockPanipuri = stockPanipuri - panipuri;
-		stockMasala = stockMasala - masala;
-		System.out.println(" Customer bought below items : ");
-		if(maggie > 0)
+		System.out.println(" Customer Transaction : ");
+		if(maggie > 0 && maggie <= stockMaggie) {
+			stockMaggie = stockMaggie - maggie;
 			System.out.println(" Maggie : " + maggie);
-		if(dosa > 0)
+		}else if(maggie != 0){
+			System.out.println(" Requested quantity of maggie : " + maggie + " is not available");
+		}
+		if(dosa > 0 && dosa <= stockDosa) {
+			stockDosa = stockDosa - dosa;
 			System.out.println(" Dosa : " + dosa);
-		if(pouches > 0)
+		}else if(dosa != 0){
+			System.out.println(" Requested quantity of dosa : " + dosa + " is not available");
+		}
+		if(pouches > 0 && pouches <= stockPouches) {
+			stockPouches = stockPouches - pouches;
 			System.out.println(" Pouches : " + pouches);
-		if(panipuri > 0)
+		}else if(pouches != 0){
+			System.out.println(" Requested quantity of pouches : " + pouches + " is not available");
+		}
+		if(panipuri > 0 && panipuri <= stockPanipuri) {
+			stockPanipuri = stockPanipuri - panipuri;
 			System.out.println(" Panipuri : " + panipuri);
-		if(masala > 0)
+		}else if(panipuri != 0){
+			System.out.println(" Requested quantity of panipuri : " + panipuri + " is not available");
+		}
+		if(masala > 0 && masala <= stockMasala) {
+			stockMasala = stockMasala - masala;
 			System.out.println(" Masala : " + masala);
+		}else if(masala != 0){
+			System.out.println(" Requested quantity of masala : " + masala + " is not available");
+		}
 	}
 	
 	void displayOutOfStockItems() {
 		System.out.println(" Below Items are Out Of Stock :");
-		if(stockPanipuri == 0)
+		boolean flag = true;
+		if(stockPanipuri == 0) {
+			flag = false;
 			System.out.println(" Panipuri");
-		if(stockMaggie == 0)
+		}
+		if(stockMaggie == 0) {
+			flag = false;
 			System.out.println(" Maggie");
-		if(stockMasala == 0)
+		}
+		if(stockMasala == 0) {
+			flag = false;
 			System.out.println(" Masala");
-		if(stockPouches == 0)
+		}
+		if(stockPouches == 0) {
+			flag = false;
 			System.out.println(" Pouches");
-		if(stockDosa == 0)
+		}
+		if(stockDosa == 0) {
+			flag = false;
 			System.out.println(" Dosa");
+		}	
+		if(flag == true)
+			System.out.println(" Yipeee !! Nothing to show here ! ");
 	}
 	
 	void displayAvailableItemsWithQuantity() {
@@ -66,7 +94,7 @@ public class A9_ShopSystem {
 		System.out.println();
 		shopSystem.displayAvailableItemsWithQuantity();
 		System.out.println();
-		shopSystem.purchaseItem(50, 23, 0, 33, 0);
+		shopSystem.purchaseItem(55, 23, 0, 33, 0);
 		System.out.println();
 		shopSystem.displayOutOfStockItems();
 		System.out.println();
