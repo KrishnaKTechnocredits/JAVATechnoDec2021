@@ -11,34 +11,21 @@ Write a program with following methods.
 package deepak;
 
 class A10_PrimeNumbers {
-	int count;
-	int sum;
+	int count, sum;
+	double avg;
 
-	void verifyPrimeNumber(int num) {
+	void verifyPrimeNumber(int num, boolean notPrime) {
 		boolean prime = true;
 		for (int index = 2; index <= num / 2; index++) {
 			if (num % index == 0) {
-				System.out.println(num+" is not a prime number");
+				if (notPrime == true)
+					System.out.println(num + " is not a prime number");
 				prime = false;
 				break;
 			}
 		}
 		if (prime == true) {
-			System.out.println(num+" is a prime number");
-		}
-	}
-	
-	void printPrimeNumber(int num) {
-		boolean prime = true;
-		for (int index = 2; index <= num / 2; index++) {
-			if (num % index == 0) {
-				//System.out.println(num+" is not a prime number");
-				prime = false;
-				break;
-			}
-		}
-		if (prime == true) {
-			System.out.println(num+" is a prime number");
+			System.out.println(num + " is a prime number");
 			count++;
 			sum = sum + num;
 		}
@@ -46,36 +33,49 @@ class A10_PrimeNumbers {
 
 	void primeNumbersInRange(int startNum, int endNum) {
 		System.out.println("***************************************************************************");
-		System.out.println("Number of prime numbers in the range: "+startNum+" to  "+endNum);
+		System.out.println("Number of prime numbers in the range: " + startNum + " to  " + endNum);
 		for (int index = startNum; index <= endNum; index++) {
-			printPrimeNumber(index);
+			verifyPrimeNumber(index, false);
 		}
 		System.out.println("***************************************************************************");
 	}
 
-	void primeNumbersCountInRange() {
-		System.out.println("Number of prime numbers in the range: " +count);
+	void primeNumbersCountInRange(int startNum, int endNum) {
+		count = 0;
+		for (int index = startNum; index <= endNum; index++) {
+			verifyPrimeNumber(index, false);
+		}
+		System.out.println("Number of prime numbers in the range: " + count);
 		System.out.println("***************************************************************************");
 	}
 
-	void primeNumbersSumInRange() {
-		System.out.println("Sum of prime numbers in the range: " +sum);
+	void primeNumbersSumInRange(int startNum, int endNum) {
+		sum = 0;
+		for (int index = startNum; index <= endNum; index++) {
+			verifyPrimeNumber(index, false);
+		}
+		System.out.println("Sum of prime numbers in the range: " + sum);
 		System.out.println("***************************************************************************");
 	}
 
-	void primeNumbersAvgInRange() {
-		double avg = (double) sum / count;
+	void primeNumbersAvgInRange(int startNum, int endNum) {
+		sum = 0;
+		count = 0;
+		for (int index = startNum; index <= endNum; index++) {
+			verifyPrimeNumber(index, false);
+		}
+		avg = (double) sum / count;
 		System.out.println("Average of prime numbers in the range: " + avg);
 		System.out.println("***************************************************************************");
 	}
 
 	public static void main(String[] args) {
 		A10_PrimeNumbers primenumber = new A10_PrimeNumbers();
-		primenumber.verifyPrimeNumber(132);
-		primenumber.verifyPrimeNumber(97);
-		primenumber.primeNumbersInRange(2, 20);
-		primenumber.primeNumbersCountInRange();
-		primenumber.primeNumbersSumInRange();
-		primenumber.primeNumbersAvgInRange();
+		primenumber.verifyPrimeNumber(132, true);
+		primenumber.verifyPrimeNumber(97, true);
+		primenumber.primeNumbersInRange(2, 10);
+		primenumber.primeNumbersCountInRange(2, 10);
+		primenumber.primeNumbersSumInRange(2, 10);
+		primenumber.primeNumbersAvgInRange(2, 10);
 	}
 }
