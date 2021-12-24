@@ -73,7 +73,7 @@ public class A10_Prime {
 
 	public static void main(String[] args) {
 		A10_Prime prime = new A10_Prime();
-		// prime.findPrime(23);
+		prime.findPrime(24);
 		prime.findRange(7, 17);
 		prime.findSum();
 		prime.findCount();
