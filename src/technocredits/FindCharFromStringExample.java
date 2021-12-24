@@ -26,7 +26,7 @@ public class FindCharFromStringExample {
 		boolean flag = false;
 		for(int index=0;index<name.length();index++) {
 			if(name.charAt(index) == 'c') {
-				System.out.println(index);
+				System.out.println(   index);
 				flag = true;
 				break;
 			}
