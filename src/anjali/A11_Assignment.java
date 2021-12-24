@@ -55,8 +55,7 @@ public class A11_Assignment {
 		  }
 		return count;
 	 }
-	 
-	public static void main(String[] args) {
+	 public static void main(String[] args) {
 			A11_Assignment assignment11 = new A11_Assignment();
 			assignment11.firstOccurrenceOfCharInString("Technocredit",'e');
 			assignment11.lastOccurrenceOfCharInString("Technocredit",'e');
