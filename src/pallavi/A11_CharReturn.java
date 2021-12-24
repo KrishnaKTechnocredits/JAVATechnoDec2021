@@ -75,7 +75,6 @@ public class A11_CharReturn {
 		int totalOccurance = a11_CharReturn.getTotalOccuranceOfChar("technocredits", 'a');
 		if (totalOccurance >= 0) {
 			System.out.println(totalOccurance);
-		} else
-			System.out.println("Given character is not present in string");
+		}
 	}
 }
