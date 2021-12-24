@@ -14,7 +14,7 @@ public class A11_Assignment {
 		 int index;
 		 for( index=0;index<Name.length();index++){
 			 if(Name.charAt(index)==ch) {
-				 System.out.println("The first occurence of "+ch+" charater is "+index);
+				 System.out.println("The first occurence of "+ch+" charater in string "+Name +"is "+index);
 			    break;
 			 }
 		 } 
@@ -27,7 +27,7 @@ public class A11_Assignment {
 			 {
 				 if(Name.charAt(index)==ch)
 				 {
-					 System.out.println("The last occurence of "+ch+" charater is "+index);
+					 System.out.println("The last occurence of "+ch+" charater in string "+Name+"is "+index);
 				   break;
 				 }
 			 } 
@@ -39,9 +39,11 @@ public class A11_Assignment {
 		 boolean flag=false;
 		 for( index=0;index<Name.length();index++){
 			 if(Name.charAt(index)==ch)
+				 System.out.println();
 				 flag=true;
 		}
 		return flag;
+		
 	 }
 	 
 	int totalOccOfChar(String Name, char ch){
@@ -54,18 +56,14 @@ public class A11_Assignment {
 		return count;
 	 }
 	 
-	 
-	 
-		
-		
-		public static void main(String[] args) {
+	public static void main(String[] args) {
 			A11_Assignment assignment11 = new A11_Assignment();
 			assignment11.firstOccurrenceOfCharInString("Technocredit",'e');
 			assignment11.lastOccurrenceOfCharInString("Technocredit",'e');
 			boolean b=assignment11.charFound("Technocredit",'e');
 			System.out.println(b);
 			int sum=assignment11.totalOccOfChar("Technocredit",'e');
-			System.out.println(sum);
+			System.out.println("The total occurnace of given char is :"+sum);
 	}
 
 }
