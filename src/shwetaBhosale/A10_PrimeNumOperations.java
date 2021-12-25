@@ -1,16 +1,17 @@
-public class A10_PrimeNumberOperations {
+package shwetaBhosale;
+
+public class A10_PrimeNumOperations {
 
 	int countOfPrime = 0, sumOfPrime = 0;
 	float avgOfPrime = 0;
 
 	void isPrime(int num) {
 		boolean flag = true;
-		for(int i=2; i<=(num/2); i++) {
-			if(num%i == 0)
+		for (int i = 2; i <= (num / 2); i++) {
+			if (num % i == 0)
 				flag = false;
 		}
-		if(flag == true)
-		{
+		if (flag == true) {
 			countOfPrime++;
 			sumOfPrime = sumOfPrime + num;
 			System.out.println(" " + num);
@@ -19,15 +20,15 @@ public class A10_PrimeNumberOperations {
 
 	void printPrimeNumbersForRange(int start, int end) {
 		System.out.println(" Prime Numbers in range (" + start + "," + end + ") are : ");
-		for(int i=start; i<=end; i++) {
+		for (int i = start; i <= end; i++) {
 			isPrime(i);
-		}	
+		}
 	}
 
 	void countPrimeNumbersForRange(int start, int end) {
 		countOfPrime = 0;
 		System.out.println(" Prime Numbers in range (" + start + "," + end + ") are : ");
-		for(int i=start; i<=end; i++) {
+		for (int i = start; i <= end; i++) {
 			isPrime(i);
 		}
 		System.out.println();
@@ -37,7 +38,7 @@ public class A10_PrimeNumberOperations {
 	void sumOfPrimeNumbersForRange(int start, int end) {
 		sumOfPrime = 0;
 		System.out.println(" Prime Numbers in range (" + start + "," + end + ") are : ");
-		for(int i=start; i<=end; i++) {
+		for (int i = start; i <= end; i++) {
 			isPrime(i);
 		}
 		System.out.println();
@@ -48,7 +49,7 @@ public class A10_PrimeNumberOperations {
 		countOfPrime = 0;
 		sumOfPrime = 0;
 		System.out.println(" Prime Numbers in range (" + start + "," + end + ") are : ");
-		for(int i=start; i<=end; i++) {
+		for (int i = start; i <= end; i++) {
 			isPrime(i);
 		}
 		avgOfPrime = (sumOfPrime / countOfPrime);
@@ -58,7 +59,7 @@ public class A10_PrimeNumberOperations {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		A10_PrimeNumberOperations primeNumberOperations = new A10_PrimeNumberOperations();
+		A10_PrimeNumOperations primeNumberOperations = new A10_PrimeNumOperations();
 		System.out.println(" Print Number if it is prime : ");
 		primeNumberOperations.isPrime(31);
 		System.out.println();
@@ -70,5 +71,4 @@ public class A10_PrimeNumberOperations {
 		System.out.println();
 		primeNumberOperations.averageOfPrimeNumbersForRange(31, 40);
 	}
-} 
- 
+}
