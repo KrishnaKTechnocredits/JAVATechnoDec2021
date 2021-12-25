@@ -12,7 +12,7 @@ public class Test1_NonRepeatingCharacter {
 	void findFirstNonRepeatingChar(String input) {
 		for (int index = 0; index < input.length(); index++) {
 			if (input.indexOf(input.charAt(index)) == input.lastIndexOf(input.charAt(index))) {
-				System.out.println("Fisrt Non Repeating Character is :" + input.charAt(index));
+				System.out.println("First Non Repeating Character is :" + input.charAt(index));
 				break;
 			}
 		}
