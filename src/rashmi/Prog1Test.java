@@ -1,8 +1,7 @@
 package rashmi;
 
 public class Prog1Test {
-
-		  public void NonRepeatingChar(String str1) {
+	 public void NonRepeatingChar(String str1) {
 		   for (int i = 0; i < str1.length(); i++) {
 		   boolean unique = true;
 		   for (int j = 0; j < str1.length(); j++) {
