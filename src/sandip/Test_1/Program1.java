@@ -4,20 +4,24 @@ public class Program1 {
 	int sum;
 	int count;
 
-	void isPrimeNumber(int startnum, int endnum) {
-		for (int index = startnum; index <= endnum / 2; index++) {
-			boolean flag = true;
-			if (index % 2 == 0) {
+	void isPrimeNumber(int num) {
+		boolean flag = true;
+		for (int index = 2; index <= num / 2; index++) {
+			if (num % index == 0) {
 				flag = false;
-			}
-			if (flag == true) {
-				System.out.println(index + "is a prime number");
-				count++;
-				sum = sum + index;
-			}
-			if (count >= 10) {
 				break;
 			}
+		}
+		if (flag == true && count < 10) {
+			System.out.println(num + " is a prime number");
+			count++;
+			sum = sum + num;
+		}
+	}
+
+	void primeRange(int startnum, int endnum) {
+		for (int index = startnum; index <= endnum; index++) {
+			isPrimeNumber(index);
 		}
 		System.out.println("Count :" + count);
 		System.out.println("Sum is :" + sum);
@@ -25,6 +29,6 @@ public class Program1 {
 
 	public static void main(String[] args) {
 		Program1 primeNo = new Program1();
-		primeNo.isPrimeNumber(10, 100);
+		primeNo.primeRange(10, 100);
 	}
 }
