@@ -2,7 +2,6 @@ package vivek;
 
 public class SumOfPrimeNumbers {
 
-
 	static boolean checkPrime(int numberToCheck)
 	{
 		if(numberToCheck == 1) {
@@ -15,7 +14,6 @@ public class SumOfPrimeNumbers {
 		}
 		return true;
 	}
-
 
 	static int primeSum(int s, int e)
 	{
@@ -30,6 +28,7 @@ public class SumOfPrimeNumbers {
 		}
 		return sum;
 	}
+
 	public static void main(String[] args)
 	{
 		System.out.println(primeSum(1, 50));
