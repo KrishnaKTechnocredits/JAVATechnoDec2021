@@ -93,7 +93,7 @@ public class A9_shop{
 	
 	public static void main(String[] args){
 		A9_shop a9_shop1 = new A9_shop();
-		a9_shop1.purchaseItem(41,50,39,25,100);
+		a9_shop1.purchaseItem(50,43,39,43,73);
 		a9_shop1.outOfStock();
 		a9_shop1.availableItems();
 	}
