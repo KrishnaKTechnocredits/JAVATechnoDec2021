@@ -1,5 +1,7 @@
 package technocredits;
 
+import technocredits.scannerdemo.ScannerExample1;
+
 public class Shop {
 	int item1AvailableQ = 100;
 	int item2AvailableQ = 30;
@@ -50,6 +52,7 @@ public class Shop {
 	}
 	
 	public static void main(String[] args) {
+		ScannerExample1 scEx1 = new ScannerExample1();
 		Shop shop1 = new Shop();
 		shop1.purchaseItem(20, 3);
 		shop1.purchaseItem(10, 2);
