@@ -18,7 +18,7 @@ public class Ass12_CheckFreqOfChar {
 		    }
 		    str =  "Character : "+c+" : "+ charCnt;
 		    if(charCnt>0)
-		    System.out.println("Character : "+c+" : "+ charCnt);
+		    System.out.println("Character frequence : "+c+" : "+ charCnt);
 		}
 		
 	}
