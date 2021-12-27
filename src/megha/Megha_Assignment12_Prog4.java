@@ -14,7 +14,7 @@ public class Megha_Assignment12_Prog4 {
 			num = num / 10;
 		}
 
-		System.out.println("The Reverse Number of " + num + " is : " + revNum);
+		System.out.println("The Reverse Number of " + " is : " + revNum);
 
 	}
 
