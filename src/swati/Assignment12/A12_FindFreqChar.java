@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class A12_FindFreqChar {
 
+	int count;
+	int index;
 	void findRep(String name) {
 
 		for (int i = 0; i < name.length(); i++) {
@@ -14,6 +16,7 @@ public class A12_FindFreqChar {
 
 				if (name.charAt(i) == name.charAt(j)) {
 					count++;
+					index=i;
 
 				}
 
@@ -22,9 +25,11 @@ public class A12_FindFreqChar {
 				System.out.println("Repeated character " + name.charAt(i) + " is " + count);
 
 			}
+			
 
 		}
 
+		
 	}
 
 	public static void main(String[] args) {

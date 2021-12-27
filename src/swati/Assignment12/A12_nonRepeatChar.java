@@ -30,6 +30,7 @@ public class A12_nonRepeatChar {
 		}
 		System.out.println("------------------");
 	}
+
 	void findFirstRepeat(String name) {
 		int i = 0;
 
@@ -45,12 +46,12 @@ public class A12_nonRepeatChar {
 		}
 		System.out.println("------------------");
 	}
-	
+
 	void reverseString(String name) {
-		
-		int i=name.length()-1;
-		while(i>=0) {
-			System.out.println("Reverse String is "+name.charAt(i));
+
+		int i = name.length() - 1;
+		while (i >= 0) {
+			System.out.println("Reverse String is " + name.charAt(i));
 			i--;
 		}
 	}
