@@ -1,3 +1,5 @@
+package priya;
+
 class Pmethod{
 	void simpleInt(int p,int t,double r){
 		double ans = (p*t*r)/100;

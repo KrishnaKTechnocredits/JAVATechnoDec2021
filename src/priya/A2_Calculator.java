@@ -1,3 +1,5 @@
+package priya;
+
 class Calculator{
 	int num1=10;
 	int num2=2;

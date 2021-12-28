@@ -18,6 +18,7 @@ public class Test1_P2 {
 			}
 		}
 		
+		
 		void printPrimeNumberInGivenRange(int startNum, int lastNum) {
 			int sumOfNumber=0;
 			for(int index =startNum; index<=lastNum; index++) {

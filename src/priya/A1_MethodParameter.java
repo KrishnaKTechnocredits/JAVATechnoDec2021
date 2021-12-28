@@ -1,3 +1,4 @@
+package priya;
 class Assignment5{
 
 	void evenNumber(int startIndex,int endIndex ){

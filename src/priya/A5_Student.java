@@ -1,5 +1,6 @@
+package priya;
+
 class Student {
-	String start = "Start";
 	String name = "Hello Priya";
 	int age = 25;
 	
@@ -10,7 +11,7 @@ class Student {
 	
 	public static void main (String[] args){
 		Student s = new Student();
-		System.out.println(start);
+		System.out.println("start");
 		s.display();
 		System.out.println("end");	
 	}

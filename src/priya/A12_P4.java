@@ -1,6 +1,6 @@
 package priya;
-
 import java.util.Scanner;
+
 public class A12_P4 {
 
 	void reverseNumber(int num) {

@@ -1,3 +1,5 @@
+package priya;
+
 class StudentInfo{
 	String name,middleName,sirname,birthdate,address;
 	int rNumber;

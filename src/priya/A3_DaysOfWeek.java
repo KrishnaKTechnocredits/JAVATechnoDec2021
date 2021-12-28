@@ -1,3 +1,5 @@
+package priya;
+
 class DaysOfWeek{
 	
 		void dayDetermination(int dayIndex){

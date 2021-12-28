@@ -1,5 +1,4 @@
 package priya;
-
 import java.util.Scanner;
 
 public class A13_P2 {
