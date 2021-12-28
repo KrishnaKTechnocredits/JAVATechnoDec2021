@@ -1,6 +1,6 @@
 package raksha;
 
-class A7_Assignment6{
+class A7_CharPrint{
 	
 	void display(String input)
 	{
@@ -32,7 +32,7 @@ class A7_Assignment6{
 	
 	public static void main(String[]args)
 	{
-		A7_Assignment6 assignment6 = new A7_Assignment6();
+		A7_CharPrint assignment6 = new A7_CharPrint();
 		assignment6.display("techno");
 		assignment6.reverse("techno");
 		assignment6.findCharFreq("rakshawani" ,'a');
