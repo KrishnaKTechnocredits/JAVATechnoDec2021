@@ -1,3 +1,5 @@
+package dharam;
+
 class Calculator{
 
 	int number1 = 10;
