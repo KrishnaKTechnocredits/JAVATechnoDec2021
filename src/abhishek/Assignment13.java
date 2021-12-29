@@ -1,3 +1,4 @@
+package abhishek;
 import java.util.Scanner;
 class Assignment13 {
 	void nonRepeating(String input, boolean firstNonRepeating) {
