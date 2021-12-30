@@ -47,10 +47,10 @@ public class Ass15_Array {
 
 	int evenpositivenum() {
 		int sum = 0;
-		int[] arr = { 10, 20, -33,-55, 2 };
+		int[] arr = { 10, 20, -33, -55, 2 };
 		for (int index = 0; index < arr.length; index++) {
 
-			if ((arr[index] > 0)&&(arr[index] % 2 == 0)) {
+			if ((arr[index] > 0) && (arr[index] % 2 == 0)) {
 
 				sum = sum + arr[index];
 			}
@@ -59,18 +59,20 @@ public class Ass15_Array {
 		return sum;
 
 	}
+
 	String maxlenstring() {
-		
-	String[] arr = {"Karan", "Shweta", "Pallavi", "ArchanaJ", "Sagar"};
-	  String name =arr[0] ;
-	for (int index = 0; index < arr.length; index++) {
-		if(name.length()< arr[index].length()) {
-			name = arr[index];
+
+		String[] arr = { "Karan", "Shweta", "Pallavi", "ArchanaJ", "Sagar" };
+		String name = arr[0];
+		for (int index = 0; index < arr.length; index++) {
+			if (name.length() < arr[index].length()) {
+				name = arr[index];
+			}
+
 		}
-		
+		return name;
 	}
-	return name;
-	}
+
 	static public void main(String[] args) {
 		int[] num = { 10, 45, 22, 99, 33, 5, 55, 250 };
 		Ass15_Array ass15 = new Ass15_Array();
@@ -89,7 +91,7 @@ public class Ass15_Array {
 		String maxname = ass15.maxlenstring();
 		System.out.println("Max length string  in array : " + maxname);
 		System.out.println("-------------------------------------------------");
-		
+
 	}
 
 }
