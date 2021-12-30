@@ -9,19 +9,18 @@ import java.util.Scanner;
 public class A12_ScannerProg2 {
 
 	void findMaxPrime(int startnum, int endnum) {
-		boolean isprime = false;
 		int primeNum = 0;
+
 		for (int index = startnum; index <= endnum; index++) {
+			boolean isprime = true;
 			for (int i = 2; i <= (index / 2); i++) {
 				if (index % i == 0) {
 					isprime = false;
 					break;
-				} else
-					isprime = true;
+				}
 			}
 			if (isprime == true)
 				primeNum = index;
-
 		}
 		System.out.println("Max Prime number is: " + primeNum);
 	}

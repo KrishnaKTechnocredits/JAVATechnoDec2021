@@ -22,7 +22,6 @@ public class A12_ScannerProg3 {
 			if (input.charAt(i) == c) {
 				count++;
 			}
-
 		}
 		return count;
 
@@ -30,13 +29,13 @@ public class A12_ScannerProg3 {
 
 	void getNonRepetingChar(String input) {
 		int count = 0;
+		
 		for (int index = 0; index < input.length(); index++) {
 			count = findCountOfChar(input, input.charAt(index));
 			if (count == 1) {
-				System.out.println("First non repeting char is:" + input.charAt(index));
-
+				System.out.println("First non repeating char is:" + input.charAt(index));
+				break;	
 			}
-			break;
 		}
 		if (count > 1)
 			System.out.println("There is no non-repeating character in string");
@@ -44,13 +43,13 @@ public class A12_ScannerProg3 {
 
 	void getRepetingChar(String input) {
 		int count = 0;
+
 		for (int index = 0; index < input.length(); index++) {
 			count = findCountOfChar(input, input.charAt(index));
 			if (count > 1) {
-				System.out.println("First repeting char is:" + input.charAt(index));
+				System.out.println("First repeating char is:" + input.charAt(index));
 				break;
 			}
-
 		}
 		if (count == 1)
 			System.out.println("There is no repeating character in string");
@@ -60,7 +59,6 @@ public class A12_ScannerProg3 {
 		System.out.println("Reverse string is:");
 		for (int i = input.length() - 1; i >= 0; i--) {
 			System.out.print(input.charAt(i));
-
 		}
 	}
 
