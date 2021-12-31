@@ -22,6 +22,5 @@ public class A13_NonRepeatingChar {
 		nonrepeatingchar.findNonRepeatingChars(str);
 		sc.close();
 	}
-
 }
 
