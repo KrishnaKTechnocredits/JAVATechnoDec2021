@@ -3,8 +3,8 @@ package swati.Swati_DupChar_A14;
 public class A14_findDup {
 
 	void findDup(String name) {
-		int rep=0;
-		int nonRep=0;
+		int rep = 0;
+		int nonRep = 0;
 
 		for (int i = 0; i < name.length(); i++) {
 
@@ -16,17 +16,15 @@ public class A14_findDup {
 					System.out.println(name.charAt(i) + " repeted character ");
 					rep++;
 
-				}
-				else {
+				} else {
 					System.out.println(name.charAt(i) + " are not repeated character");
 					nonRep++;
 				}
 			}
 		}
-		if(nonRep>rep) {
+		if (nonRep > rep) {
 			System.out.println("Selenium");
-		}
-		else {
+		} else {
 			System.out.println("Java");
 		}
 	}
