@@ -12,15 +12,12 @@ public class A13_StringMethods {
 
 	void printDuplicateChars(String input) {
 		System.out.print("Duplicate characters in the string are: ");
-		String str = "";
 		for (int index = 0; index < input.length(); index++) {
 			char ch = input.charAt(index);
-			if (!str.contains(ch + "")) {
-				if (input.indexOf(ch) != input.lastIndexOf(ch))
+				if (input.indexOf(ch) == index)
+					if (input.indexOf(ch) != input.lastIndexOf(ch))
 					System.out.print(ch + " ");
-				str = str + ch;
 			}
-		}
 	}
 
 	void printUniqueChars(String input) {
