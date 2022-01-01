@@ -1,6 +1,6 @@
 package anjali;
 
-public class A8_BankingSystem {
+public class Anjali_Assignment_8_BankingSystem {
 	
       int Balance;
 	  int credit;
@@ -56,7 +56,7 @@ public class A8_BankingSystem {
   		
   	     static  void  allTransactionSummary(){
 
-  	    	 A8_BankingSystem  user1= new  A8_BankingSystem();  	      
+  	    	 Anjali_Assignment_8_BankingSystem  user1= new  Anjali_Assignment_8_BankingSystem();  	      
   	    	 user1.setUserName("Anjali");
   	    	 System.out.println("Trasaction summary for user :"+user1.name);
   	    	 user1.CreditAmount(500);
@@ -69,7 +69,7 @@ public class A8_BankingSystem {
  	
   	    	 System.out.println("*************************************************************");
          
-  	    	 A8_BankingSystem  user2= new  A8_BankingSystem(); 		
+  	    	 Anjali_Assignment_8_BankingSystem  user2= new  Anjali_Assignment_8_BankingSystem(); 		
   	    	 user2.setUserName("Ravi");
  		 	System.out.println("Trasaction summary for user :"+user2.name);
  		 	user2.CreditAmount(500);
@@ -100,7 +100,7 @@ public class A8_BankingSystem {
         
       static void individualTransactionSummary(){
 
-        	 A8_BankingSystem  user1= new  A8_BankingSystem();  	      
+        	 Anjali_Assignment_8_BankingSystem  user1= new  Anjali_Assignment_8_BankingSystem();  	      
  	    	 user1.setUserName("Anjali");
  	    	 System.out.println("Trasaction summary for user :"+user1.name);
  	    	 user1.CreditAmount(500);
@@ -121,7 +121,7 @@ public class A8_BankingSystem {
 		
 		     System.out.println("*************************************************************");
 		     
-		    A8_BankingSystem  user2= new  A8_BankingSystem(); 		
+		    Anjali_Assignment_8_BankingSystem  user2= new  Anjali_Assignment_8_BankingSystem(); 		
   	    	user2.setUserName("Ravi");
  		 	System.out.println("Trasaction summary for user :"+user2.name);
  		 	user2.CreditAmount(500);

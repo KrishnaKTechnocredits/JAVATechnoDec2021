@@ -7,7 +7,7 @@
 
 package anjali;
 
-	public class A10_PrimeNumberAllprogramms {
+	public class Anjali_Assignment10_PrimeNumberAllprogramms {
 		  int count;
 		  int sum=0;
 		 
@@ -49,7 +49,7 @@ package anjali;
 		  }
 	
 	        public static void main(String[] args) {
-			A10_PrimeNumberAllprogramms a1PrimeNumberAllprogramms=new A10_PrimeNumberAllprogramms();
+			Anjali_Assignment10_PrimeNumberAllprogramms a1PrimeNumberAllprogramms=new Anjali_Assignment10_PrimeNumberAllprogramms();
 			//a1PrimeNumberAllprogramms.isNumberPrime(17);
 	        a1PrimeNumberAllprogramms.printNumberInGivenRange(1,50);
 			a1PrimeNumberAllprogramms.printTotalCountOFNumberInGivenRange();
@@ -61,6 +61,7 @@ package anjali;
 		}
 
 }
+	
 	
 	
 	

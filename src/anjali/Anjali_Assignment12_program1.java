@@ -7,13 +7,13 @@ package anjali;
 
 import java.util.Scanner;
 
-public class A12_program1 {
+public class Anjali_Assignment12_program1 {
 	
 	
 
 	void freqOfEachCharacterInGivenString(String name)
 	{
-		A11_Assignment assignment11 = new A11_Assignment();		
+		Anjali_Assignment11_Assignment assignment11 = new Anjali_Assignment11_Assignment();		
 		String z="";  
 		for(int index=0;index<name.length();index++) 
 		{
@@ -28,7 +28,7 @@ public class A12_program1 {
 	 }
 
 	public static void main(String[] args) {
-		A12_program1 a12_scannerprogram1Example = new A12_program1 ();
+		Anjali_Assignment12_program1 a12_scannerprogram1Example = new Anjali_Assignment12_program1 ();
 		Scanner scanner = new Scanner(System. in);
 		System.out.println("Enter string");
 		String inputString = scanner. next();

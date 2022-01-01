@@ -1,9 +1,9 @@
 package anjali;
 
-public class A5_assigment5 {
+public class Anjali_Assignment_5 {
 
 	public static void main(String[] args) {
-		A5_assigment5 assignment5 = new A5_assigment5();
+		Anjali_Assignment_5 assignment5 = new Anjali_Assignment_5();
 		assignment5.printEvenNumber( 10,15);
 		assignment5.checkDivisibleby5(10,30);
 		assignment5.checkDivisibleby3and5(5,18);

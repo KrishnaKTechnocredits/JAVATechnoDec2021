@@ -1,9 +1,9 @@
 package anjali;
 
-public class A3_SimpleInterestAndTempConverter {
+public class Anjali_Assignment_3_SimpleInterestAndTempConverter {
 
 	public static void main(String[] args) {
-		A3_SimpleInterestAndTempConverter assignmenrt3 = new A3_SimpleInterestAndTempConverter();
+		Anjali_Assignment_3_SimpleInterestAndTempConverter assignmenrt3 = new Anjali_Assignment_3_SimpleInterestAndTempConverter();
 		assignmenrt3.simpleIntersest(3000,9,10);
 		assignmenrt3.converter(39.5);
 

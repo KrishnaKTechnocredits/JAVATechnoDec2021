@@ -1,6 +1,6 @@
 package anjali;
 
-public class A4_CheckDay {
+public class Anjali_Assignment_4_CheckDay {
 
 	public static void main(String[] args) {
 		checkDay(1);

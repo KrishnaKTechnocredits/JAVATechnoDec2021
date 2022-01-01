@@ -5,7 +5,7 @@ package anjali;
 
 import java.util.Scanner;
 
- public class A12_program4 {
+ public class Anjali_Assignment12_program4 {
 	 
 	int reverseNumberByoneWay(int num){
 		int reverse=0;
@@ -28,7 +28,7 @@ import java.util.Scanner;
 	}    
 	
 	public static void main(String[] args) {
-		A12_program4  a12_program4=new  A12_program4();
+		Anjali_Assignment12_program4  a12_program4=new  Anjali_Assignment12_program4();
 		Scanner scanner= new Scanner(System.in);
 		System.out.println("Please Enter the No :");
 		int number=scanner.nextInt();

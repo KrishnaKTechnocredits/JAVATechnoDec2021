@@ -8,7 +8,7 @@ package anjali;
 
 import java.util.Scanner;
 
-public class A12_program2 {
+public class Anjali_Assignment12_program2 {
 	
 	boolean isPrime(int num) {	
 		for(int index = 2; index <= num/2; index++) {
@@ -30,7 +30,7 @@ public class A12_program2 {
     }
      
    public static void main(String[] args) {
-		A12_program2 a12_program2=new A12_program2();
+		Anjali_Assignment12_program2 a12_program2=new Anjali_Assignment12_program2();
 		Scanner scanner= new Scanner(System.in);
 		System.out.println("please Enter the first No :");
 		int startNo =scanner.nextInt();

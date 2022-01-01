@@ -8,7 +8,7 @@
 	5. write a method to return the reverse string. [program-3]*/
 package anjali;
 import java.util.Scanner;
-public class A12_program3 {
+public class Anjali_Assignment12_program3 {
 
 	int countOfCharInString(String input , char ch){    
 		int index =0;
@@ -56,7 +56,7 @@ public class A12_program3 {
 	 }
 	    
 	public static void main(String[] args) {
-		A12_program3 anjaliTest1=new A12_program3();
+		Anjali_Assignment12_program3 anjaliTest1=new Anjali_Assignment12_program3();
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Please enter the String");
 	    String input=scanner.next();
