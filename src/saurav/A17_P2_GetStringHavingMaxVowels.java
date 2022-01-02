@@ -1,6 +1,6 @@
 package saurav;
 
-public class A17_P2_GetStringHavingMaxVowels { // --------------*****---------------//
+public class A17_P2_GetStringHavingMaxVowels { // --------------need to go through it again---------------//
 
 	String manav(String[] input) {
 		int maxVowelCount = 0;
@@ -19,7 +19,7 @@ public class A17_P2_GetStringHavingMaxVowels { // --------------*****-----------
 			}
 			maxVowelsString = currentName;
 		}
-		System.out.println("String having max vowels is :");
+		System.out.print("String having max vowels is : ");
 		System.out.println(maxVowelsString);
 		return maxVowelsString;
 	}
