@@ -26,7 +26,7 @@ output : Abhishek
  */
 package anjali;
 
-public class A15 {
+public class Anjali_Assignment15 {
 	int maxNumber(){
 		int[] arr = {12,-11,99,11,23,-44};
 		int max=arr[0];
@@ -94,7 +94,7 @@ public class A15 {
 	
     
 	public static void main(String[] args) {
-		 A15 a15= new  A15();
+		 Anjali_Assignment15 a15= new  Anjali_Assignment15();
 		 int maxNumber=a15.maxNumber();
 		 System.out.println("The maximum no is given array is : "+maxNumber);
 		 int minNumber= a15.minNumber();

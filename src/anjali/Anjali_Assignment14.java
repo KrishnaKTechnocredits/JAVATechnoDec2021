@@ -15,7 +15,7 @@ package anjali;
 
 import java.util.Scanner;
 
-public class A14 {
+public class Anjali_Assignment14 {
 	
 	void compareCount(String name){
 		String z="";  
@@ -40,7 +40,7 @@ public class A14 {
 	 }
 	
 	public static void main(String[] args) {
-		A14 assignment14= new A14();
+		Anjali_Assignment14 assignment14= new Anjali_Assignment14();
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Please Enter the String :");
 		String input=scanner.next();

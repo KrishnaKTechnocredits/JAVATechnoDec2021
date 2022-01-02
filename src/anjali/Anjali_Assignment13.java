@@ -12,7 +12,7 @@ package anjali;
 
 import java.util.Scanner;
 
-public class A13 {
+public class Anjali_Assignment13 {
 	
 	void printAlluniqueCharString(String name){
 		for(int index=0;index<name.length();index++){
@@ -58,7 +58,7 @@ public class A13 {
 	}
 	
 	public static void main(String[] args) {
-		A13 a13= new A13();
+		Anjali_Assignment13 a13= new Anjali_Assignment13();
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Please Enter the String :");
 		String input=scanner.next();
