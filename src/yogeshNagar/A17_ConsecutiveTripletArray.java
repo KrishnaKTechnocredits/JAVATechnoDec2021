@@ -17,5 +17,4 @@ public class A17_ConsecutiveTripletArray {
 		consecutiveArr.getConsecutiveTriplet(arr);
 
 	}
-
 }

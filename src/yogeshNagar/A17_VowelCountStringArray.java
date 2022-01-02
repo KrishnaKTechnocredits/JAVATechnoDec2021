@@ -31,5 +31,4 @@ public class A17_VowelCountStringArray {
 		String[] nameArray = { "hi", "priyanka", "sandip", "aakanksha", "pallavi", "apurva" };
 		System.out.println(countVowel.getMaxVowelCount(nameArray));
 	}
-
 }
