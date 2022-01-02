@@ -16,7 +16,7 @@
 
 package anjali;
 
-    public class A9_Shopmanaage {
+    public class Anjali_Assignment_9_Shopmanaage {
 	static int  stocks_of_Maggie= 50;
 	static int stocks_of_Dosa= 43; 
 	static int stocks_of_pouches=39;
@@ -108,7 +108,7 @@ package anjali;
 	}
 
 	public static void main(String[] args) {
-		A9_Shopmanaage customer= new A9_Shopmanaage();
+		Anjali_Assignment_9_Shopmanaage customer= new Anjali_Assignment_9_Shopmanaage();
 		customer.purchaseItem(10,20,39,42,-10);
 		customer.printAvailableStockItem();
 		customer.printOutOfStockItem();

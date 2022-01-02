@@ -1,6 +1,6 @@
 package anjali;
 
-public class A6_ReverseString {
+public class Anjali_Assignment_6_ReverseString {
 
 	public static void main(String[] args) {
 		printAllchar("anjali");

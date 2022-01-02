@@ -7,7 +7,7 @@
 
 package anjali;
 
-public class A11_Assignment {
+public class Anjali_Assignment11_Assignment {
 
 	
 	int firstOccurrenceOfCharInString(String Name, char ch) {
@@ -56,7 +56,7 @@ public class A11_Assignment {
 		return count;
 	 }
 	 public static void main(String[] args) {
-			A11_Assignment assignment11 = new A11_Assignment();
+			Anjali_Assignment11_Assignment assignment11 = new Anjali_Assignment11_Assignment();
 			assignment11.firstOccurrenceOfCharInString("Technocredit",'e');
 			assignment11.lastOccurrenceOfCharInString("Technocredit",'e');
 			boolean b=assignment11.charFound("Technocredit",'e');

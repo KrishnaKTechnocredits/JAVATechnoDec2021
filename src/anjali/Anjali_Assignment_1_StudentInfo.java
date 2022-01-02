@@ -1,9 +1,9 @@
 package anjali;
 
-public class A1_StudentInfo {
+public class Anjali_Assignment_1_StudentInfo {
 
 	public static void main(String[] args) {
-		A1_StudentInfo  studentInfo = new A1_StudentInfo ();
+		Anjali_Assignment_1_StudentInfo  studentInfo = new Anjali_Assignment_1_StudentInfo ();
 		studentInfo.setData();
 		studentInfo.studentName();
 		studentInfo.studentOtherDetails();
