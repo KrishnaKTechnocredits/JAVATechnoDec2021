@@ -33,7 +33,7 @@ public class A17_FindVowel {
 
 	public static void main(String[] args) {
 
-		String[] name = { "Swati", "Ansele", "Rochelleia", "Roweena" };
+		String[] name = {"hi","priyanka", "sandip", "aakanksha", "pallavi", "apurva"};
 		A17_FindVowel a17 = new A17_FindVowel();
 		a17.getMaxVowel(name);
 
