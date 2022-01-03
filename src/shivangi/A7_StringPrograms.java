@@ -1,6 +1,6 @@
 package shivangi;
 
-public class StringAssignment7 {
+public class A7_StringPrograms {
 	
 	void printStringAtEvenPlace(String name) {
 		System.out.println("The characters in even spaces are : ");
@@ -22,9 +22,9 @@ public class StringAssignment7 {
 	}
 	
 	public static void main(String[] args) {
-		StringAssignment7 stringAssignment7 = new StringAssignment7();
-		stringAssignment7.printStringAtEvenPlace("Shivangi");
+		A7_StringPrograms a7_StringPrograms = new A7_StringPrograms();
+		a7_StringPrograms.printStringAtEvenPlace("Shivangi");
 		System.out.println();
-		stringAssignment7.printVowelInString("shivangi");
+		a7_StringPrograms.printVowelInString("shivangi");
 	}
 }
