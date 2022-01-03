@@ -10,7 +10,7 @@ total vowels -> 10
 */
 package anjali;
 
-public class A16{
+public class Anjali_Assignment16{
 	
 	void printVowelInString(){
 		String[] arr = {"priyanka", "swati", "acharya", "hevin" };
@@ -30,7 +30,7 @@ public class A16{
 	}
 
 	public static void main(String[] args) {
-		A16 a16 = new A16();
+		Anjali_Assignment16 a16 = new Anjali_Assignment16();
 		a16.printVowelInString();
    }
 
