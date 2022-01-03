@@ -26,7 +26,7 @@ public class A15_ArrayOperations {
 
 	int getMaxNumInArray(int[] input) {
 		int max = input[0];
-		for (int index = 0; index < input.length; index++) {
+		for (int index = 1; index < input.length; index++) {
 			if (max < input[index]) {
 				max = input[index];
 			}
@@ -36,7 +36,7 @@ public class A15_ArrayOperations {
 
 	int getMinNumInArray(int[] input) {
 		int min = input[0];
-		for (int index = 0; index < input.length; index++) {
+		for (int index = 1; index < input.length; index++) {
 			if (min > input[index]) {
 				min = input[index];
 			}
