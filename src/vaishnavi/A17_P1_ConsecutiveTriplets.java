@@ -12,7 +12,7 @@ public class A17_P1_ConsecutiveTriplets {
 	public static void main(String[] args) {
 		A17_P1_ConsecutiveTriplets a17_P1_ConsecutiveTriplets = new A17_P1_ConsecutiveTriplets();
 		int[] arr = {10, 13, 14, 15, 16, 19, 20, 22, 23, 24};
-		System.out.println(" 3 consecutive triplets are : " );
+		System.out.println("3 consecutive triplets are : " );
 		a17_P1_ConsecutiveTriplets.printConsecutiveTriplets(arr);
 
 	}
