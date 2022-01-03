@@ -19,7 +19,7 @@ output : Abhishek
  */
 package shwetaDharmadhikari.array_examples;
 
-public class MaxAndMinNumber {
+public class Assign_15_MaxAndMinNumber {
 
 	int maximumNumber(int[] input) {
 		int index = 0;
@@ -85,7 +85,7 @@ public class MaxAndMinNumber {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		MaxAndMinNumber maxAndMinNumber = new MaxAndMinNumber();
+		Assign_15_MaxAndMinNumber maxAndMinNumber = new Assign_15_MaxAndMinNumber();
 		int[] arr = { 12, 2, 13, 9, 115 };
 		int[] arr1 = { 12, -11, 99, 11, 23, -44 };
 		int[] arr2 = { 10, 20, -33, -55, 2 };
