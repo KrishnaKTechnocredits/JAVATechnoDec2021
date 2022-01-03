@@ -2,40 +2,65 @@ package kalyani;
 
 public class A10_PrimeNum {
 	int sum;
-	void isNumPrime (int num) {
-		boolean flag=true;
-		for (int index=2;index<=num/2;index++) {
-			if(num%index==0) {
-				flag=false;
+	int count;
+	float avg;
+
+	void isPrime(int num) {
+		boolean flag = true;
+		for (int index = 2; index <= num / 2; index++) {
+			if (num % index == 0) {
+				flag = false;
 				break;
 			}
 		}
-		System.out.println(num + " is prime");
-		if(flag==true) 
-			sum= sum+num;
+		if (flag == true) {
+			count++;
+			sum = sum + num;
+			avg = sum / count;
+			System.out.println(num + " is a Prime numbers");
+		}
+
 	}
 	
 	void findPrimeNumberInRange (int fnum, int lnum) {
 		for (int startNum=fnum;startNum<=lnum;startNum++) {
-			isNumPrime(startNum);
+			isPrime(startNum);
 		}
-		System.out.println("----------------------------------------------------------------");
 	}	
 
 	void totalPrimeNumInRange (int fnum, int lnum) {
-		for (int startNum=100;startNum<=200;startNum++) {
-			isNumPrime(startNum);
-		}
-		System.out.println("----------------------------------------------------------------");
-		System.out.println("Total of Prime no is :");
+		count = 0;
+		findPrimeNumberInRange (fnum,lnum);
+		System.out.println("Total Prime no is :");
+		System.out.println(count);
+	}
+	
+	void sumPrimeNumInRange (int fnum, int lnum) {
+		count = 0;
+		findPrimeNumberInRange (fnum,lnum);
+		System.out.println("Sum of Prime no is :");
 		System.out.println(sum);
+	}
+	
+	void avgPrimeNumInRange (int fnum, int lnum) {
+		count = 0;
+		sum = 0;
+		avg = 0;
+		findPrimeNumberInRange (fnum,lnum);
+		System.out.println("avg of Prime no is :" +avg);
+		
 	}
 	
 	public static void main(String args[]) {
 		A10_PrimeNum primeNum= new A10_PrimeNum();
-		primeNum.isNumPrime(6);
+		primeNum.isPrime(17);
 		System.out.println("----------------------------------------------------------------");
-		primeNum.findPrimeNumberInRange(10, 20);
-		primeNum.totalPrimeNumInRange(100, 200);
+		primeNum.findPrimeNumberInRange(100, 120);
+		System.out.println("----------------------------------------------------------------");
+		primeNum.totalPrimeNumInRange(50, 100);
+		System.out.println("----------------------------------------------------------------");
+		primeNum.sumPrimeNumInRange(150,40);
+		System.out.println("----------------------------------------------------------------");
+		primeNum.avgPrimeNumInRange(20,60);
 		}
 }

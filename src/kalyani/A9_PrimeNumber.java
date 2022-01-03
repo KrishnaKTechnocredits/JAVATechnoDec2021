@@ -1,6 +1,6 @@
 package kalyani;
 
-public class A9_PrimeNumber {
+public class A10_PrimeNumber {
 	int sum;
 	void isNumPrime (int num) {
 		boolean flag=true;
@@ -32,7 +32,7 @@ public class A9_PrimeNumber {
 	}
 	
 	public static void main(String args[]) {
-		A9_PrimeNumber primeNum= new A9_PrimeNumber();
+		A10_PrimeNumber primeNum= new A10_PrimeNumber();
 		primeNum.isNumPrime(6);
 		System.out.println("----------------------------------------------------------------");
 		primeNum.findPrimeNumberInRange(10, 20);
