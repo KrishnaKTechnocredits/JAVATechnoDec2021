@@ -5,7 +5,7 @@ output : aakanksha
  */
 package shwetaDharmadhikari.array_examples;
 
-public class Assign_18_PrintMaximumVowelsString {
+public class Assign_17_PrintMaximumVowelsString {
 
 	String displayMaxVowelsString(String[] arr) {
 		String name = " ";
@@ -29,7 +29,7 @@ public class Assign_18_PrintMaximumVowelsString {
 
 	public static void main(String[] args) {
 		String[] arr = { "hi", "priyanka", "sandip", "Aakanksha", "pallavi", "apurva" };
-		Assign_18_PrintMaximumVowelsString assign_18_PrintMaximumVowelsString = new Assign_18_PrintMaximumVowelsString();
+		Assign_17_PrintMaximumVowelsString assign_18_PrintMaximumVowelsString = new Assign_17_PrintMaximumVowelsString();
 		System.out.println("Output  : " + assign_18_PrintMaximumVowelsString.displayMaxVowelsString(arr));
 	}
 

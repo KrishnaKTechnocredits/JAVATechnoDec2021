@@ -1,3 +1,15 @@
+/*Assignment - 4 : 16th Dec2021
+
+Program 1: Find weekdays or weekend based on dayIndex.
+1 -> Monday
+2 -> Tuesday
+7 -> Sunday
+
+dayIndex -> 3 : Weekday
+dayIndex -> 6 : WeekEnd
+dayIndex -> 11 : Invalid Index
+dayIndex -> -3 : Invalid Index
+ */
 package shwetaDharmadhikari;
 class Assign4_FindWeekdaysAndWeekend{
 	

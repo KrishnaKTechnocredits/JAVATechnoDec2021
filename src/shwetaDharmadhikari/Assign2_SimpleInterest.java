@@ -1,3 +1,8 @@
+/*Assignment - 2 : 14th Dec'2021
+Write a calculator program, all methods should take 2 parameters.
+
+for example : void add(int num1, int num2){}
+ */
 package shwetaDharmadhikari;
 class Assign2_SimpleInterest{
 
