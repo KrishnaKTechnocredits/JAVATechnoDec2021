@@ -6,7 +6,7 @@ public static void main(String[] args) {
 		
 		A18_InheritanceClassA a1 = new A18_InheritanceClassA();
 		A18_InheritanceClassB b1 = new A18_InheritanceClassB();
-		b1=a1;// can not assign parent class to child child class
+//		b1=a1;// can not assign parent class to child child class
 		 //need typecasting here
 			
 		System.out.println(b1.x);
