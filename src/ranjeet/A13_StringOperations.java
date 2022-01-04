@@ -1,6 +1,6 @@
 package ranjeet;
 
-public class A11_StringOperations {
+public class A13_StringOperations {
 
 	int findFirstOcc(String fString, char ch) {
 		int j = 0;
@@ -49,7 +49,7 @@ public class A11_StringOperations {
 	}
 
 	public static void main(String[] args) {
-		A11_StringOperations stringOperations = new A11_StringOperations();
+		A13_StringOperations stringOperations = new A13_StringOperations();
 		stringOperations.totalOccOfChar("Technocredits", 'e');
 		stringOperations.findFirstOcc("Teachno", 'a');
 		stringOperations.findLastOcc("xxyyzzzz", 'z');
