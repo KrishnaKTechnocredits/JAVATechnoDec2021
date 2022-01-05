@@ -15,15 +15,17 @@ public class Assignment_19_OverLoading {
 				uCase++;
 			} else if (Character.isLowerCase(ch)) {
 				lCase++;
-			} else if (Character.isDigit(ch)) {
+				
+			}  if (Character.isDigit(ch)) {
 				dCount++;
 			}
 			temp = uCase + lCase;
 		}
-		System.out.println("Total Letter Available : " + temp);
+		
 		System.out.println("Upper Case Available : " + uCase);
 		System.out.println("Lower Case Available : " + lCase);
 		System.out.println("Digit Available : " + dCount);
+		System.out.println("Total Letter Available : " + temp);
 	}
 
 	public static void main(String[] args) {
