@@ -19,7 +19,6 @@ public class A19_LetterCount {
 
 			}else if(Character.isDigit(name.charAt(index)))
 				digitCount++;
-
 		}
 
 		System.out.println("Total Letters -> " + (upperCaseCount+lowercaseCount));		
