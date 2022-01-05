@@ -4,7 +4,7 @@
 
 package anjali;
 
-public class Anjali_Test1 {
+public class Test1_Anjali {
 	
 	void firstnonOccurenceOfChar(String name) {
 		char charIndex = ' ';
@@ -24,7 +24,7 @@ public class Anjali_Test1 {
 	}
 
 	public static void main(String[] args) {
-		Anjali_Test1  anjali_Test1 =new Anjali_Test1 ();
+		Test1_Anjali  anjali_Test1 =new Test1_Anjali ();
 		anjali_Test1.firstnonOccurenceOfChar("technocredits");
 
 	}
