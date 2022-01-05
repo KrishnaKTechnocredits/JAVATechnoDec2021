@@ -1,6 +1,6 @@
 package nehaPandey.InheritanceClasses;
 
-public class Case4 {
+public class Case4 extends Test4{
 	int a = 20;
 	int x = 35;
 	int y = 50;
