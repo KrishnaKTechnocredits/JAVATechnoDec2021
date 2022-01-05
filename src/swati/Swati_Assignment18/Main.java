@@ -53,6 +53,7 @@ public class Main {
 		c8.m1();
 		c8.m2();
 		c8.m3();
+		Case1 C9=new Case3();
 		
 		
 		
