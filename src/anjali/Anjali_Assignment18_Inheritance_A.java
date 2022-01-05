@@ -1,6 +1,6 @@
 package anjali;
 
-public class Assignment18_Inheritance_A {
+public class Anjali_Assignment18_Inheritance_A {
 	int x=10;
 	int y=12;
 	

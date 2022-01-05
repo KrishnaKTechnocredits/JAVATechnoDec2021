@@ -12,7 +12,7 @@ output : eoei
  */
 package anjali;
 
-public class Anjali_Assignment7 {
+public class Anjali_Assignment_7 {
 	
 	void printAllCharAtEven(String name){
 		for(int index=1;index<name.length();index=index+2){
@@ -28,7 +28,7 @@ public class Anjali_Assignment7 {
 		}
 	}
 	public static void main(String[] args){
-		Anjali_Assignment7 a7=new Anjali_Assignment7();
+		Anjali_Assignment_7 a7=new Anjali_Assignment_7();
 		a7.printAllCharAtEven("technocredits");
 		System.out.println("**************************");
 		a7.printVowelInString("technocredits");

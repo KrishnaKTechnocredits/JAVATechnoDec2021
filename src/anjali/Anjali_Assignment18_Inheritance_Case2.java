@@ -1,10 +1,10 @@
 package anjali;
 
-public class Assignment18_Inheritance_Case2 {
+public class Anjali_Assignment18_Inheritance_Case2 {
 
 	public static void main(String[] args) {
 		
-		Assignment18_Inheritance_B b = new Assignment18_Inheritance_B();
+		Anjali_Assignment18_Inheritance_B b = new Anjali_Assignment18_Inheritance_B();
 		
 		System.out.println(b.x);
         System.out.println(b.y);

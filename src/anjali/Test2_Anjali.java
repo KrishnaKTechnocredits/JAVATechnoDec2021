@@ -1,6 +1,6 @@
 package anjali;
 
-public class Anjali_Test1_2 {
+public class Test2_Anjali {
 	int sum;
 
 	boolean isPrime(int num) {
@@ -35,7 +35,7 @@ public class Anjali_Test1_2 {
 	}
 
 	public static void main(String[] args) {
-		Anjali_Test1_2 anjali_Test1_2 = new Anjali_Test1_2();
+		Test2_Anjali anjali_Test1_2 = new Test2_Anjali();
 		anjali_Test1_2.findSumOfFirstTenPrimeInARange(1, 50);
 		System.out.println("The sum of 10 Prime Numbers :" + anjali_Test1_2.sum);
 
