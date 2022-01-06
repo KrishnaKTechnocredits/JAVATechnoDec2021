@@ -1,7 +1,7 @@
 package rushikesh;
 
-public class Assignment18 {
-//Assignment - 18 : 5th Jan'2022
+public class Assignment19 {
+//Assignment - 19 : 5th Jan'2022
 	//
 	//Print total Letters, Uppercase , Lowercase , Digits from given String.
 	//
@@ -16,7 +16,7 @@ public class Assignment18 {
 		int countDigit;
 		void countEverything(String input) {
 			for(int index=0;index<input.length();index++) {
-				Character ch=input.charAt(index);			
+				char ch=input.charAt(index);			
 				if(Character.isLetter(ch)){
 					if(Character.isUpperCase(ch)) {
 						countUpper++;
@@ -34,8 +34,8 @@ public class Assignment18 {
 		System.out.println("Total Digits -> "+countDigit);
 		}
 		public static void main(String[] args) {
-			Assignment18 assignment18=new Assignment18();
-			assignment18.countEverything("TE1ch2noC2red9iTs");
+			Assignment19 assignment19=new Assignment19();
+			assignment19.countEverything("TE1ch2noC2red9iTs");
 		}
 }
 
