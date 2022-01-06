@@ -44,7 +44,7 @@ public class CharCount {
 		System.out.println(" - Lower letter count 		: " + lowerCaseCount);
 		System.out.println(" - Digit count 			: " + digitCount);
 		System.out.println("------------------------------------");
-		System.out.println("Special Character count ==> " + upperCaseCount);
+		System.out.println("Special Character count ==> " + specialCharCount);
 	}
 	public static void main(String[] args) {
 		CharCount charCount = new CharCount();
