@@ -5,7 +5,7 @@ import java.lang.Character;
 
 class Assignment21 {
 	char letter;
-	String sumcount =null;
+	String sumcount = "";
 
 	void displayDigits(String name) {
 		for (int index = 0; index < name.length(); index++) {
