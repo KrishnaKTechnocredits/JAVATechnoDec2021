@@ -11,9 +11,10 @@ public class A19_UpperChar {
 
 	void findChar(String name) {
 		int countDigit = 0;
-		int countLetter = 0;
+		// int countLetter = 0;
 		int countUC = 0;
 		int countLC = 0;
+		int sum = 0;
 		for (int i = 0; i < name.length(); i++) {
 			char c = name.charAt(i);
 			if (Character.isLetter(c)) {
@@ -23,8 +24,8 @@ public class A19_UpperChar {
 					countLC++;
 				}
 
-			}
-			else if(Character.isDigit(c)) {
+			} else if (Character.isDigit(c)) {
+
 				countDigit++;
 			}
 			/*
@@ -34,9 +35,10 @@ public class A19_UpperChar {
 			 */
 		}
 		System.out.println("Number of Digit " + countDigit);
-		System.out.println("Number of Letter " + (countUC+countLC));
+		System.out.println("Number of Letter " + (countUC + countLC));
 		System.out.println("Number of UpperCase " + countUC);
 		System.out.println("Number of LowerCase " + countLC);
+		// System.out.println(sum);
 
 	}
 
@@ -44,7 +46,7 @@ public class A19_UpperChar {
 		// TODO Auto-generated method stub
 		A19_UpperChar a19 = new A19_UpperChar();
 		a19.findChar("TE1ch2noC2red9iTs");
-		// a19.findCount("TE1ch2noC2red9iTs");
+
 	}
 
 }
