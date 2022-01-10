@@ -17,7 +17,7 @@ public class FibonacciSeriesP2 {
 		int num2 = 1;
 		int count = 0;
 
-		System.out.println("Fibonacci Series for first " + num + " numbers is as below :");
+		System.out.println("Fibonacci Series for first " + num + " numbers (without using temp variable) are as below :");
 
 		for (int index = num1; count < 10; index++) {
 			System.out.print(num1 + " , ");

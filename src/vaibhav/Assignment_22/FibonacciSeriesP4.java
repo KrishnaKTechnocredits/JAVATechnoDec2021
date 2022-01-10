@@ -15,8 +15,8 @@ public class FibonacciSeriesP4 {
 		int count = 0;
 		int num1 = 0;
 		int num2 = 1;
-		System.out.println("Fibonacci series for the first  " + numCount + " numbers starting with " + startingNum
-				+ " is as below :");
+		System.out.println("Fibonacci series for the first  " + numCount + " numbers starting from " + startingNum
+				+ " are as below :");
 
 		while (count < numCount) {
 			if (num2 >= startingNum) {

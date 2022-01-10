@@ -17,7 +17,7 @@ public class FibonacciSeriesP5 {
 		int num2 = 1;
 		int sum = 0;
 		System.out.println(
-				"Fibonacci series when sum of all the numbers is less than " + targetedSum + " is as below : ");
+				"Fibonacci series when sum of all the numbers is less than " + targetedSum + ", are as below : ");
 		while (sum <= 100) {
 			System.out.print(num1 + " , ");
 			num2 = num1 + num2;

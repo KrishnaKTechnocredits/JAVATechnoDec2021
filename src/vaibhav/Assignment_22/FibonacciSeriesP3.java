@@ -18,7 +18,7 @@ public class FibonacciSeriesP3 {
 		int num2 = 1;
 		int count = 0;
 
-		System.out.println("Fibonacci series starting from " + startNum + " and end with " + endNum + " is as below :");
+		System.out.println("Fibonacci series starting from " + startNum + " and end with " + endNum + " are as below :");
 		while (num2 <= endNum) {
 			if (num2 >= startNum && num2 <= endNum)
 				System.out.print(num2 + " , ");
