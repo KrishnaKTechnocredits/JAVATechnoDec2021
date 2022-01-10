@@ -12,11 +12,11 @@ public class A22_Fibonacci3 {
 			System.out.print(num1 + " ");
 		}
 		while(num2 <= endNum) {
-			if(num2 >= startNum) {
-				System.out.print(num2 + " ");
-			}
 			num2 = num1 + num2;
 			num1 = num2 - num1;
+			if(num2 >= startNum) {
+				System.out.print(num1 + " ");
+			}
 		}
 	}
 	
