@@ -6,17 +6,6 @@ Fibonacci Series:*
 1. WAP to print 1st 10 numbers of Fibonacci series using one temp variable.
 output : 0, 1, 1, 2, 3, 5, 8, 13, 21, 34
 
-2. WAP to print 1st 10 numbers of Fibonacci series without using temp variable.
-output : 0, 1, 1, 2, 3, 5, 8, 13, 21, 34,
-
-3. WAP for Fibonacci series starting from 5 and end with 85
-output : 5, 8, 13, 21, 34, 55.
-
-4. WAP for Fibonacci series for first 'n' numbers starting form 5.
-
-5. WAP for Fibonacci series when sum of all the numbers are less than 100
-output: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34
-
 */
 
 package vaibhav.Assignment_22;
@@ -35,6 +24,7 @@ public class FibonacciSeriesP1 {
 		 * count++; }
 		 */
 
+		// using while loop
 		while (count < num) {
 			int temp;
 			System.out.print(num1 + " , ");
