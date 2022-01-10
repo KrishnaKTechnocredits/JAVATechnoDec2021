@@ -13,7 +13,6 @@ public class A22_Fibonacci1 {
 		}else if(num == 1) {
 			System.out.print(num1 + " ");
 		}
-		
 		for (int i=1; i<=num-2; i++) {
 			num2 = num1 + num2;
 			num1 = num2 - num1;
