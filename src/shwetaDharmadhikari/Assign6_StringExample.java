@@ -1,3 +1,42 @@
+/*
+ * Assignment - 6 : 18th Dec'21
+
+Create a single program for following requirements.
+1. Create a method to print all characters of given input.
+input : techno
+output : t
+             e
+	     c
+	     h
+	     n
+	     o
+Hint : 
+void display(String input){
+
+}
+
+2. Create a method to print all characters of given input in reverse order.
+input : techno
+output : o
+              n
+	      h
+	      c
+	      e
+	      t
+Hint:
+void reverse(String input){
+
+}
+
+3. Create a method to find occurance of given character from input string.
+input : akanksha
+        'a'
+output : a -> 3
+Hint : 
+void findCharFreq(String input, char ch){
+
+}
+ */
 package shwetaDharmadhikari;
 class Assign6_StringExample{
 	int index=0;

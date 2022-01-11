@@ -14,7 +14,7 @@ public class A17_ConsecutiveTriplets {
 
 	void printTriplets(int[] input) {
 		for (int index = 0; index < input.length - 2; index++) {
-			if (input[index] == (input[index + 1] - 1) && input[index] == (input[index + 2] - 2)) {
+			if (input[index]+1 == (input[index + 1]) && input[index]+2 == (input[index + 2])) {
 				System.out.println(input[index] + " , " + (input[index + 1]) + " , " + (input[index + 2]));
 			}
 		}

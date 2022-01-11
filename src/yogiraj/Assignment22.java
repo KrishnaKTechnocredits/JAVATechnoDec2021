@@ -90,5 +90,5 @@ public class Assignment22 {
 		a.requiredNumberForSum();
 
 	}
-
+ 
 }

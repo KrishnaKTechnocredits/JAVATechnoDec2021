@@ -35,8 +35,11 @@ public class A10_PrimeNumber {
 		
 			}
 	void findTSumOfPrimeNumberFromRange(int startRange,int EndRange) {
+		
 		System.out.println("******Sum of prime numbers from given Range*****");
 		int startNum=0;
+		count=0;
+		sum=0;
 		for( startNum=startRange;startNum<=EndRange;startNum++) {
 			findPrimeNumbers(startNum);
 			
