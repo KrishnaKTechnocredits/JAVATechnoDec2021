@@ -1,5 +1,5 @@
 /* Exam 2 : 11th Jan 2022
- * 
+
  1. How to find all pairs in an array of integers whose sum is equal to the given number
 i/p : {5,1,2,7,6,3,4,9} , sum : 6
 o/p : {5,1}, {2,4}
