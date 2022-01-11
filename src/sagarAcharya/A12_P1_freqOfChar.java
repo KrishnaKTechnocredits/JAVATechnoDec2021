@@ -1,13 +1,14 @@
+package sagarAcharya;
 import java.util.Scanner;
 
 class A12_P1_freqOfChar{
-	void findFreq(String input,char ch){
+	int findFreq(String input,char ch){
 		int count = 0;
 		for(int i=0;i<input.length();i++){
 			if(input.charAt(i) == ch)
 				count++;
 		}
-		//return count;
+		return count;
 	}
 	
 	void printFreq(String input){

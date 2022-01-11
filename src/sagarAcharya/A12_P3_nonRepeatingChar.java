@@ -1,5 +1,5 @@
 //two methods practice
-
+package sagarAcharya;
 class A12_P3_nonRepeatingChar{
 	
 	int findFreq(String input,char ch){

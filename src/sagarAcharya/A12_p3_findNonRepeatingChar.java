@@ -1,5 +1,5 @@
 //two for loops practice
-
+package sagarAcharya;
 import java.util.Scanner;
 
 class A12_p3_findNonRepeatingChar{

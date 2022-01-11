@@ -1,3 +1,4 @@
+package sagarAcharya;
 import java.util.Scanner;
 
 class A12_P2_maxPrimeNum{
