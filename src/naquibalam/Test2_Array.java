@@ -14,7 +14,6 @@ public class Test2_Array {
 		}
 	}
 	
-	
 	void getArrayUnique(int[] arr) {	
 		for (int i=0; i<arr.length; i++) {
 			boolean uniqueFound = false; 
@@ -28,6 +27,7 @@ public class Test2_Array {
 			}
 		}
 	}
+	
 	public static void main(String[] args) {
 		Test2_Array test2_Array = new Test2_Array();
 		int[] arr = {5,8,1,2,4,3,2,1};
