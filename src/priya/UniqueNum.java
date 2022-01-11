@@ -1,0 +1,25 @@
+package priya;
+
+public class UniqueNum {
+	
+	void displayUniqueNumber(int[] arr) {
+		
+		for(int index=0; index<arr.length; index++) {
+			int count =0;
+			for(int index1=0; index1<arr.length;index1++) {
+				if(arr[index] == arr[index1])
+					count++;
+			}
+			if(count==1) {
+				System.out.print(arr[index] + " ");
+			}
+		}
+	}
+
+	public static void main(String[] args) {
+		UniqueNum UniqueNum = new UniqueNum();
+		int[] input = {5,8,1,2,4,3,2,1};
+		System.out.println("Unique numbers in the given array :");
+		UniqueNum.displayUniqueNumber(input);
+	}
+}
