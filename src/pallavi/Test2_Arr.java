@@ -25,9 +25,6 @@ public class Test2_Arr {
 	}
 
 	void findSingleOccurance(int[] arr) {
-		int[] temp = { 10 };
-		int tempIndex = 0;
-
 		System.out.print("Numbers occuring single time in given array:{");
 		for (int outerIndex = 0; outerIndex < arr.length; outerIndex++) {
 			int single = 0;
