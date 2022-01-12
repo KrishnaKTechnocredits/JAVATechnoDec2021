@@ -12,16 +12,32 @@ class A13_IndexMethods{
 		a13.firstDuplicate(str);
 		a13.printUniqueChar(str);
 		a13.printDuplicateChar(str);
+		a13.printDuplicateChar1(str);
 	}
 	
 	void printDuplicateChar(String input){
 		System.out.println("\n"+"Duplicate characters are : ");
 		for(int index = 0;index<input.length();index++){
-			String temp = "1";
 			char ch = input.charAt(index);
-			if(input.indexOf(ch) != input.lastIndexOf(ch)){
-				System.out.print(ch);
+			if(index == input.indexOf(ch)){
+				if(input.indexOf(ch) != input.lastIndexOf(ch)){
+					System.out.print(ch);
+				}
 			}
+		}
+	}
+	
+	void printDuplicateChar1(String input){
+		System.out.println("\n"+"Duplicate characters are : ");
+		String temp = "";
+		for(int index=0;index<input.length();index++){
+			char ch = input.charAt(index);
+			if(!temp.contains(ch+"")){
+				if(input.indexOf(ch) != input.lastIndexOf(ch)){
+				System.out.print(ch);
+				}
+			}
+			temp = temp + ch;
 		}
 	}
 	
