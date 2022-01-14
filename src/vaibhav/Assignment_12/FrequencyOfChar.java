@@ -8,6 +8,8 @@ Write 4 different programs to satisfy below requirements, please take input from
 
 package vaibhav.Assignment_12;
 
+import java.util.Scanner;
+
 public class FrequencyOfChar {
 
 	int getFreqOfChar(String input, char ch) {
@@ -35,6 +37,9 @@ public class FrequencyOfChar {
 
 	public static void main(String[] args) {
 		FrequencyOfChar frequencyOfChar = new FrequencyOfChar();
-		frequencyOfChar.printFreqOfEachChar("technocredits");
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Please enter the input String to find the character frequency : ");
+		frequencyOfChar.printFreqOfEachChar(scanner.next());
+		scanner.close();
 	}
 }
