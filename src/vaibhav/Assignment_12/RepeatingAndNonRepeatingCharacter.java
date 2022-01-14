@@ -59,7 +59,7 @@ public class RepeatingAndNonRepeatingCharacter {
 
 		System.out.println("Enter the input string to find the first repeating character : ");
 		repeatingAndNonRepeatingCharacter.getFirstRepeatingChar(scanner.next());
-		System.out.println();
+		System.out.println("-----------------------------------------------------");
 		System.out.println("Enter the input string to find the first non - repeating character : ");
 		repeatingAndNonRepeatingCharacter.getFirstNonRepeatingChar(scanner.next());
 		scanner.close();
