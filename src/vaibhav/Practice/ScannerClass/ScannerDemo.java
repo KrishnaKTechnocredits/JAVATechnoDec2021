@@ -1,4 +1,4 @@
-package vaibhav.Practice;
+package vaibhav.Practice.ScannerClass;
 
 import java.util.Scanner;
 
@@ -13,7 +13,7 @@ public class ScannerDemo {
 		Scanner scanner = new Scanner(System.in);
 		int num1 = scanner.nextInt();
 		int num2 = scanner.nextInt();
-		scanner.close();1
+		scanner.close();
 
 		System.out.println("First number : " + num1);
 		System.out.println("Second number : " + num2);
