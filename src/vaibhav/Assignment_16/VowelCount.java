@@ -12,6 +12,8 @@ total vowels -> 10
 */
 package vaibhav.Assignment_16;
 
+import java.util.Arrays;
+
 public class VowelCount {
 
 	int totalVowelCount;
@@ -42,6 +44,7 @@ public class VowelCount {
 	public static void main(String[] args) {
 		VowelCount vowelCount = new VowelCount();
 		String[] arr = { "priyanka", "swati", "acharya", "hevin" };
+		System.out.println("Given input Array is : " + Arrays.toString(arr) + "\n");
 		vowelCount.printVowelCount(arr);
 	}
 }
