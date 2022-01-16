@@ -4,6 +4,8 @@ output : 66
 */
 package pallavi;
 
+import java.util.Arrays;
+
 public class A23_FindNthMax {
 
 	void nthMaxInArray(int[] input, int nthMax) {
@@ -17,6 +19,7 @@ public class A23_FindNthMax {
 			}
 
 			if (count == nthMax - 1) {
+				System.out.println(nthMax+"th max number from array:-");
 				System.out.println(input[index]);
 				break;
 			}
@@ -26,8 +29,8 @@ public class A23_FindNthMax {
 	public static void main(String[] args) {
 		int[] arr = { 3, 99, -66, 54, 22, 44 };
 		int nthMax = 4;
+		System.out.println("Input array:- "+Arrays.toString(arr));
 		new A23_FindNthMax().nthMaxInArray(arr, nthMax);
-		;
 	}
 
 }
