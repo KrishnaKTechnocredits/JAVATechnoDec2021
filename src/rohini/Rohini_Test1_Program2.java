@@ -2,6 +2,7 @@ package rohini;
 
 public class Rohini_Test1_Program2 {
  
+	String x ="20";
 	void FindSumofPrime(int startNum,int endNum) {
 		int sum=0,count=0;
 		boolean flag=true;

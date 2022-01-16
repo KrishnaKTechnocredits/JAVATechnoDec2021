@@ -1,3 +1,17 @@
+/*
+ * Assignment - 8 : 21st Dec'2021
+Create a Banking System which has the following functionality.
+
+Create two object to perform the below scenario.
+1) Method to debit amount
+2) Method to credit amount
+3) Method to printBalance [it will print current balance]
+4) individualTransactionSummary() method should show how many times the individual debit, credit & printBalance method is called .
+Hint : Create 3 non static instance variables.
+Output:
+user1 transaction summary : Credit - 2 times, Debit - 1 times, printBalance - 1 time
+user2 transaction summary : Credit - 5 times, Debit - 2 times, printBalance - 0 time
+ */
 package shwetaDharmadhikari;
 
 public class Assign8_Bank_Static_Example {

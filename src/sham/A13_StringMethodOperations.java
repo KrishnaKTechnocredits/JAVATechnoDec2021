@@ -37,7 +37,7 @@ public class A13_StringMethodOperations {
 	{
 		System.out.println(" unique character: ");
 		
-				String temp="";
+				//String temp="";
 		for( int i= 0;i<name.length();i++)
 		{
 			char ch= name.charAt(i);
@@ -55,7 +55,9 @@ public class A13_StringMethodOperations {
 	}
 	
 	void findAllDuplicateChar(String name)
-	{	System.out.println(" duplicate characters: ");
+	{	
+		System.out.println();
+		System.out.println(" duplicate characters: ");
 		String temp= "";
 		for( int i= 0;i<name.length();i++)
 		{
