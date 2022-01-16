@@ -16,6 +16,10 @@ Program 5 : Find the difference between even and odd numbers from given string.
 input : te112ch34no29
 output : 117
 hint : (112+34)-(29)
+
+Program 6 : Return a string by placing all odd numbers , first capital letters from given string, even numbers.
+input : eTe1CH9cred4it6s
+output : 19T46
 */
 
 package pallavi;
@@ -69,7 +73,7 @@ public class A23_DigitsInString {
 	}
 
 	// Find the difference between odd and even digits from given string.
-	
+
 	void diffOddEvenDigit(String str) {
 		int sumOdd = 0, sumEven = 0, num = 0;
 
@@ -121,6 +125,54 @@ public class A23_DigitsInString {
 		System.out.println("The difference between even and odd digit:- " + (sumEven - sumOdd));
 	}
 
+	// Return a string by placing all odd numbers , first capital letters from given
+	// string, even numbers.
+
+	String filterOddCapital(String str) {
+		char tempUCase = 0;
+		String evenNum = "", oddNum = "";
+		String temp = "";
+		for (int index = 0; index < str.length(); index++) {
+			char ch = str.charAt(index);
+			if (Character.isLetter(ch)) {
+				if (Character.isUpperCase(ch)) {
+					tempUCase = ch;
+					break;
+				}
+			}
+		}
+
+		for (int index = 0; index < str.length(); index++) {
+			char ch = str.charAt(index);
+
+			if (Character.isDigit(ch)) {
+				temp += Character.getNumericValue(ch);
+			} else {
+				if (!(temp == "")) {
+					int num = Integer.parseInt(temp);
+
+					if (num % 2 == 0)
+						evenNum += num;
+					else
+						oddNum += num;
+				}
+
+				temp = "";
+			}
+		}
+		if (!(temp == "")) {
+			int num = Integer.parseInt(temp);
+
+			if (num % 2 == 0)
+				evenNum += num;
+			else
+				oddNum += num;
+		}
+
+		return oddNum + tempUCase + evenNum;
+
+	}
+
 	public static void main(String[] args) {
 		A23_DigitsInString a23_DigitsInString = new A23_DigitsInString();
 		String input = "te12ch22nocre3dits4";
@@ -143,6 +195,9 @@ public class A23_DigitsInString {
 		System.out.println("Input:- " + input);
 		a23_DigitsInString.diffEvenOddNum(input);
 
+		input = "eTe1CH9cred4it6s";
+		System.out.println("----------Prog6---------------");
+		System.out.println("Input:- " + input);
+		System.out.println("Output;- " + a23_DigitsInString.filterOddCapital(input));
 	}
-
 }
