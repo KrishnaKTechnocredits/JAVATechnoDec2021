@@ -113,6 +113,8 @@ public class A23_ArrayStringLogicalPrograme {
 		System.out.println(evenNumber - oddNumber);
 	}
 
+	/*input : eTe1CH9cred4it6s
+	output : 19T46*/
 	void getStringDefinedPattern(String str) {// 19T46
 		String oddNumber = "";
 		String evenNumber = "";
