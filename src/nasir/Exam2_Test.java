@@ -1,8 +1,8 @@
 package nasir;
 
 public class Exam2_Test {
-	int sum=6;	
-	 void findPairOfSum(int[] arr) {
+	//int sum=6;	
+	 void findPairOfSum(int[] arr, int sum) {
 		 for(int index=0;index<arr.length;index++) {
 			 int num =arr[index];			 
 			  for(int innerIndex=0;innerIndex<arr.length;innerIndex++) {
@@ -32,7 +32,7 @@ public class Exam2_Test {
 	 public static void main(String[] args) {
 		Exam2_Test exam = new Exam2_Test();
 		int[] input = {5,1,2,7,6,3,4,9};
-		exam.findPairOfSum(input);
+		exam.findPairOfSum(input,6);
 		int[] input1= {5,8,1,2,4,3,2,1};
 		exam.singleOccurance(input1);
 	}
