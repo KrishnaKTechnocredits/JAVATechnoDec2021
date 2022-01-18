@@ -1,4 +1,4 @@
-package shivangi_A18_InheritanceWithSixCases;
+package shivangi.shivangi_A18_InheritanceWithSixCases;
 
 public class Case1 {
 	
