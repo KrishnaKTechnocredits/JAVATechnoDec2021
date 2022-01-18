@@ -30,7 +30,7 @@ public class Program1_SingleMissingNumber {
 		Program1_SingleMissingNumber program1_SingleMissingNumber = new Program1_SingleMissingNumber();
 		int[] inputArr = { 1, 2, 8, 10, 9, 5, 7, 6, 4 };
 		int missingNum = program1_SingleMissingNumber.getSingleMissingNum(inputArr);
-		System.out.println("Missing number in the given array " + Arrays.toString(inputArr) + " is : " + missingNum);
+		System.out.println("Single missing number in the given array " + Arrays.toString(inputArr) + " is : " + missingNum);
 
 	}
 
