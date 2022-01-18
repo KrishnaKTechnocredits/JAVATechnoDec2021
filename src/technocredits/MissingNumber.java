@@ -3,7 +3,7 @@ package technocredits;
 public class MissingNumber {
 
 	public static void main(String[] args) {
-		int num[] = { 1, 3, 10, 9, 5, 7, 6, 4,11,12 };
+		int num[] = { 1, 2, 3, 10, 9, 5, 7, 6, 4 };
 //		Multiple
 //		
 //		int avaNum[] = new int[num.length];//{0,0,0,0,0,0,0}
