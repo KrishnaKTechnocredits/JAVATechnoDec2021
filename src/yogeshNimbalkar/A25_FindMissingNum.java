@@ -1,5 +1,6 @@
 package yogeshNimbalkar;
 
+//find missing number in array.
 public class A25_FindMissingNum {
 
 	int getMissingNum(int[] arr) {
