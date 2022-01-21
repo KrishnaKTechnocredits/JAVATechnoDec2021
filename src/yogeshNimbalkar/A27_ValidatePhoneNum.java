@@ -1,6 +1,5 @@
 package yogeshNimbalkar;
 
-
 public class A27_ValidatePhoneNum {
 
 	void processData(String str) {
