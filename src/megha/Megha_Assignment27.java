@@ -27,12 +27,12 @@ public class Megha_Assignment27 {
 					if (isAllCharDigits(phoneNumber.substring(4)))
 						System.out.println("Valid Phone Number Pattern");
 					else
-						System.out.println("Not a Valid Phone Number Pattern");
+						System.out.println("Invalid Phone Number Pattern");
 				} else
-					System.out.println("Not a Valid Phone Number Pattern");
+					System.out.println("Invalid Phone Number Pattern");
 
 			} else
-				System.out.println("Not a Valid Phone Number Pattern");
+				System.out.println("Invalid Phone Number Pattern");
 
 			break;
 		}
@@ -45,11 +45,11 @@ public class Megha_Assignment27 {
 					if (isAllCharDigits(phoneNumber))
 						System.out.println("Valid Phone Number Pattern");
 					else
-						System.out.println("Not a Valid Phone Number Pattern");
+						System.out.println("Invalid Phone Number Pattern");
 				} else
-					System.out.println("Not a Valid Phone Number Pattern");
+					System.out.println("Invalid Phone Number Pattern");
 			} else
-				System.out.println("Not a Valid Phone Number Pattern");
+				System.out.println("Invalid Phone Number Pattern");
 
 			break;
 
@@ -63,11 +63,11 @@ public class Megha_Assignment27 {
 					if (isAllCharDigits(phoneNumber.substring(1)))
 						System.out.println("Valid Phone Number Pattern");
 					else
-						System.out.println("Not a Valid Phone Number Pattern");
+						System.out.println("Invalid Phone Number Pattern");
 				} else
-					System.out.println("Not a Valid Phone Number Pattern");
+					System.out.println("Invalid Phone Number Pattern");
 			} else
-				System.out.println("Not a Valid Phone Number Pattern");
+				System.out.println("Invalid Phone Number Pattern");
 			break;
 		}
 
@@ -77,16 +77,16 @@ public class Megha_Assignment27 {
 				if (isAllCharDigits(phoneNumber))
 					System.out.println("Valid Phone Number Pattern");
 				else
-					System.out.println("Not a Valid Phone Number Pattern");
+					System.out.println("Invalid Phone Number Pattern");
 			} else
-				System.out.println("Not a Valid Phone Number Pattern");
+				System.out.println("Invalid Phone Number Pattern");
 
 			break;
 
 		}
 
 		default: {
-			System.out.println("Not a Valid Phone Number Pattern");
+			System.out.println("Invalid Phone Number Pattern");
 			break;
 		}
 		}
@@ -103,9 +103,17 @@ public class Megha_Assignment27 {
 		System.out.println();
 		megha_Assignment.findValidOrInvalidPhoneNumPattern("9765463742");
 		System.out.println();
-		megha_Assignment.findValidOrInvalidPhoneNumPattern("AD 9765 36 25");
+		megha_Assignment.findValidOrInvalidPhoneNumPattern("+919765463742");
 		System.out.println();
-		megha_Assignment.findValidOrInvalidPhoneNumPattern("6765262523");
+		megha_Assignment.findValidOrInvalidPhoneNumPattern("097 654 637 42");
+		System.out.println();
+		megha_Assignment.findValidOrInvalidPhoneNumPattern("+91 1765463742");
+		System.out.println();
+		megha_Assignment.findValidOrInvalidPhoneNumPattern("976 546 3742");
+		System.out.println();
+		megha_Assignment.findValidOrInvalidPhoneNumPattern("976546a742");
+		System.out.println();
+		megha_Assignment.findValidOrInvalidPhoneNumPattern("3765466742");
 	}
 
 }
