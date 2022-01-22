@@ -3,11 +3,8 @@ package nehaPandey;
 public class Assignment26_Split_Method {
 	void findOutValueOfId(String url) {
 		String str[] = url.split("id=");
-		// for (int i = 1; i < str.length; i++) {
 
 		System.out.println("The value of id from the given input url is : " + str[1]);
-
-		// }
 
 	}
 
