@@ -3,16 +3,14 @@ package saurav;
 public class A24_FindVowelsCount {
 	
 	int cnt=0;
-	void findVowels(String input) {
-		int count = 0;
+	int findVowels(String input) {
 		for (int index = 0; index < input.length(); index++) {
 			if (input.charAt(index) == 'o' || input.charAt(index) == 'a' || input.charAt(index) == 'e'
 					|| input.charAt(index) == 'i' || input.charAt(index) == 'u') {
-				count++;
 				cnt++;
 			}
 		}
-		System.out.println("count of vowels in given string : " + input + " : " + count);
+		return cnt;
 	}
 
 	void findVowelsCount(String word) {
@@ -24,9 +22,8 @@ public class A24_FindVowelsCount {
 	}
 	
 	public static void main(String[] a) {
-		A24_StringClassMethodPrograms program2 = new A24_StringClassMethodPrograms();
+		A24_FindVowelsCount program2 = new A24_FindVowelsCount();
 		String input = "aashvi ssauravo monalisaa";
 		program2.findVowelsCount(input);
 	}
-
 }

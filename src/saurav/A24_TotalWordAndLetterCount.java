@@ -12,7 +12,7 @@ public class A24_TotalWordAndLetterCount {
 	}
 	
 	public static void main(String[] a) {
-		A24_StringClassMethodPrograms program1 = new A24_StringClassMethodPrograms();
+		A24_TotalWordAndLetterCount program1 = new A24_TotalWordAndLetterCount();
 		program1.totalWordsAndLetterCount("Hi Hello");
 	}	
 }
