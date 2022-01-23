@@ -1,6 +1,7 @@
 package nishika;
 
 class A6_assignment6{
+	String temp = "";
 	static void printChar(String name){
 			for(int index=0; index<name.length(); index++)
 				System.out.println(name.charAt(index));
