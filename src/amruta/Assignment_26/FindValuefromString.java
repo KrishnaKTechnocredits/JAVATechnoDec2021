@@ -9,7 +9,7 @@ class FindValuefromString{
 
 	//1st Logic
 	void findvalueofID(String str){
-		
+		System.out.println("\n ----------- 1st Logic ----------- ");
 		String[] output = str.split("id=");
 		
 		for (int index = 0; index < output.length; index++) {
@@ -25,14 +25,16 @@ class FindValuefromString{
 	
 	//2nd Logic
 	String returnValueOfId(String str) {
-		
+		System.out.println("\n ----------- 2nd Logic ----------- ");
 		String[] arr = str.split("/");
 		String temp = "";
 		
 		for(int index = 0; index < arr.length;index++) {
 			
-			if(arr[index].contains("id="))	
-				temp = arr[index].substring(3);
+			if(arr[index].contains("id=")) {
+				System.out.println("\nLength of string is - "+arr[index].length());
+				temp = arr[index].substring((arr[index].length())/2);
+			}
 		}
 		return temp;
 	}
