@@ -1,6 +1,6 @@
 package megha;
 
-public class TreesVisibility {
+public class Megha_Assignment28 {
 
 	void findTheVisibility(int[] heightOfTrees) {
 		int visibleTreeCnt = 1;
@@ -15,7 +15,7 @@ public class TreesVisibility {
 	}
 
 	public static void main(String[] args) {
-		TreesVisibility treesVisibility = new TreesVisibility();
+		Megha_Assignment28 treesVisibility = new Megha_Assignment28();
 		int[] heightOfTrees = { 3, 4, 4, 6, 5, 7, 9, 10, 8 };
 		treesVisibility.findTheVisibility(heightOfTrees);
 	}
