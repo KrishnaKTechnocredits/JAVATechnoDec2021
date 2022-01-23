@@ -30,7 +30,7 @@ public class A27_ValidPhoneNumber {
 		if (num.length() == 14) {
 			if (num.startsWith("+91 ")) {
 				if (verifyAllCharAsDigit(num))
-					System.out.println("Valid Number");
+					System.out.println(num+" Valid Number");
 				else
 					System.out.println("Invalid String");
 			}
@@ -38,7 +38,7 @@ public class A27_ValidPhoneNumber {
 			if (num.startsWith("0")) {
 				if (isFirstDigit(num.charAt(1))) {
 					if (verifyAllCharAsDigit(num))
-						System.out.println("Valid String");
+						System.out.println(num+" Valid Number");
 					else
 						System.out.println("Invalid String");
 				} else
@@ -48,7 +48,7 @@ public class A27_ValidPhoneNumber {
 		} else if (num.length() == 10) {
 			if (isFirstDigit(num.charAt(0))) {
 				if (verifyAllCharAsDigit(num))
-					System.out.println("Valid Number");
+					System.out.println(num+" Valid Number");
 				else
 					System.out.println("Invalid String");
 			} else
@@ -58,7 +58,7 @@ public class A27_ValidPhoneNumber {
 			if (number.length() == 10) {
 				if (isFirstDigit(num.charAt(0))) {
 					if (verifyAllCharAsDigit(num))
-						System.out.println("Valid Number");
+						System.out.println(num+" Valid Number");
 					else
 						System.out.println("Invalid String");
 				} else
