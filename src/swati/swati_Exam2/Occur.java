@@ -6,13 +6,11 @@ public class Occur {
 		int count = 0;
 		int countTemp = 0;
 		int[] arr = { 5, 8, 1, 2, 4, 3, 2, 1 };
-
 		for (int j = 0; j < arr.length; j++) {
 			if (num == arr[j]) {
 				count++;
 				countTemp = count;
 			}
-
 		}
 		return countTemp;
 	}
@@ -25,7 +23,6 @@ public class Occur {
 			if (count == 1) {
 				System.out.println(num[i]);
 			}
-
 		}
 	}
 }
