@@ -16,7 +16,7 @@ public class Ass25Missing_Number {
 
 	public static void main(String[] args) {
 		Ass25Missing_Number a25 = new Ass25Missing_Number();
-		a25.findMissingNum();0
+		a25.findMissingNum();
 		
 	}
 }

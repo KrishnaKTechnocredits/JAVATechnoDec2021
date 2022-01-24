@@ -60,7 +60,7 @@ public class A27_ValidatePhoneNumber {
 		assignment1.display("951 852 95 28");
 		assignment1.display("9518529528");
 		System.out.println();
-		StringArrayPractice assignment2 = new StringArrayPractice();
+		A27_ValidatePhoneNumber assignment2 = new A27_ValidatePhoneNumber();
 		assignment2.display("+9 9518529528");
 		assignment2.display("19518529528");
 		assignment2.display("951852 95 28");
