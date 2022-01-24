@@ -2,8 +2,6 @@ package yogeshNagar;
 
 import java.util.Arrays;
 
-import org.omg.CORBA.portable.ValueOutputStream;
-
 public class A24_StringSplitPrograme {
 	/*
 	 * Input : Hi Hello Output : Total 2 words Hi --> 2 Hello --> 5
