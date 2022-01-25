@@ -17,7 +17,7 @@ public class TotalSum {
 		for (int index = 0; index < inputArr.length; index++) {
 			try {
 				sum = sum + Integer.parseInt(inputArr[index]);
-			} catch (Exception e) {
+			} catch (NumberFormatException ne) {
 			}
 		}
 		System.out.println("Expected Sum = " + sum);
