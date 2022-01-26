@@ -5,18 +5,25 @@ public class A27_NumberValidation {
 	public static void main(String[] args) {
 		A27_NumberValidation a27 = new A27_NumberValidation();
 		a27.checkNum1("+919765463742");
+		a27.checkNum1("097 654 637 42");
+		a27.checkNum1("+91 1765463742");
+		a27.checkNum1("976 546 3742");
+		a27.checkNum1("976546A742");
+		a27.checkNum1("3765463742");
+		a27.checkNum1("9765463742");		
 	}
 	
 	boolean checkIsDigit(String str) {
 		for(int i = 0;i<str.length();i++) {
-			if(Character.isDigit(str.charAt(i))) 
+			char ch = str.charAt(i);
+			if(Character.isDigit(ch)) 
 				return true;
 		}
-		return false;
+			return false;
 	}
 	
 	boolean startNumCheck(char ch) {
-		if(ch == 9 || ch == 8 || ch == 7)
+		if(ch == '9' || ch == '8' || ch == '7')
 			return true;
 		return false;
 	}
@@ -57,12 +64,12 @@ public class A27_NumberValidation {
 		}
 		else if(str.length()==10) {
 			if(checkIsDigit(str)) {
-				if(startNumCheck(str.charAt(0))) {
+				if(startNumCheck(str.charAt(0))) 
 					System.out.println("Valid");
-			}else
-				System.out.println("Invalid");
+			else
+				System.out.println("Invalid1");
 		}else
-			System.out.println("Invalid");
+			System.out.println("Invalid2");
 	}
 		else {
 			System.out.println("Invalid Num");
