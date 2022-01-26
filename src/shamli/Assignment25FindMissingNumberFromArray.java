@@ -4,8 +4,7 @@ package shamli;
 Program 1 : Find the single missing number from the array.*
 int num[] = { 1, 2, 8, 10, 9, 5, 7, 6, 4 };
 output: 3
-
- */
+*/
 
 public class Assignment25FindMissingNumberFromArray {
 
