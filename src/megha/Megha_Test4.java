@@ -10,7 +10,9 @@ public class Megha_Test4 {
 		}
 
 		if (cnt == arr.length - 1)
-			System.out.println("true");
+			System.out.println("True");
+		else 
+			System.out.println("False");
 	}
 
 	void findPrimeNumWords(String input) {
@@ -40,7 +42,7 @@ public class Megha_Test4 {
 	public static void main(String[] args) {
 		Megha_Test4 megha_Test = new Megha_Test4();
 		System.out.println("Output of Program 1 :");
-		int[] arr = { 2, 4, 16, 256 };
+		int[] arr = { 2, 4, 16, 256};
 		megha_Test.findIfNumIsSquareInArray(arr);
 		System.out.println();
 		System.out.println("Output of Program 2 :");
