@@ -23,7 +23,7 @@ public class Test4_PrimeLengthString {
 		String[] str = input.trim().split(" ");
 		String output = "";
 
-		for (int index = 1; index < str.length; index++) {
+		for (int index = 0; index < str.length; index++) {
 			if (isprime(str[index].length())) {
 				output += str[index] + " ";
 			}
@@ -33,12 +33,16 @@ public class Test4_PrimeLengthString {
 
 	boolean isprime(int length) {
 		boolean isPrime = true;
-		for (int i = 2; i <= length / 2; i++) {
-			if (length % i == 0) {
-				isPrime = false;
-				break;
-			} else
-				isPrime = true;
+		if (length == 1)
+			isPrime = false;
+		else {
+			for (int i = 2; i <= length / 2; i++) {
+				if (length % i == 0) {
+					isPrime = false;
+					break;
+				} else
+					isPrime = true;
+			}
 		}
 		return isPrime;
 	}
