@@ -7,10 +7,6 @@ package vrushali;
 
 public class Exam4_1_FindSquareOfNumInArray {
 	
-	void findSquareOfNum(int num) {
-		int squareOfNum = num*num;
-	}
-	
 	boolean checkNextNumInArrayIsSquareOfPrevNum(int[] num) {
 		int squareOfNum = 0;
 		boolean flag = true;
