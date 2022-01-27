@@ -31,12 +31,16 @@ public class Shivangi_Exam4_1 {
 	
 	public static void main(String[] args) {
 		int[] arr1 = {2,4,16,256};
-		int[] arr2 = {3,9,81,258};
+		int[] arr2 = {3,9,81,6561};
+		int[] arr3 =  {5,25,625,67};
 		Shivangi_Exam4_1 shivangi_Exam4_1 = new Shivangi_Exam4_1();
 		System.out.println("Input array : " + Arrays.toString(arr1));
 		System.out.println(shivangi_Exam4_1.isNextNumSquraeOfPrevNumFromArray(arr1));
 		System.out.println();
 		System.out.println("Input array : " + Arrays.toString(arr2));
 		System.out.println(shivangi_Exam4_1.isNextNumSquraeOfPrevNumFromArray(arr2));
+		System.out.println();
+		System.out.println("Input array : " + Arrays.toString(arr3));
+		System.out.println(shivangi_Exam4_1.isNextNumSquraeOfPrevNumFromArray(arr3));
 	}
 }

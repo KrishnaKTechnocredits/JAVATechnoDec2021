@@ -26,12 +26,7 @@ public class Shivangi_Exam4_2 {
 				break;
 			}
 		}
-		if (num == 1) {
-			return false;
-		} else if (flag == true) {
-			return true;
-		}
-		return false;
+		return flag;
 	}
 
 	String isStringHavingLengthPrime(String input) { // I love my India
@@ -51,7 +46,7 @@ public class Shivangi_Exam4_2 {
 
 	public static void main(String[] args) {
 		Shivangi_Exam4_2 shivangi_Exam4_2 = new Shivangi_Exam4_2();
-		String input1 = "I my India";
+		String input1 = "I love my India";
 		String input2 = "I would like to have a cup of tea";
 		System.out.println("Input String : " + input1);
 		System.out.println("Word having length equal to Prime : " + shivangi_Exam4_2.isStringHavingLengthPrime(input1));
