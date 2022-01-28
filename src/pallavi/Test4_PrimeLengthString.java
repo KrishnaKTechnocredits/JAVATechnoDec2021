@@ -33,7 +33,7 @@ public class Test4_PrimeLengthString {
 
 	boolean isprime(int length) {
 		boolean isPrime = true;
-		if (length == 1)
+		if (length == 1|| length==2)
 			isPrime = false;
 		else {
 			for (int i = 2; i <= length / 2; i++) {
@@ -53,6 +53,7 @@ public class Test4_PrimeLengthString {
 		String input = sc.nextLine();
 		String output = new Test4_PrimeLengthString().getPrimeLengthString(input);
 		System.out.println("Output:- " + output);
+		sc.close();
 	}
 
 }
