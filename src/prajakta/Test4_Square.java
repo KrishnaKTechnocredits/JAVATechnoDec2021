@@ -1,7 +1,7 @@
-package swati.Swati_Exam4;
+package prajakta;
 
-public class Exam4_Square {
-	
+public class Test4_Square {
+
 	boolean findSqrt(int[] num) {
 		boolean flag=false;
 		for(int i=0;i<num.length-1;i++) {
@@ -20,15 +20,15 @@ public class Exam4_Square {
 	}
 
 	public static void main(String[] args) {
-		Exam4_Square eg = new Exam4_Square();
-		int[] input = { 2, 4, 16, 256 };
-		boolean flag = eg.findSqrt(input);
-		if (flag) {
+		Test4_Square eg=new Test4_Square();
+		int[] input=  {2,4,16,256};
+		boolean flag=eg.findSqrt(input);
+		if(flag) {
 			System.out.println("True");
-		} else {
-
+		}
+		else {
 			System.out.println("false");
 		}
 	}
 
-}
+} 
