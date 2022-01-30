@@ -1,5 +1,6 @@
 package swati;
 
+
 import java.util.Scanner;
 
 public class A27_Mobile {
@@ -25,4 +26,3 @@ public class A27_Mobile {
 	}
 
 }
-
