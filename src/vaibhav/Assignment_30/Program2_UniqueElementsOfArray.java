@@ -27,6 +27,7 @@ public class Program2_UniqueElementsOfArray {
 			}
 		}
 		tempNumber = minNum - 10;
+		
 	}*/
 
 	void getArrayOfUniqueElements(int[] inputArr) {
