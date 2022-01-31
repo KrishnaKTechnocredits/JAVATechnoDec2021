@@ -35,10 +35,10 @@ public class Megha_Assignment30 {
 
 	public int getSize(int[] arr) {
 		int count = 1;
-		for (int i = 0; i < arr.length; i++) {
-			int j;
-			for (j = 0; j < i; j++)
-				if (arr[i] == arr[j])
+		for (int index = 0; index < arr.length; index++) {
+			int innerIndex;
+			for (innerIndex = 0; innerIndex < index; innerIndex++)
+				if (arr[index] == arr[innerIndex])
 					count++;
 
 		}
