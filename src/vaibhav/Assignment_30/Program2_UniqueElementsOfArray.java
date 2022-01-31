@@ -17,6 +17,7 @@ public class Program2_UniqueElementsOfArray {
 
 	int tempNumber;
 
+	/*
 	void setMinTempNumber(int[] arr) {
 		int minNum = arr[0];
 
@@ -26,7 +27,7 @@ public class Program2_UniqueElementsOfArray {
 			}
 		}
 		tempNumber = minNum - 10;
-	}
+	}*/
 
 	void getArrayOfUniqueElements(int[] inputArr) {
 		// int[] inputArray1= { 1, 9, 1, 3, 16, 3, 9, 59, 4, 4, 16 };
