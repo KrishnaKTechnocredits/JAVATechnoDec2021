@@ -24,6 +24,7 @@ public class ShiftZeros {
 
 	public static void main(String[] args) {
 		int[] input = { 1, 0, 2, 0, 9, 6, 0, 19, 20, 0 };
+		System.out.println("Input: "+Arrays.toString(input));
 		ShiftZeros shiftZeros = new ShiftZeros();
 		shiftZeros.transferZeroToRight(input);
 	}
