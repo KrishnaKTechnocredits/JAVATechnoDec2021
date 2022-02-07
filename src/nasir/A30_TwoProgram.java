@@ -1,5 +1,4 @@
 package nasir;
-
 import java.util.Arrays;
 
 public class A30_TwoProgram {
