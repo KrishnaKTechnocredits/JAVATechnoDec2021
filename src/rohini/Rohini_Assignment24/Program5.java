@@ -27,6 +27,6 @@ void FirstcapitalLetter(String s2) {
 
 public static void main(String[] args) {
 	Program5 prg5 = new Program5();
-	prg5.splitWords("sandip techno credits");
+	prg5.splitWords("Rohini techno credits");
 }
 }

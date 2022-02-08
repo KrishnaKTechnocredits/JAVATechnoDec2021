@@ -35,6 +35,6 @@ public class Program6 {
 
 	public static void main(String[] args) {
 		Program6 prg6 = new Program6();
-		prg6.splitWord("sandip techno credits");
+		prg6.splitWord("rohini techno credits");
 	}
 }
