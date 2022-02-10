@@ -37,7 +37,6 @@ public class Exam6_Program1 {
 	}
 
 	public static void main(String[] args) {
-		Exam6_Program1 Exam6_Program1 = new Exam6_Program1();
 		String input = "tEChNoCrEdits";
 		System.out.println("Input String 					: " + input);
 		System.out.println("Expected first non repeating Capital character	: " + getNonRepeatingChar(input));
