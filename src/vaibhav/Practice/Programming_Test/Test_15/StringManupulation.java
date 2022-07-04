@@ -39,12 +39,52 @@ public class StringManupulation {
 		return firstRepeatingWord + " " + firstNonRepeatingWord;
 	}
 
+	String practiceProgram(String input) {
+		// String str = "Hi Maulik Techno Maulik Credits Techno Maulik Hello Hi";
+
+		String firstRepeatingWord = "";
+		String firstNonRepeatingWord = "";
+
+		String[] wordArr = input.split(" ");
+
+		for (int index = 0; index < wordArr.length; index++) {
+			int count = 0;
+			for (String word : wordArr) {
+				if (wordArr[index].equals(word)) {
+					count++;
+				}
+			}
+			if (count > 1) {
+				firstRepeatingWord = wordArr[index];
+				break;
+			}
+
+		}
+
+		for (int index = 0; index < wordArr.length; index++) {
+			int count = 0;
+			for (String word : wordArr) {
+				if (wordArr[index].equals(word)) {
+					count++;
+				}
+			}
+
+			if (count == 1) {
+				firstNonRepeatingWord = wordArr[index];
+				break;
+			}
+		}
+
+		return firstRepeatingWord + " " + firstNonRepeatingWord;
+	}
+
 	public static void main(String[] args) {
 		String str = "Hi Maulik Techno Maulik Credits Techno Maulik Hello Hi";
 
 		StringManupulation stringManupulation = new StringManupulation();
 
 		String expectedOutputString = stringManupulation.firstRepeatingAndNonRepeatingWord(str);
+		//String expectedOutputString = stringManupulation.practiceProgram(str);
 		System.out.println("Input String		: " + str);
 		System.out.println("Expected Output		: " + expectedOutputString);
 
